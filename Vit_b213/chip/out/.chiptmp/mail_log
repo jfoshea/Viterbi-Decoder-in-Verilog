@@ -1,0 +1,166 @@
+Condensed Build Log for b213 
+For complete log view latest /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/build_log 
+Build Started 
+Sat Mar 24 18:48:00 EST 2001
+
+ 
+ISSUED COMMAND : ngdbuild -dd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/ngo -nt timestamp -p V50TQ144-4  /emc/joshea/JOS/Verilog/Vit_b213/syn/out/bVITERBI_213.edf /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ngd| 
+ 
+  Number of errors:     0
+  Number of errors:     0
+  Number of warnings:   0
+
+ 
+FINISHED COMMAND : ngdbuild -dd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/ngo -nt timestamp -p V50TQ144-4  /emc/joshea/JOS/Verilog/Vit_b213/syn/out/bVITERBI_213.edf /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ngd| 
+  
+Sat Mar 24 18:48:06 EST 2001
+
+ 
+ISSUED COMMAND : map -u -p V50TQ144-4 -pr b -o /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ngd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf| 
+ 
+Writing file
+Writing design file
+   Number of errors:      0
+   Number of errors:      0
+   Number of warnings:    6
+   Number of Slices:                317 out of    768   41%
+   Number of Slices containing
+   Number of Slice Flip Flops:      280 out of  1,536   18%
+   Number of 4 input LUTs:          458 out of  1,536   29%
+   Number of Tbufs:                   1 out of    832    1%
+   Number of Slice Flip Flops:      280 out of  1,536   18%
+   Number of 4 input LUTs:          458 out of  1,536   29%
+
+ 
+FINISHED COMMAND : map -u -p V50TQ144-4 -pr b -o /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ngd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf| 
+  
+Sat Mar 24 18:48:15 EST 2001
+
+ 
+ISSUED COMMAND : trce /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf -o /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.twr -e 10 -s 4 -u| 
+ 
+Timing errors: 0  Score: 0
+
+ 
+FINISHED COMMAND : trce /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf -o /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.twr -e 10 -s 4 -u| 
+  
+Sat Mar 24 18:48:21 EST 2001
+
+ 
+ISSUED COMMAND : par -l 4 -t 1  -i 5 -n 1 -w /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf| 
+ 
+No errors found. 
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+   Number of SLICEs                  317 out of 768    41%
+   Number of TBUFs                     1 out of 832     1%
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+PAR done.
+
+ 
+FINISHED COMMAND : par -l 4 -t 1  -i 5 -n 1 -w /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf| 
+  
+Sat Mar 24 18:48:51 EST 2001
+
+ 
+ISSUED COMMAND : trce /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf -o /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.twr -e 20 -s 4 -u| 
+ 
+Timing errors: 0  Score: 0
+
+ 
+FINISHED COMMAND : trce /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf -o /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.twr -e 20 -s 4 -u| 
+  
+Sat Mar 24 18:48:57 EST 2001
+
+ 
+ISSUED COMMAND : bitgen -b -m  -d -w /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.rbt /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf| 
+ 
+Release v3.3.07i - Bitgen D.26
+Loading design for application Bitgen from file
+Loading device for application Bitgen from file 'v50.nph' in environment
+
+ 
+FINISHED COMMAND : bitgen -b -m  -d -w /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.rbt /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf| 
+  
+Sat Mar 24 18:49:08 EST 2001
+
+ 
+ISSUED COMMAND : bitgen -d -g startupclk:jtagclk -w /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213_jtag.bit /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf| 
+ 
+Release v3.3.07i - Bitgen D.26
+Loading design for application Bitgen from file
+Loading device for application Bitgen from file 'v50.nph' in environment
+
+ 
+FINISHED COMMAND : bitgen -d -g startupclk:jtagclk -w /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213_jtag.bit /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf| 
+  
+Sat Mar 24 18:49:17 EST 2001
+
+ 
+ Timing Summary - first 50 lines : 
+ 
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+trce /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd
+/emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf -o
+/emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.twr -e 20 -s 4
+-u
+
+Design file:              bVITERBI_213.ncd
+Physical constraint file: bVITERBI_213.pcf
+Device,speed:             xcv50,-4 (FINAL 1.113 2001-01-12)
+Report level:             error report, limited to 20 items per constraint
+                          unconstrained path report
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Timing constraint: Unconstrained path analysis
+ 1509864 items analyzed, 0 timing errors detected.
+ Minimum period is  41.070ns.
+--------------------------------------------------------------------------------
+Delay:    41.070ns ae to U3/tb_reg<0> (39.571ns delay plus 1.499ns setup)
+
+Path ae to U3/tb_reg<0> contains 20 levels of logic:
+Path starting from Comp: CLB_R11C11.S1.CLK (from clock)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R11C11.S1.YQ     Tcko                  1.372R  ae
+                                                   U3/ae_reg
+CLB_R13C3.S1.G1      net (fanout=72)       6.354R  ae
+CLB_R13C3.S1.Y       Tilo                  0.738R  U3/P5<14>
+                                                   U2/ACS5/C94
+CLB_R16C3.S1.G4      net (fanout=4)        1.418R  U3/N1964
+CLB_R16C3.S1.Y       Tilo                  0.738R  U3/A5<1>
+                                                   U2/ACS5/C91
+CLB_R16C3.S1.F3      net (fanout=1)        0.112R  acs5_ppm_out<1>
+CLB_R16C3.S1.X       Tilo                  0.738R  U3/A5<1>
+                                                   U3/C1837
+CLB_R8C6.S1.F4       net (fanout=8)        2.574R  A5_out<1>
+CLB_R8C6.S1.X        Tilo                  0.738R  U3/TB_1/syn376
+                                                   U3/TB_1/C208
+CLB_R8C6.S0.F1       net (fanout=1)        0.404R  U3/TB_1/syn376
+CLB_R8C6.S0.X        Tilo                  0.738R  U3/TB_1/syn5397
+                                                   U3/TB_1/C206
+CLB_R6C6.S1.G1       net (fanout=3)        1.444R  U3/TB_1/syn5397
+CLB_R6C6.S1.Y        Tilo                  0.738R  U3/TB_1/syn416
+                                                   U3/TB_1/C203
+CLB_R6C6.S1.F3       net (fanout=2)        0.130R  U3/TB_1/syn413

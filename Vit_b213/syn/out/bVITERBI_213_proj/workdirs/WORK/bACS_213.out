@@ -1,0 +1,35 @@
+Warning: Variable 'ae' is being read 
+	in routine bACS_213 line 68 in file '/emc/joshea/JOS/Verilog/Vit_b213/src/bACS_213.v',
+	but does not occur in the timing control of the block which begins
+	there.   (HDL-180)
+
+Inferred memory devices in process 
+	in routine bACS_213 line 40 in file
+         '/emc/joshea/JOS/Verilog/Vit_b213/src/bACS_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      suma_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+suma_reg (width 4)
+------------------
+    Async-reset: reset
+
+
+
+Inferred memory devices in process 
+	in routine bACS_213 line 53 in file
+         '/emc/joshea/JOS/Verilog/Vit_b213/src/bACS_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      sumb_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+sumb_reg (width 4)
+------------------
+    Async-reset: reset
+
+
+Writing to hnl file './bVITERBI_213_proj/workdirs/WORK/bACS_213.hnl'

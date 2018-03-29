@@ -1,0 +1,1294 @@
+Running : fc2_shell -f ../scr/../scr/eVITERBI_213_script
+FC2 File Control Script Log
+Sat Mar 24 22:50:09 EST 2001
+FPGA Compiler II v3.3.19.11
+
+Copyright (c) 1996-1999 by Synopsys, Inc.  ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys, Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+# setup default variables
+set top $env(SYN_TOP)
+eVITERBI_213
+set quick $env(SYN_QUICK)
+-normal
+set preserve $env(SYN_PRESERVE)
+-no_preserve
+set timing $env(SYN_TIMING_DRIVEN)
+-disable
+set target VIRTEX
+VIRTEX
+set chip ${top}_syn
+eVITERBI_213_syn
+set device V50TQ144
+V50TQ144
+set speed -4
+-4
+set frequency 25
+25
+set constraints $env(CONSTRAINTS)
+../scr/eVITERBI_213_constraint.fc2
+# create project
+create_project $env(SYN_PROJECT)
+# proj_export_timing_constraint = "yes"
+puts "proj_enable_vpp = yes  (turns on verilog pre-processor for `ifdefs)"
+proj_enable_vpp = yes  (turns on verilog pre-processor for `ifdefs)
+proj_enable_vpp = "yes"
+yes
+# identify design source files
+add_file -library WORK -format Verilog ../../src/eVITERBI_213.v
+add_file -library WORK -format Verilog ../../src/eCONTROL_213.v
+add_file -library WORK -format Verilog ../../src/eBMU_213.v
+add_file -library WORK -format Verilog ../../src/eACS_213.v
+add_file -library WORK -format Verilog ../../src/eACSU_213.v
+add_file -library WORK -format Verilog ../../src/eSYNCERR_213.v
+add_file -library WORK -format Verilog ../../src/eTBDECISION_213.v
+# analyze all source files and list progress
+analyze_file -progress
+Analyzing ../../src/eVITERBI_213.v ...
+Analyzing ../../src/eCONTROL_213.v ...
+Warning: Parameter range specification is only meaningful to synthesis. Different result may exist from simulations near symbol "]" on line 107 in file eCONTROL_213.v.  (VE-122)
+Analyzing ../../src/eBMU_213.v ...
+Analyzing ../../src/eACS_213.v ...
+Analyzing ../../src/eACSU_213.v ...
+Analyzing ../../src/eSYNCERR_213.v ...
+Analyzing ../../src/eTBDECISION_213.v ...
+set option $quick
+-normal
+append option $preserve
+-normal-no_preserve
+puts $option
+-normal-no_preserve
+switch -exact -- $option {
+"-normal-no_preserve"       {create_chip -module -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top}
+"-normal-preserve"          {create_chip -module -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top        $preserve}
+"-quick_mode-no_preserve"   {create_chip -module -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top $quick}
+"-quick_mode-preserve"      {create_chip -module -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top $quick $preserve}
+
+}
+create_chip: eliminates design hierarchy only when option [-eliminate] is specified. Otherwise, preserves design hierarchy.
+ Linking design ... 
+ Elaborating design eVITERBI_213   ... 
+ Elaborating design eBMU_213   ... 
+ Elaborating design eACSU_213   ... 
+ Elaborating design eACS_213   ... 
+ Elaborating design eCONTROL_213   ... 
+ Elaborating design eTBDECISION_213   ... 
+ Elaborating design eSYNCERR_213   ... 
+  5.0%
+ 81.0%
+ 82.0%
+ 82.0%
+ 82.8%
+ 83.6%
+ 84.4%
+ 85.2%
+ 86.0%
+ 86.8%
+ 87.6%
+ 88.4%
+ 89.2%
+ 90.0%
+ 95.0%
+100.0%
+ Statistics for case statements in always block at line 61 in file
+        '/emc/joshea/JOS/Verilog/Vit_e213/src/eBMU_213.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            74            |    user/auto     |
+===============================================
+
+Inferred memory devices in process 
+	in routine eBMU_213 line 61 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eBMU_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       HD1_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD2_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD3_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD4_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD5_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD6_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD7_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD8_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD9_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD10_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD11_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD12_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD13_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD14_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD15_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD16_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+HD1_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD2_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD3_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD4_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD5_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD6_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD7_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD8_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD9_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD10_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD11_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD12_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD13_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD14_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD15_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD16_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+Writing to hnl file './eVITERBI_213_proj/workdirs/WORK/eBMU_213.hnl' 
+Warning: Variable 'ae' is being read 
+	in routine eACS_213 line 68 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eACS_213.v',
+	but does not occur in the timing control of the block which begins
+	there.  (HDL-180)
+ Inferred memory devices in process 
+	in routine eACS_213 line 40 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eACS_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      suma_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+suma_reg (width 4)
+------------------
+    Async-reset: reset
+
+
+
+Inferred memory devices in process 
+	in routine eACS_213 line 53 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eACS_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      sumb_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+sumb_reg (width 4)
+------------------
+    Async-reset: reset
+
+
+Writing to hnl file './eVITERBI_213_proj/workdirs/WORK/eACS_213.hnl' 
+ Statistics for case statements in always block at line 237 in file
+        '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           248            |    auto/auto     |
+=============================================== 
+Warning: You are using the full_case directive  with a case statement in which not all cases are covered.  (HDL-370)
+ Statistics for case statements in always block at line 265 in file
+        '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           279            |    user/user     |
+=============================================== 
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing.  (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing.  (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing.  (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing.  (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 248 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing.  (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing.  (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing.  (HDL-380)
+ Inferred THREE-STATE control devices in process 
+	in routine eCONTROL_213 line
+         134 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|            Dx_tri<0>             |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred memory devices in process 
+	in routine eCONTROL_213 line 196 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       P0_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P1_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P2_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P3_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P4_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P5_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P6_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P7_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+P0_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P1_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P2_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P3_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P4_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P5_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P6_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P7_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+
+Inferred memory devices in process 
+	in routine eCONTROL_213 line 219 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       A0_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       A1_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A2_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A3_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A4_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A5_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A6_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A7_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+A0_reg (width 4)
+----------------
+    Async-reset: reset
+
+
+A1_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A2_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A3_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A4_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A5_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A6_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A7_reg (width 4)
+----------------
+    Async-set: reset
+
+
+
+Inferred memory devices in process 
+	in routine eCONTROL_213 line 237 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     tb_reg_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+tb_reg_reg (width 3)
+--------------------
+    Async-reset: reset
+
+
+
+Inferred memory devices in process 
+	in routine eCONTROL_213 line 265 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   NEXT_STATE_reg    | Flip-flop |   7   |  N  | N  | ?  | ?  | ?  | ?  | ?  |
+|       ae_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|       le_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|       oe_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|  symbol_count_reg   | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       te_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|    trace_ptr_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       we_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|    write_ptr_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+NEXT_STATE_reg<0>
+-----------------
+    Async-set: reset
+
+
+NEXT_STATE_reg<4>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<6>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<2>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<3>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<5>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<1>
+-----------------
+    Async-reset: reset
+
+
+ae_reg
+------
+    Async-reset: reset
+
+
+le_reg
+------
+    Async-reset: reset
+
+
+oe_reg
+------
+    Async-reset: reset
+
+
+symbol_count_reg (width 9)
+--------------------------
+    Async-reset: reset
+
+
+te_reg
+------
+    Async-reset: reset
+
+
+trace_ptr_reg (width 4)
+-----------------------
+    Async-reset: reset
+
+
+we_reg
+------
+    Async-reset: reset
+
+
+write_ptr_reg (width 4)
+-----------------------
+    Async-reset: reset
+
+
+Writing to hnl file './eVITERBI_213_proj/workdirs/WORK/eCONTROL_213.hnl' 
+ Inferred memory devices in process 
+	in routine eSYNCERR_213 line 26 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eSYNCERR_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      error_reg      | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+error_reg
+---------
+    Async-reset: reset
+
+
+Writing to hnl file './eVITERBI_213_proj/workdirs/WORK/eSYNCERR_213.hnl' 
+#if {$preserve=="-preserve"} {
+#     create_chip  -preserve -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top
+#} else {
+#create_chip -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top
+#}
+#if {$quick=="-quick_mode"} {
+#     create_chip -quick_mode -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top
+#} else {
+#create_chip -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top
+#}
+current_chip $chip
+puts "set_chip_constraint_driven $timing"
+set_chip_constraint_driven -disable
+set_chip_constraint_driven $timing
+# read fc2 timing constraints if they exist
+if {$timing=="-enable"} {
+source ../scr/$constraints
+}
+set opt_chip [format "%s-Optimized" $chip]
+eVITERBI_213_syn-Optimized
+optimize_chip -name $opt_chip -progress
+Saving current chip for optimization...done.
+  3.0%
+  5.0%
+  6.0%
+  6.0%
+  6.3%
+  6.5%
+  6.8%
+  7.1%
+  7.4%
+  7.6%
+  7.9%
+  8.2%
+  8.5%
+  8.7%
+ 10.0%
+ 10.0%
+ 10.2%
+ 10.4%
+ 10.7%
+ 10.9%
+ 11.1%
+ 11.3%
+ 11.6%
+ 11.8%
+ 12.0%
+ 14.0%
+ 15.0%
+ 26.0%
+ 28.0%
+ 29.0%
+ 32.0%
+ 34.0%
+ 35.0%
+ 35.1%
+ 35.1%
+ 35.2%
+ 35.3%
+ 35.3%
+ 35.4%
+ 35.5%
+ 35.5%
+ 35.6%
+ 35.7%
+ 35.7%
+ 35.8%
+ 35.9%
+ 35.9%
+ 36.0%
+ 36.1%
+ 36.1%
+ 36.2%
+ 36.3%
+ 36.3%
+ 36.4%
+ 36.5%
+ 36.5%
+ 36.6%
+ 36.7%
+ 36.7%
+ 36.8%
+ 36.9%
+ 36.9%
+ 37.0%
+ 37.1%
+ 37.1%
+ 37.2%
+ 37.3%
+ 37.3%
+ 37.4%
+ 37.5%
+ 37.5%
+ 37.6%
+ 37.7%
+ 37.7%
+ 37.8%
+ 37.9%
+ 37.9%
+ 38.0%
+ 38.1%
+ 38.1%
+ 38.3%
+ 38.3%
+ 38.4%
+ 38.5%
+ 38.5%
+ 38.6%
+ 38.7%
+ 38.8%
+ 38.8%
+ 38.9%
+ 39.0%
+ 39.0%
+ 39.1%
+ 39.2%
+ 39.2%
+ 39.3%
+ 39.4%
+ 39.4%
+ 39.5%
+ 39.6%
+ 39.6%
+ 39.7%
+ 39.8%
+ 39.8%
+ 39.9%
+ 40.0%
+ 40.0%
+ 40.1%
+ 40.2%
+ 40.2%
+ 40.3%
+ 40.4%
+ 40.4%
+ 40.5%
+ 40.6%
+ 40.6%
+ 40.7%
+ 40.8%
+ 40.8%
+ 40.9%
+ 41.0%
+ 41.0%
+ 41.1%
+ 41.2%
+ 41.2%
+ 41.3%
+ 41.4%
+ 41.5%
+ 41.6%
+ 41.6%
+ 41.7%
+ 41.8%
+ 41.8%
+ 41.9%
+ 42.0%
+ 42.0%
+ 42.1%
+ 42.2%
+ 42.2%
+ 42.3%
+ 42.4%
+ 42.4%
+ 42.5%
+ 42.6%
+ 42.6%
+ 42.7%
+ 42.8%
+ 42.8%
+ 42.9%
+ 43.0%
+ 43.0%
+ 43.1%
+ 43.2%
+ 43.2%
+ 43.3%
+ 43.4%
+ 43.4%
+ 43.5%
+ 43.6%
+ 43.6%
+ 43.7%
+ 43.8%
+ 43.8%
+ 43.9%
+ 44.0%
+ 44.0%
+ 44.1%
+ 44.2%
+ 44.2%
+ 44.3%
+ 44.4%
+ 44.4%
+ 44.5%
+ 44.6%
+ 44.7%
+ 44.8%
+ 44.8%
+ 44.9%
+ 45.0%
+ 45.0%
+ 45.1%
+ 45.2%
+ 45.2%
+ 45.3%
+ 45.4%
+ 45.4%
+ 45.5%
+ 45.6%
+ 45.6%
+ 45.7%
+ 45.8%
+ 45.8%
+ 45.9%
+ 46.0%
+ 46.0%
+ 46.1%
+ 46.2%
+ 46.3%
+ 46.3%
+ 46.4%
+ 46.5%
+ 46.5%
+ 46.6%
+ 46.7%
+ 46.7%
+ 46.8%
+ 46.9%
+ 46.9%
+ 47.0%
+ 47.1%
+ 47.1%
+ 47.2%
+ 47.3%
+ 47.3%
+ 47.4%
+ 47.5%
+ 47.5%
+ 47.6%
+ 47.7%
+ 47.7%
+ 47.8%
+ 47.9%
+ 48.0%
+ 48.1%
+ 48.1%
+ 48.2%
+ 48.3%
+ 48.3%
+ 48.4%
+ 48.5%
+ 48.5%
+ 48.6%
+ 48.7%
+ 48.7%
+ 48.8%
+ 48.9%
+ 48.9%
+ 49.0%
+ 49.1%
+ 49.1%
+ 49.2%
+ 49.3%
+ 49.3%
+ 49.4%
+ 49.5%
+ 49.5%
+ 49.6%
+ 49.7%
+ 49.7%
+ 49.8%
+ 49.9%
+ 49.9%
+ 50.0%
+ 50.1%
+ 50.1%
+ 50.2%
+ 50.3%
+ 50.3%
+ 50.4%
+ 50.5%
+ 50.5%
+ 50.6%
+ 50.7%
+ 50.7%
+ 50.8%
+ 50.9%
+ 50.9%
+ 51.0%
+ 51.1%
+ 51.2%
+ 51.3%
+ 51.3%
+ 51.4%
+ 51.5%
+ 51.5%
+ 51.6%
+ 51.7%
+ 51.7%
+ 51.8%
+ 51.9%
+ 51.9%
+ 52.0%
+ 52.1%
+ 52.1%
+ 52.2%
+ 52.3%
+ 52.3%
+ 52.4%
+ 52.5%
+ 52.5%
+ 52.6%
+ 52.7%
+ 52.7%
+ 52.8%
+ 52.9%
+ 52.9%
+ 53.0%
+ 53.1%
+ 53.1%
+ 53.2%
+ 53.3%
+ 53.3%
+ 53.4%
+ 53.5%
+ 53.5%
+ 53.6%
+ 53.7%
+ 53.8%
+ 53.8%
+ 53.9%
+ 54.0%
+ 54.0%
+ 54.1%
+ 54.2%
+ 54.2%
+ 54.4%
+ 54.4%
+ 54.5%
+ 54.6%
+ 54.6%
+ 54.7%
+ 54.8%
+ 54.8%
+ 54.9%
+ 55.0%
+ 55.0%
+ 55.1%
+ 55.2%
+ 55.2%
+ 55.3%
+ 55.4%
+ 55.4%
+ 55.5%
+ 55.6%
+ 55.6%
+ 55.7%
+ 55.8%
+ 55.8%
+ 55.9%
+ 56.0%
+ 56.0%
+ 56.1%
+ 56.2%
+ 56.2%
+ 56.3%
+ 56.4%
+ 56.4%
+ 56.5%
+ 56.6%
+ 56.6%
+ 56.7%
+ 56.8%
+ 56.8%
+ 56.9%
+ 57.0%
+ 57.0%
+ 57.1%
+ 57.2%
+ 57.2%
+ 57.3%
+ 57.4%
+ 57.4%
+ 57.6%
+ 57.6%
+ 57.7%
+ 57.8%
+ 57.8%
+ 57.9%
+ 58.0%
+ 58.0%
+ 58.1%
+ 58.2%
+ 58.2%
+ 58.3%
+ 58.4%
+ 58.4%
+ 58.5%
+ 58.6%
+ 58.6%
+ 58.7%
+ 58.8%
+ 58.8%
+ 58.9%
+ 59.0%
+ 59.0%
+ 59.1%
+ 59.2%
+ 59.2%
+ 59.3%
+ 59.4%
+ 59.4%
+ 59.5%
+ 59.6%
+ 59.6%
+ 59.7%
+ 59.8%
+ 59.8%
+ 59.9%
+ 60.0%
+ 60.0%
+ 60.1%
+ 60.2%
+ 60.2%
+ 60.3%
+ 60.4%
+ 60.4%
+ 60.5%
+ 60.6%
+ 60.6%
+ 60.8%
+ 60.8%
+ 60.9%
+ 61.0%
+ 61.0%
+ 61.1%
+ 61.2%
+ 61.3%
+ 61.3%
+ 61.4%
+ 61.5%
+ 61.5%
+ 61.6%
+ 61.7%
+ 61.7%
+ 61.8%
+ 61.9%
+ 61.9%
+ 62.0%
+ 62.1%
+ 62.1%
+ 62.2%
+ 62.3%
+ 62.3%
+ 62.4%
+ 62.5%
+ 62.5%
+ 62.6%
+ 62.7%
+ 62.7%
+ 62.8%
+ 62.9%
+ 62.9%
+ 63.0%
+ 63.1%
+ 63.1%
+ 63.2%
+ 63.3%
+ 63.3%
+ 63.4%
+ 63.5%
+ 63.5%
+ 63.6%
+ 63.7%
+ 63.7%
+ 63.8%
+ 63.9%
+ 64.0%
+ 64.1%
+ 64.1%
+ 64.2%
+ 64.3%
+ 64.3%
+ 64.4%
+ 64.5%
+ 64.5%
+ 64.6%
+ 64.7%
+ 64.7%
+ 64.8%
+ 64.9%
+ 64.9%
+ 65.0%
+ 65.1%
+ 65.1%
+ 65.2%
+ 65.3%
+ 65.3%
+ 65.4%
+ 65.5%
+ 65.5%
+ 65.6%
+ 65.7%
+ 65.7%
+ 65.8%
+ 65.9%
+ 65.9%
+ 66.0%
+ 66.1%
+ 66.1%
+ 66.2%
+ 66.3%
+ 66.3%
+ 66.4%
+ 66.5%
+ 66.5%
+ 66.6%
+ 66.7%
+ 66.7%
+ 66.8%
+ 66.9%
+ 66.9%
+ 67.0%
+ 67.1%
+ 67.2%
+ 67.3%
+ 67.3%
+ 67.4%
+ 67.5%
+ 67.5%
+ 67.6%
+ 67.7%
+ 67.7%
+ 67.8%
+ 67.9%
+ 67.9%
+ 68.0%
+ 68.1%
+ 68.1%
+ 68.2%
+ 68.3%
+ 68.3%
+ 68.4%
+ 68.5%
+ 68.5%
+ 68.6%
+ 68.7%
+ 68.8%
+ 68.8%
+ 68.9%
+ 69.0%
+ 69.0%
+ 69.1%
+ 69.2%
+ 69.2%
+ 69.3%
+ 69.4%
+ 69.4%
+ 69.5%
+ 69.6%
+ 69.6%
+ 69.7%
+ 69.8%
+ 69.8%
+ 69.9%
+ 70.0%
+ 70.0%
+ 70.1%
+ 70.2%
+ 70.2%
+ 70.3%
+ 70.4%
+ 70.5%
+ 70.6%
+ 70.6%
+ 70.7%
+ 70.8%
+ 70.8%
+ 70.9%
+ 71.0%
+ 71.0%
+ 71.1%
+ 71.2%
+ 71.2%
+ 71.3%
+ 71.4%
+ 71.4%
+ 71.5%
+ 71.6%
+ 71.6%
+ 71.7%
+ 71.8%
+ 71.8%
+ 71.9%
+ 72.0%
+ 72.0%
+ 72.1%
+ 72.2%
+ 72.2%
+ 72.3%
+ 72.4%
+ 72.4%
+ 72.5%
+ 72.6%
+ 72.6%
+ 72.7%
+ 72.8%
+ 72.8%
+ 72.9%
+ 73.0%
+ 73.0%
+ 73.1%
+ 73.2%
+ 73.2%
+ 73.3%
+ 73.4%
+ 73.4%
+ 73.5%
+ 73.6%
+ 73.7%
+ 73.8%
+ 73.8%
+ 73.9%
+ 74.0%
+ 74.0%
+ 74.1%
+ 74.2%
+ 74.2%
+ 74.3%
+ 74.4%
+ 74.4%
+ 74.5%
+ 74.6%
+ 74.6%
+ 74.7%
+ 74.8%
+ 74.8%
+ 74.9%
+ 75.0%
+ 75.0%
+ 75.1%
+ 75.2%
+ 75.2%
+ 75.3%
+ 75.4%
+ 75.4%
+ 75.5%
+ 75.6%
+ 75.6%
+ 75.7%
+ 75.8%
+ 75.8%
+ 75.9%
+ 76.0%
+ 76.0%
+ 76.1%
+ 76.2%
+ 76.3%
+ 76.3%
+ 76.4%
+ 76.5%
+ 76.5%
+ 76.6%
+ 76.7%
+ 76.7%
+ 76.9%
+ 76.9%
+ 77.0%
+ 77.1%
+ 77.1%
+ 77.2%
+ 77.3%
+ 77.3%
+ 77.4%
+ 77.5%
+ 77.5%
+ 77.6%
+ 77.7%
+ 77.7%
+ 77.8%
+ 77.9%
+ 77.9%
+ 78.0%
+ 78.1%
+ 78.1%
+ 78.2%
+ 78.3%
+ 78.3%
+ 78.4%
+ 78.5%
+ 78.5%
+ 78.6%
+ 78.7%
+ 78.7%
+ 78.8%
+ 78.9%
+ 78.9%
+ 79.0%
+ 79.1%
+ 79.1%
+ 79.2%
+ 79.3%
+ 79.3%
+ 79.4%
+ 79.5%
+ 79.5%
+ 79.6%
+ 79.7%
+ 79.7%
+ 79.8%
+ 79.9%
+ 79.9%
+ 80.0%
+ 81.0%
+ 93.0%
+ 97.0%
+ 98.0%
+eVITERBI_213_syn-Optimized is now the current chip.
+export_chip -progress  -s "Verilog" -pri
+Saving current chip for export...done.
+Exporting chip to `.'...
+Export eVITERBI_213_syn-Optimized to . ...
+ 50.0%
+Done.
+export_chip -progress 
+Saving current chip for export...done.
+Exporting chip to `.'...
+Export eVITERBI_213_syn-Optimized to . ...
+Done.
+# write out script of commands that were used.
+script_chip
+# create a timing report
+report_timing
+
+Timing Path Groups:
+-------------------
+                                          Required   Estimated  
+                                          Delay      Delay      
+From                 To                   (ns)       (ns)       
+............................................................
+(I)                  (RC,clock)            40.00       5.66     
+(RC,clock)           (O)                   40.00       7.14     
+(RC,clock)           (RC,clock)            40.00      67.02     
+
+list_message
+close_project
+quit
+Sat Mar 24 22:51:21 EST 2001
+/src file revisions :
+total 592
+drwxr-xr-x   3 joshea   ficon       1024 Mar 24 22:44 .
+drwxr-xr-x   7 joshea   ficon       1536 Mar 24 22:46 ..
+-rwxr-----   1 joshea   ficon        788 Jan 30 09:35 VIT_ENC.v
+-rwxr-----   1 joshea   ficon       5998 Mar 18 20:14 eACSU_213.v
+-rwxr-----   1 joshea   ficon       1646 Mar 18 20:15 eACS_213.v
+-rwxr-----   1 joshea   ficon       3240 Mar 18 20:15 eBMU_213.v
+-rwxr-----   1 joshea   ficon      11450 Mar 24 22:44 eCONTROL_213.v
+-rwxr-----   1 joshea   ficon       9588 Mar 24 18:56 eCONTROL_213.v~
+-rwxr-----   1 joshea   ficon        791 Mar 18 20:17 eSYNCERR_213.v
+-rwxr-----   1 joshea   ficon       2187 Mar 18 20:17 eTBDECISION_213.v
+-rwxr-----   1 joshea   ficon       4744 Mar 18 20:18 eVITERBI_213.v
+-rw-r--r--   1 joshea   ficon         28 Mar 24 22:44 lse.wrk
+drwxr-xr-x   2 joshea   ficon        512 Mar 24 22:44 nWaveLog
+-rwxr-----   1 joshea   ficon        457 Mar 24 18:01 params_e213.inc.v
+-rwxr-----   1 joshea   ficon        458 Mar 18 20:19 params_e213.inc.v~
+-rwxr-----   1 joshea   ficon       4087 Mar 24 19:57 sig.rc
+-rwxr-----   1 joshea   ficon        168 Mar 18 20:19 sim_e213.script
+-rwxr-----   1 joshea   ficon       3552 Mar 24 19:27 tb_e213.v
+-rwxr-----   1 joshea   ficon       3552 Mar 18 20:33 tb_e213.v~
+-rw-r--r--   1 joshea   ficon       9592 Mar 24 22:44 verilog.fsdb
+-rwxr-----   1 joshea   ficon     100160 Mar 24 22:44 verilog.log
+-rw-r--r--   1 joshea   ficon       1043 Mar 24 22:44 vreader.log
+ 
+/ver/test file revisions :
+ 

@@ -1,0 +1,356 @@
+Magic 271485
+Revision 1.0
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -22 -2 1908 1164 148 134
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] path_name file_name
+openDirFile -d / "/emc/joshea/JOS/Verilog/Vit_b322/src" "../New_Vit_b322/verilog.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 3
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 8981.915606 11000.000000
+cursor 9500.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name
+; visible top row signal index
+top 22
+; marker line index
+markerPos 47
+
+; Run Time Signal and Member
+; addRunTimeSig 
+
+; analog to digital list
+; allAtoD sig_name low_threshold high_threshold member_sig_name
+
+; logical expression list
+; addExprSig expr_name expression_string
+
+; analog expression list
+; addAnaExprSig expr_name expression_string
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+SEQUENCE_BEGIN
+
+
+SEQUENCE_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+addGroup "BMU"
+addSignal -h 15 /tb_b322/TB_U2/U1/reset
+addSignal -h 15 /tb_b322/TB_U2/U1/clock
+addSignal -h 15 /tb_b322/TB_U2/U1/Rx[2:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD1[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD2[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD3[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD4[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD5[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD6[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD7[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD8[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD9[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD10[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD11[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD12[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD13[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD14[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD15[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD16[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD17[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD18[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD19[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD20[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD21[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD22[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD23[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD24[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD25[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD26[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD27[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD28[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD29[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD30[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD31[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/HD32[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U1/le
+addGroup "CONTROL"
+addSignal -h 15 /tb_b322/TB_U2/U3/reset
+addSignal -h 15 /tb_b322/TB_U2/U3/clock
+addSignal -h 15 /tb_b322/TB_U2/U3/symbol_count[8:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/le
+addSignal -h 15 /tb_b322/TB_U2/U3/ae
+addSignal -h 15 /tb_b322/TB_U2/U3/we
+addSignal -h 15 /tb_b322/TB_U2/U3/te
+addSignal -h 15 /tb_b322/TB_U2/U3/oe
+addSignal -h 15 -UNSIGNED -UDEC /tb_b322/i
+addSignal -h 15 /tb_b322/TB_U2/U3/write_ptr[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/trace_ptr[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/min_state[2:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/tb_reg[2:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/Dx[1:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/NEXT_STATE[6:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/sync_error
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P0_in[1:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P1_in[1:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P2_in[1:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P3_in[1:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P4_in[1:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P5_in[1:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P6_in[1:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P7_in[1:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P0_1[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P0_0[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P1_1[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P1_0[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P2_1[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P2_0[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P3_1[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P3_0[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P4_1[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P4_0[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P5_1[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P5_0[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P6_1[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P6_0[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P7_1[9:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b322/TB_U2/U3/P7_0[9:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A0_in[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A1_in[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A2_in[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A3_in[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A4_in[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A5_in[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A6_in[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A7_in[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A0[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A1[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A2[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A3[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A4[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A5[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A6[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/A7[3:0]
+addGroup "ACS0"
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/reset
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/clock
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/ae
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/HD_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_ppm_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/suma[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/HD_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_ppm_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/sumb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/HD_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_ppm_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/sumc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/HD_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_ppm_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/sumd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_ppm_ab[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_ppm_cd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_ppm_out[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_Bx_ab[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_Bx_cd[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS0/acs_Bx_out[1:0]
+addGroup "ACS1"
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/reset
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/clock
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/ae
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/HD_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_ppm_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/suma[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/HD_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_ppm_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/sumb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/HD_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_ppm_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/sumc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/HD_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_ppm_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/sumd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_ppm_ab[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_ppm_cd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_ppm_out[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_Bx_ab[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_Bx_cd[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS1/acs_Bx_out[1:0]
+addGroup "ACS2"
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/reset
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/clock
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/ae
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/HD_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_ppm_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/suma[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/HD_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_ppm_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/sumb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/HD_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_ppm_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/sumc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/HD_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_ppm_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/sumd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_ppm_ab[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_ppm_cd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_ppm_out[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_Bx_ab[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_Bx_cd[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS2/acs_Bx_out[1:0]
+addGroup "ACS3"
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/reset
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/clock
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/ae
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/HD_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_ppm_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/suma[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/HD_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_ppm_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/sumb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/HD_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_ppm_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/sumc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/HD_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_ppm_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/sumd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_ppm_ab[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_ppm_cd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_ppm_out[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_Bx_ab[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_Bx_cd[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS3/acs_Bx_out[1:0]
+addGroup "ACS4"
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/reset
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/clock
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/ae
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/HD_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_ppm_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/suma[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/HD_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_ppm_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/sumb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/HD_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_ppm_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/sumc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/HD_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_ppm_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/sumd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_ppm_ab[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_ppm_cd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_ppm_out[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_Bx_ab[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_Bx_cd[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS4/acs_Bx_out[1:0]
+addGroup "ACS5"
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/reset
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/clock
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/ae
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/HD_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_ppm_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/suma[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/HD_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_ppm_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/sumb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/HD_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_ppm_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/sumc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/HD_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_ppm_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/sumd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_ppm_ab[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_ppm_cd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_ppm_out[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_Bx_ab[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_Bx_cd[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS5/acs_Bx_out[1:0]
+addGroup "ACS6"
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/reset
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/clock
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/ae
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/HD_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_ppm_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/suma[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/HD_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_ppm_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/sumb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/HD_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_ppm_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/sumc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/HD_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_ppm_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/sumd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_ppm_ab[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_ppm_cd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_ppm_out[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_Bx_ab[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_Bx_cd[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS6/acs_Bx_out[1:0]
+addGroup "ACS7"
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/reset
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/clock
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/ae
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/HD_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_ppm_ina[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/suma[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/HD_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_ppm_inb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/sumb[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/HD_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_ppm_inc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/sumc[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/HD_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_ppm_ind[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/sumd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_ppm_ab[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_ppm_cd[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_ppm_out[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_Bx_ab[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_Bx_cd[1:0]
+addSignal -h 15 /tb_b322/TB_U2/U2/ACS7/acs_Bx_out[1:0]
+addGroup "G11"
+addSignal -h 15 /tb_b322/TB_U2/U3/write_ptr[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/we
+addGroup "G12"
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/best_state[2:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/in0[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/in1[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/in2[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/in3[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/in4[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/in5[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/in6[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/in7[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/min_01[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/min_23[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/min_45[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/min_67[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/min_0123[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/min_4567[3:0]
+addSignal -h 15 /tb_b322/TB_U2/U3/TB_1/min_metric[3:0]
+addGroup "G13"
+
+; grid status
+; gridSignal signal_name
+; gridEdge 0 | 1
+

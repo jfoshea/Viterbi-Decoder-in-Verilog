@@ -1,0 +1,316 @@
+
+Xilinx Mapping Report File for Design 'eVITERBI_213'
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : m1map -oe high eVITERBI_213.ngd 
+Target Device  : x4028xla
+Target Package : bg256
+Target Speed   : -09
+Mapper Version : xc4000xla -- D.19
+
+Design Summary
+--------------
+   Number of errors:        0
+   Number of warnings:      3
+   Number of CLBs:            294 out of  1024   28%
+      CLB Flip Flops:     151
+      CLB Latches:          0
+      4 input LUTs:       503 (24 used as route-throughs)
+      3 input LUTs:       184
+   Number of bonded IOBs:       8 out of   205    3%
+      IOB Flops:            0
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of    12    8%
+   Number of BUFGLSs:           1 out of     8   12%
+Total equivalent gate count for design: 4671
+Additional JTAG gate count for IOBs:    384
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Design Attributes
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - Added Logic
+Section 7 - Expanded Logic
+Section 8 - Signal Cross-Reference
+Section 9 - Symbol Cross-Reference
+Section 10 - IOB Properties
+Section 11 - RPMs
+Section 12 - Guide Report
+Section 13 - Area Group Summary
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:OldMap:75 - Chipcheck: The signal "n43" is connected to the
+   asynchronous set/reset of every flip-flop in the design.  Using the dedicated
+   GSR/GR (global set/reset) pin on the STARTUP component will reduce the
+   ammount of routing resources required to implement the design.  To use
+   GSR/GR, disconnect the "n43" signal from the reset pin of every flip-flop in
+   the design, and connect it to the GSR/GR pin of the STARTUP component.  Note
+   that all flip-flops on the device will be cleared when GSR/GR goes active.
+WARNING:OldMap:910 - None of the external outputs in this design have a 'DRIVE'
+   strength of '24' specified.  The default DRIVE=12 value will be applied to
+   all outputs.
+WARNING:OldMap:78 - All of the external outputs in this design are using
+   slew-rate-limited output drivers.  The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the original
+   design.  Please see your vendor interface documentation for specific
+   information on how to do this within your design-entry tool.
+   Note: You should be careful not to designate too many outputs which switch
+   together as fast, because this can cause excessive ground bounce.  For more
+   information on this subject, please refer to the IOB switching characteristic
+   guidelines for the device you are using in the Programmable Logic Data Book.
+
+Section 3 - Design Attributes
+-----------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  27 block(s) removed
+ 131 block(s) optimized away
+  27 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "U3/SE_1/n77" is unused and has been removed.
+ Unused block "U3/SE_1/gte_32/u4/S0/SUB/OR8_CO_3" (OR2) removed.
+  The signal "U3/SE_1/gte_32/u4/S0/SUB/OR7_CO_3" is unused and has been removed.
+   Unused block "U3/SE_1/gte_32/u4/S0/SUB/OR7_CO_3" (OR2) removed.
+    The signal "U3/SE_1/gte_32/u4/S0/SUB/AND6_CO_3" is unused and has been removed.
+     Unused block "U3/SE_1/gte_32/u4/S0/SUB/AND6_CO_3" (AND2) removed.
+    The signal "U3/SE_1/gte_32/u4/S0/SUB/AND7_CO_3" is unused and has been removed.
+     Unused block "U3/SE_1/gte_32/u4/S0/SUB/AND7_CO_3" (AND2) removed.
+      The signal "U3/SE_1/gte_32/u4/S0/SUB/CO_SIG" is unused and has been removed.
+       Unused block "U3/SE_1/gte_32/u4/S0/SUB/OR6_COUT0_2" (OR2) removed.
+        The signal "U3/SE_1/gte_32/u4/S0/SUB/AND4_COUT0_2" is unused and has been
+removed.
+         Unused block "U3/SE_1/gte_32/u4/S0/SUB/AND4_COUT0_2" (AND2) removed.
+        The signal "U3/SE_1/gte_32/u4/S0/SUB/AND5_COUT0_2" is unused and has been
+removed.
+         Unused block "U3/SE_1/gte_32/u4/S0/SUB/AND5_COUT0_2" (AND2) removed.
+          The signal "U3/SE_1/gte_32/u4/S0/SUB/CO_2" is unused and has been removed.
+           Unused block "U3/SE_1/gte_32/u4/S0/SUB/OR4_COUT_1" (OR2) removed.
+            The signal "U3/SE_1/gte_32/u4/S0/SUB/AND3_COUT_1" is unused and has been
+removed.
+             Unused block "U3/SE_1/gte_32/u4/S0/SUB/AND3_COUT_1" (AND2) removed.
+              The signal "U3/SE_1/gte_32/u4/S0/SUB/CO_1" is unused and has been removed.
+               Unused block "U3/SE_1/gte_32/u4/S0/SUB/OR2_COUT0_1" (OR2) removed.
+                The signal "U3/SE_1/gte_32/u4/S0/SUB/BUF1_COUT0_1" is unused and has been
+removed.
+                 Unused block "U3/SE_1/gte_32/u4/S0/SUB/OR1_COUT0_1" (OR2) removed.
+              The signal "U3/SE_1/gte_32/u4/S0/SUB/OR3_COUT_1" is unused and has been
+removed.
+               Unused block "U3/SE_1/gte_32/u4/S0/SUB/OR3_COUT_1" (OR2) removed.
+  The signal "U3/SE_1/gte_32/u4/S0/SUB/AND8_CO_3" is unused and has been removed.
+   Unused block "U3/SE_1/gte_32/u4/S0/SUB/AND8_CO_3" (AND2) removed.
+The signal "U3/lte_198/u4/S0/SUB/AND2_COUT_1" is unused and has been removed.
+ Unused block "U3/lte_198/u4/S0/SUB/AND2_COUT_1" (AND2) removed.
+The signal "U3/lte_198/u4/S0/SUB/AND1_COUT0_1" is unused and has been removed.
+ Unused block "U3/lte_198/u4/S0/SUB/AND1_COUT0_1" (AND2) removed.
+The signal "U3/gt_220/u4/S0/SUB/AND2_COUT_1" is unused and has been removed.
+ Unused block "U3/gt_220/u4/S0/SUB/AND2_COUT_1" (AND2) removed.
+The signal "U3/gt_220/u4/S0/SUB/AND1_COUT0_1" is unused and has been removed.
+ Unused block "U3/gt_220/u4/S0/SUB/AND1_COUT0_1" (AND2) removed.
+The signal "U3/SE_1/gt_32/u4/S0/SUB/AND8_CO_3" is unused and has been removed.
+ Unused block "U3/SE_1/gt_32/u4/S0/SUB/AND8_CO_3" (AND2) removed.
+  The signal "U3/SE_1/gt_32/u4/S0/SUB/CO_SIG" is unused and has been removed.
+   Unused block "U3/SE_1/gt_32/u4/S0/SUB/OR6_COUT0_2" (OR2) removed.
+    The signal "U3/SE_1/gt_32/u4/S0/SUB/AND5_COUT0_2" is unused and has been
+removed.
+     Unused block "U3/SE_1/gt_32/u4/S0/SUB/AND5_COUT0_2" (AND2) removed.
+      The signal "U3/SE_1/gt_32/u4/S0/SUB/CO_2" is unused and has been removed.
+       Unused block "U3/SE_1/gt_32/u4/S0/SUB/OR4_COUT_1" (OR2) removed.
+        The signal "U3/SE_1/gt_32/u4/S0/SUB/AND3_COUT_1" is unused and has been
+removed.
+         Unused block "U3/SE_1/gt_32/u4/S0/SUB/AND3_COUT_1" (AND2) removed.
+          The signal "U3/SE_1/gt_32/u4/S0/SUB/CO_1" is unused and has been removed.
+           Unused block "U3/SE_1/gt_32/u4/S0/SUB/OR2_COUT0_1" (OR2) removed.
+            The signal "U3/SE_1/gt_32/u4/S0/SUB/BUF1_COUT0_1" is unused and has been
+removed.
+             Unused block "U3/SE_1/gt_32/u4/S0/SUB/OR1_COUT0_1" (OR2) removed.
+          The signal "U3/SE_1/gt_32/u4/S0/SUB/OR3_COUT_1" is unused and has been removed.
+           Unused block "U3/SE_1/gt_32/u4/S0/SUB/OR3_COUT_1" (OR2) removed.
+      The signal "U3/SE_1/gt_32/u4/S0/SUB/OR5_COUT0_2" is unused and has been
+removed.
+       Unused block "U3/SE_1/gt_32/u4/S0/SUB/OR5_COUT0_2" (OR2) removed.
+The signal "U3/SE_1/gt_32/u4/S0/SUB/AND7_CO_3" is unused and has been removed.
+ Unused block "U3/SE_1/gt_32/u4/S0/SUB/AND7_CO_3" (AND2) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+VCC 		U2/ACS0/U51
+VCC 		U2/ACS1/U51
+VCC 		U2/ACS2/U51
+VCC 		U2/ACS3/U51
+VCC 		U2/ACS4/U51
+VCC 		U2/ACS5/U51
+VCC 		U2/ACS6/U51
+VCC 		U2/ACS7/U51
+GND 		U2/U4
+X_AND2 		U2/ACS0/U66/GATE2/U2/ACS0/U66/GATE2/2.0
+X_AND2 		U2/ACS0/U66/GATE2/U2/ACS0/U66/GATE2
+X_AND2 		U2/ACS0/U66/GATE4/U2/ACS0/U66/GATE4/2.0
+X_AND2 		U2/ACS0/U66/GATE4/U2/ACS0/U66/GATE4
+NAND2 		U2/ACS0/U82
+AND2 		U2/ACS0/U63/GATE3
+NAND2 		U2/ACS0/U87
+AND2 		U2/ACS0/U67/GATE2
+INV 		U2/ACS0/U88/O
+X_AND2 		U2/ACS1/U66/GATE2/U2/ACS1/U66/GATE2/2.0
+X_AND2 		U2/ACS1/U66/GATE2/U2/ACS1/U66/GATE2
+X_AND2 		U2/ACS1/U66/GATE4/U2/ACS1/U66/GATE4/2.0
+X_AND2 		U2/ACS1/U66/GATE4/U2/ACS1/U66/GATE4
+NAND2 		U2/ACS1/U82
+AND2 		U2/ACS1/U63/GATE3
+NAND2 		U2/ACS1/U87
+AND2 		U2/ACS1/U67/GATE2
+INV 		U2/ACS1/U88/O
+X_AND2 		U2/ACS2/U65/GATE2/U2/ACS2/U65/GATE2/2.0
+X_AND2 		U2/ACS2/U65/GATE2/U2/ACS2/U65/GATE2
+X_AND2 		U2/ACS2/U65/GATE4/U2/ACS2/U65/GATE4/2.0
+X_AND2 		U2/ACS2/U65/GATE4/U2/ACS2/U65/GATE4
+NAND2 		U2/ACS2/U81
+AND2 		U2/ACS2/U62/GATE3
+NAND2 		U2/ACS2/U86
+AND2 		U2/ACS2/U66/GATE2
+INV 		U2/ACS2/U87/O
+X_AND2 		U2/ACS3/U65/GATE2/U2/ACS3/U65/GATE2/2.0
+X_AND2 		U2/ACS3/U65/GATE2/U2/ACS3/U65/GATE2
+X_AND2 		U2/ACS3/U65/GATE4/U2/ACS3/U65/GATE4/2.0
+X_AND2 		U2/ACS3/U65/GATE4/U2/ACS3/U65/GATE4
+NAND2 		U2/ACS3/U81
+AND2 		U2/ACS3/U62/GATE3
+NAND2 		U2/ACS3/U86
+AND2 		U2/ACS3/U66/GATE2
+INV 		U2/ACS3/U87/O
+X_AND2 		U2/ACS4/U67/GATE2/U2/ACS4/U67/GATE2/2.0
+X_AND2 		U2/ACS4/U67/GATE2/U2/ACS4/U67/GATE2
+X_AND2 		U2/ACS4/U67/GATE4/U2/ACS4/U67/GATE4/2.0
+X_AND2 		U2/ACS4/U67/GATE4/U2/ACS4/U67/GATE4
+NAND2 		U2/ACS4/U83
+AND2 		U2/ACS4/U64/GATE3
+NAND2 		U2/ACS4/U88
+AND2 		U2/ACS4/U68/GATE2
+INV 		U2/ACS4/U89/O
+X_AND2 		U2/ACS5/U66/GATE2/U2/ACS5/U66/GATE2/2.0
+X_AND2 		U2/ACS5/U66/GATE2/U2/ACS5/U66/GATE2
+X_AND2 		U2/ACS5/U66/GATE4/U2/ACS5/U66/GATE4/2.0
+X_AND2 		U2/ACS5/U66/GATE4/U2/ACS5/U66/GATE4
+NAND2 		U2/ACS5/U82
+AND2 		U2/ACS5/U63/GATE3
+NAND2 		U2/ACS5/U87
+AND2 		U2/ACS5/U67/GATE2
+INV 		U2/ACS5/U88/O
+X_AND2 		U2/ACS6/U65/GATE2/U2/ACS6/U65/GATE2/2.0
+X_AND2 		U2/ACS6/U65/GATE2/U2/ACS6/U65/GATE2
+X_AND2 		U2/ACS6/U65/GATE4/U2/ACS6/U65/GATE4/2.0
+X_AND2 		U2/ACS6/U65/GATE4/U2/ACS6/U65/GATE4
+NAND2 		U2/ACS6/U81
+AND2 		U2/ACS6/U62/GATE3
+NAND2 		U2/ACS6/U86
+AND2 		U2/ACS6/U66/GATE2
+INV 		U2/ACS6/U87/O
+X_AND2 		U2/ACS7/U65/GATE2/U2/ACS7/U65/GATE2/2.0
+X_AND2 		U2/ACS7/U65/GATE2/U2/ACS7/U65/GATE2
+X_AND2 		U2/ACS7/U65/GATE4/U2/ACS7/U65/GATE4/2.0
+X_AND2 		U2/ACS7/U65/GATE4/U2/ACS7/U65/GATE4
+NAND2 		U2/ACS7/U81
+AND2 		U2/ACS7/U62/GATE3
+NAND2 		U2/ACS7/U86
+AND2 		U2/ACS7/U66/GATE2
+INV 		U2/ACS7/U87/O
+AND2 		U3/gt_321/u10/S0/SUB/AND1_CO_6
+VCC 		U3/SE_1/U28
+AND2 		U3/SE_1/gte_32/u4/S0/SUB/AND1_COUT0_1
+AND2 		U3/SE_1/gte_32/u4/S0/SUB/AND2_COUT_1
+GND 		U3/SE_1/U29
+OR2 		U3/SE_1/gte_32/u4/S0/SUB/OR5_COUT0_2
+AND2 		U3/SE_1/gt_32/u4/S0/SUB/AND1_COUT0_1
+AND2 		U3/SE_1/gt_32/u4/S0/SUB/AND2_COUT_1
+AND2 		U3/SE_1/gt_32/u4/S0/SUB/AND4_COUT0_2
+AND2 		U3/SE_1/gt_32/u4/S0/SUB/AND6_CO_3
+OR2 		U3/SE_1/gt_32/u4/S0/SUB/OR7_CO_3
+OR2 		U3/SE_1/gt_32/u4/S0/SUB/OR8_CO_3
+X_AND2 		U3/SE_1/U27/U3/SE_1/error58/2.0
+VCC 		U3/TB_1/U55
+VCC 		U3/U817
+OR2 		U3/gt_220/u4/S0/SUB/OR1_COUT0_1
+OR2 		U3/gt_220/u4/S0/SUB/OR2_COUT0_1
+OR2 		U3/gt_220/u4/S0/SUB/OR3_COUT_1
+AND2 		U3/gt_220/u4/S0/SUB/AND3_COUT_1
+OR2 		U3/gt_220/u4/S0/SUB/OR4_COUT_1
+OR2 		U3/gt_275/u4/S0/SUB/OR5_COUT0_2
+OR2 		U3/lte_198/u4/S0/SUB/OR1_COUT0_1
+OR2 		U3/lte_198/u4/S0/SUB/OR2_COUT0_1
+OR2 		U3/lte_198/u4/S0/SUB/OR3_COUT_1
+AND2 		U3/lte_198/u4/S0/SUB/AND3_COUT_1
+OR2 		U3/lte_198/u4/S0/SUB/OR4_COUT_1
+OR2 		U3/lte_263/u4/S0/SUB/OR5_COUT0_2
+AND2 		U3/gt_220/u4/S0/SUB/AND4_COUT0_2
+AND2 		U3/gt_220/u4/S0/SUB/AND6_CO_3
+AND2 		U3/gt_220/u4/S0/SUB/AND7_CO_3
+OR2 		U3/gt_220/u4/S0/SUB/OR7_CO_3
+AND2 		U3/gt_275/u4/S0/SUB/AND1_COUT0_1
+AND2 		U3/gt_275/u4/S0/SUB/AND2_COUT_1
+AND2 		U3/gt_275/u4/S0/SUB/AND6_CO_3
+AND2 		U3/gt_275/u4/S0/SUB/AND7_CO_3
+OR2 		U3/gt_275/u4/S0/SUB/OR7_CO_3
+AND2 		U3/gt_321/u10/S0/SUB/AND2_CO_6
+OR2 		U3/gt_321/u10/S0/SUB/OR1_CO_6
+AND2 		U3/lte_198/u4/S0/SUB/AND4_COUT0_2
+AND2 		U3/lte_198/u4/S0/SUB/AND6_CO_3
+AND2 		U3/lte_198/u4/S0/SUB/AND7_CO_3
+OR2 		U3/lte_198/u4/S0/SUB/OR7_CO_3
+AND2 		U3/lte_263/u4/S0/SUB/AND1_COUT0_1
+AND2 		U3/lte_263/u4/S0/SUB/AND2_COUT_1
+AND2 		U3/lte_263/u4/S0/SUB/AND6_CO_3
+AND2 		U3/lte_263/u4/S0/SUB/AND7_CO_3
+OR2 		U3/lte_263/u4/S0/SUB/OR7_CO_3
+X_AND2 		U3/SE_1/U27/U3/SE_1/error58
+DFF 		U3/SE_1/error_reg/$1I13
+GND 		U3/U899
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - Added Logic
+-----------------------
+
+Section 7 - Expanded Logic
+--------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 8 - Signal Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 9 - Symbol Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 10 - IOB Properties
+---------------------------
+"Dx<0>" (IOB) : SLEW=SLOW
+"Dx_oe" (IOB) : SLEW=SLOW
+"error" (IOB) : SLEW=SLOW
+"tb_en" (IOB) : SLEW=SLOW
+
+Section 11 - RPMs
+-----------------
+
+Section 12 - Guide Report
+-------------------------
+Guide not run on this design.

@@ -1,0 +1,20 @@
+create_project eVITERBI_213_proj
+
+add_file -library WORK -format Verilog ../../src/eVITERBI_213.v
+add_file -library WORK -format Verilog ../../src/eCONTROL_213.v
+add_file -library WORK -format Verilog ../../src/eBMU_213.v
+add_file -library WORK -format Verilog ../../src/eACS_213.v
+add_file -library WORK -format Verilog ../../src/eACSU_213.v
+add_file -library WORK -format Verilog ../../src/eSYNCERR_213.v
+add_file -library WORK -format Verilog ../../src/eTBDECISION_213.v
+
+analyze_file -progress
+
+create_chip -progress -name eVITERBI_213_syn -target VIRTEX -device V50TQ144 -speed -4 -frequency 25 -module -preserve eVITERBI_213
+current_chip eVITERBI_213_syn
+
+optimize_chip -name eVITERBI_213_syn-Optimized -progress
+
+export_chip
+
+list_message

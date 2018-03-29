@@ -1,0 +1,251 @@
+Release v3.3.07i - Par D.26
+Sat Mar 24 18:48:50 2001
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213_m.ncd
+Output file:      /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd
+Part type:        xcv50
+Speed grade:      -4
+Package:          tq144
+
+Dedicated or Special Pin Name:
++------------------------------------------------------------+--------+---------+
+|               Dedicated or Special Pin Name                | Pin    | Voltage |
+|                                                            | Number |         |
++------------------------------------------------------------+--------+---------+
+| CCLK                                                       | P38    |         |
+| CS                                                         | P33    |         |
+| D1                                                         | P45    |         |
+| D2                                                         | P47    |         |
+| D3                                                         | P51    |         |
+| D4                                                         | P59    |         |
+| D5                                                         | P63    |         |
+| D6                                                         | P65    |         |
+| D7                                                         | P70    |         |
+| DIN_D0                                                     | P40    |         |
+| DONE                                                       | P74    |         |
+| DOUT_BUSY                                                  | P39    |         |
+| GND                                                        | P9     |         |
+| GND                                                        | P120   |         |
+| GND                                                        | P26    |         |
+| GND                                                        | P46    |         |
+| GND                                                        | P83    |         |
+| GND                                                        | P100   |         |
+| GND                                                        | P136   |         |
+| GND                                                        | P91    |         |
+| GND                                                        | P144   |         |
+| GND                                                        | P111   |         |
+| GND                                                        | P18    |         |
+| GND                                                        | P129   |         |
+| GND                                                        | P35    |         |
+| GND                                                        | P64    |         |
+| GND                                                        | P54    |         |
+| GND                                                        | P75    |         |
+| INIT                                                       | P71    |         |
+| IRDY                                                       | P130   |         |
+| IRDY                                                       | P53    |         |
+| M0                                                         | P110   |         |
+| M1                                                         | P112   |         |
+| M2                                                         | P108   |         |
+| PROGRAM                                                    | P72    |         |
+| TCK                                                        | P2     |         |
+| TDI                                                        | P34    |         |
+| TDO                                                        | P36    |         |
+| TMS                                                        | P143   |         |
+| TRDY                                                       | P127   |         |
+| TRDY                                                       | P56    |         |
+| VCCINT                                                     | P57    | 2.5     |
+| VCCINT                                                     | P25    | 2.5     |
+| VCCINT                                                     | P10    | 2.5     |
+| VCCINT                                                     | P84    | 2.5     |
+| VCCINT                                                     | P15    | 2.5     |
+| VCCINT                                                     | P94    | 2.5     |
+| VCCINT                                                     | P99    | 2.5     |
+| VCCINT                                                     | P126   | 2.5     |
+| VCCO                                                       | P37    |         |
+| VCCO                                                       | P17    |         |
+| VCCO                                                       | P128   |         |
+| VCCO                                                       | P109   |         |
+| VCCO                                                       | P92    |         |
+| VCCO                                                       | P1     |         |
+| VCCO                                                       | P73    |         |
+| VCCO                                                       | P55    |         |
+| VREF                                                       | P50    |         |
+| VREF                                                       | P123   |         |
+| VREF                                                       | P133   |         |
+| VREF                                                       | P42    |         |
+| VREF                                                       | P104   |         |
+| VREF                                                       | P5     |         |
+| VREF                                                       | P96    |         |
+| VREF                                                       | P116   |         |
+| VREF                                                       | P87    |         |
+| VREF                                                       | P22    |         |
+| VREF                                                       | P79    |         |
+| VREF                                                       | P30    |         |
+| VREF                                                       | P68    |         |
+| VREF                                                       | P60    |         |
+| VREF                                                       | P13    |         |
+| VREF                                                       | P140   |         |
+| WRITE                                                      | P32    |         |
++------------------------------------------------------------+--------+---------+
+
+Pinout by Pin Number:
++--------------+-----------------------------------+-----------+------------+
+|  Pin Number  |             Pin Name              | Direction | Constraint |
++--------------+-----------------------------------+-----------+------------+
+| P1           | (VCCO)                            |           |            |
+| P2           | (TCK)                             |           |            |
+| P3           | ---                               | UNUSED    |            |
+| P4           | ---                               | UNUSED    |            |
+| P5           | (VREF)                            |           |            |
+| P6           | ---                               | UNUSED    |            |
+| P7           | ---                               | UNUSED    |            |
+| P8           | ---                               | UNUSED    |            |
+| P9           | (GND)                             |           |            |
+| P10          | (VCCINT)                          |           |            |
+| P11          | ---                               | UNUSED    |            |
+| P12          | ---                               | UNUSED    |            |
+| P13          | (VREF)                            |           |            |
+| P14          | ---                               | UNUSED    |            |
+| P15          | (VCCINT)                          |           |            |
+| P16          | ---                               | UNUSED    |            |
+| P17          | (VCCO)                            |           |            |
+| P18          | (GND)                             |           |            |
+| P19          | ---                               | UNUSED    |            |
+| P20          | ---                               | UNUSED    |            |
+| P21          | ---                               | UNUSED    |            |
+| P22          | (VREF)                            |           |            |
+| P23          | ---                               | UNUSED    |            |
+| P24          | ---                               | UNUSED    |            |
+| P25          | (VCCINT)                          |           |            |
+| P26          | (GND)                             |           |            |
+| P27          | ---                               | UNUSED    |            |
+| P28          | ---                               | UNUSED    |            |
+| P29          | ---                               | UNUSED    |            |
+| P30          | (VREF)                            |           |            |
+| P31          | ---                               | UNUSED    |            |
+| P32          | (WRITE)                           |           |            |
+| P33          | (CS)                              |           |            |
+| P34          | (TDI)                             |           |            |
+| P35          | (GND)                             |           |            |
+| P36          | (TDO)                             |           |            |
+| P37          | (VCCO)                            |           |            |
+| P38          | (CCLK)                            |           |            |
+| P39          | (DOUT_BUSY)                       |           |            |
+| P40          | (DIN_D0)                          |           |            |
+| P41          | ---                               | UNUSED    |            |
+| P42          | (VREF)                            |           |            |
+| P43          | ---                               | UNUSED    |            |
+| P44          | ---                               | UNUSED    |            |
+| P45          | (D1)                              |           |            |
+| P46          | (GND)                             |           |            |
+| P47          | (D2)                              |           |            |
+| P48          | ---                               | UNUSED    |            |
+| P49          | ---                               | UNUSED    |            |
+| P50          | (VREF)                            |           |            |
+| P51          | (D3)                              |           |            |
+| P52          | ---                               | UNUSED    |            |
+| P53          | (IRDY)                            |           |            |
+| P54          | (GND)                             |           |            |
+| P55          | (VCCO)                            |           |            |
+| P56          | (TRDY)                            |           |            |
+| P57          | (VCCINT)                          |           |            |
+| P58          | ---                               | UNUSED    |            |
+| P59          | (D4)                              |           |            |
+| P60          | (VREF)                            |           |            |
+| P61          | ---                               | UNUSED    |            |
+| P62          | ---                               | UNUSED    |            |
+| P63          | (D5)                              |           |            |
+| P64          | (GND)                             |           |            |
+| P65          | (D6)                              |           |            |
+| P66          | ---                               | UNUSED    |            |
+| P67          | ---                               | UNUSED    |            |
+| P68          | (VREF)                            |           |            |
+| P69          | ---                               | UNUSED    |            |
+| P70          | (D7)                              |           |            |
+| P71          | (INIT)                            |           |            |
+| P72          | (PROGRAM)                         |           |            |
+| P73          | (VCCO)                            |           |            |
+| P74          | (DONE)                            |           |            |
+| P75          | (GND)                             |           |            |
+| P76          | ---                               | UNUSED    |            |
+| P77          | ---                               | UNUSED    |            |
+| P78          | ---                               | UNUSED    |            |
+| P79          | (VREF)                            |           |            |
+| P80          | ---                               | UNUSED    |            |
+| P81          | ---                               | UNUSED    |            |
+| P82          | ---                               | UNUSED    |            |
+| P83          | (GND)                             |           |            |
+| P84          | (VCCINT)                          |           |            |
+| P85          | ---                               | UNUSED    |            |
+| P86          | ---                               | UNUSED    |            |
+| P87          | (VREF)                            |           |            |
+| P88          | ---                               | UNUSED    |            |
+| P89          | ---                               | UNUSED    |            |
+| P90          | ---                               | UNUSED    |            |
+| P91          | (GND)                             |           |            |
+| P92          | (VCCO)                            |           |            |
+| P93          | ---                               | UNUSED    |            |
+| P94          | (VCCINT)                          |           |            |
+| P95          | ---                               | UNUSED    |            |
+| P96          | (VREF)                            |           |            |
+| P97          | ---                               | UNUSED    |            |
+| P98          | ---                               | UNUSED    |            |
+| P99          | (VCCINT)                          |           |            |
+| P100         | (GND)                             |           |            |
+| P101         | ---                               | UNUSED    |            |
+| P102         | ---                               | UNUSED    |            |
+| P103         | ---                               | UNUSED    |            |
+| P104         | (VREF)                            |           |            |
+| P105         | ---                               | UNUSED    |            |
+| P106         | ---                               | UNUSED    |            |
+| P107         | ---                               | UNUSED    |            |
+| P108         | (M2)                              |           |            |
+| P109         | (VCCO)                            |           |            |
+| P110         | (M0)                              |           |            |
+| P111         | (GND)                             |           |            |
+| P112         | (M1)                              |           |            |
+| P113         | ---                               | UNUSED    |            |
+| P114         | ---                               | UNUSED    |            |
+| P115         | ---                               | UNUSED    |            |
+| P116         | (VREF)                            |           |            |
+| P117         | ---                               | UNUSED    |            |
+| P118         | ---                               | UNUSED    |            |
+| P119         | ---                               | UNUSED    |            |
+| P120         | (GND)                             |           |            |
+| P121         | ---                               | UNUSED    |            |
+| P122         | ---                               | UNUSED    |            |
+| P123         | (VREF)                            |           |            |
+| P124         | ---                               | UNUSED    |            |
+| P125         | ---                               | UNUSED    |            |
+| P126         | (VCCINT)                          |           |            |
+| P127         | (TRDY)                            |           |            |
+| P128         | (VCCO)                            |           |            |
+| P129         | (GND)                             |           |            |
+| P130         | (IRDY)                            |           |            |
+| P131         | ---                               | UNUSED    |            |
+| P132         | ---                               | UNUSED    |            |
+| P133         | (VREF)                            |           |            |
+| P134         | ---                               | UNUSED    |            |
+| P135         | ---                               | UNUSED    |            |
+| P136         | (GND)                             |           |            |
+| P137         | ---                               | UNUSED    |            |
+| P138         | ---                               | UNUSED    |            |
+| P139         | ---                               | UNUSED    |            |
+| P140         | (VREF)                            |           |            |
+| P141         | ---                               | UNUSED    |            |
+| P142         | ---                               | UNUSED    |            |
+| P143         | (TMS)                             |           |            |
+| P144         | (GND)                             |           |            |
++--------------+-----------------------------------+-----------+------------+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply run "Lock Pins..." from the Design Manager's Design 
+# menu, or invoke PIN2UCF from the command line. The location constraints
+# above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+#

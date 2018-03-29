@@ -1,0 +1,109 @@
+
+Xilinx Mapping Report File for Design 'eVITERBI_213'
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : map -u -p V50TQ144-4 -pr b -o
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ngd
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf 
+Target Device  : xv50
+Target Package : tq144
+Target Speed   : -4
+Mapper Version : virtex -- D.26
+Mapped Date    : Sat Mar 24 22:52:23 2001
+
+Design Summary
+--------------
+   Number of errors:      0
+   Number of warnings:    6
+   Number of Slices:                295 out of    768   38%
+   Number of Slices containing
+      unrelated logic:                0 out of    295    0%
+   Number of Slice Flip Flops:      256 out of  1,536   16%
+   Number of 4 input LUTs:          443 out of  1,536   28%
+   Number of Tbufs:                   1 out of    832    1%
+Total equivalent gate count for design:  4,760
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Design Attributes
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - Added Logic
+Section 7 - Expanded Logic
+Section 8 - Signal Cross-Reference
+Section 9 - Symbol Cross-Reference
+Section 10 - IOB Properties
+Section 11 - RPMs
+Section 12 - Guide Report
+Section 13 - Area Group Summary
+Section 14 - Modular Design Summary
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:DesignRules:367 - Netcheck: Loadless. Net Dx<0> has no load.
+WARNING:DesignRules:368 - Netcheck: Sourceless. Net clock has no source.
+WARNING:DesignRules:368 - Netcheck: Sourceless. Net reset has no source.
+WARNING:DesignRules:368 - Netcheck: Sourceless. Net Rx<1> has no source.
+WARNING:DesignRules:368 - Netcheck: Sourceless. Net Rx<0> has no source.
+WARNING:DesignRules:368 - Netcheck: Sourceless. Net seq_ready has no source.
+
+Section 3 - Design Attributes
+-----------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   4 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+VCC 		U3/C1810
+GND 		U3/C1811
+GND 		U3/SE_1/C35
+FDC 		U3/SE_1/error_reg
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - Added Logic
+-----------------------
+
+Section 7 - Expanded Logic
+--------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 8 - Signal Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 9 - Symbol Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 10 - IOB Properties
+---------------------------
+
+Section 11 - RPMs
+-----------------
+
+Section 12 - Guide Report
+-------------------------
+Guide not run on this design.
+
+Section 13 - Area Group Summary
+-------------------------------
+No area groups were found in this design.
+
+Section 14 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.

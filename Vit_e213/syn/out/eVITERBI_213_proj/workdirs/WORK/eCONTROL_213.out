@@ -1,0 +1,264 @@
+
+Statistics for case statements in always block at line 237 in file
+        '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           248            |    auto/auto     |
+===============================================
+Warning: You are using the full_case directive  with a case statement in which not all cases are covered.  (HDL-370)
+
+Statistics for case statements in always block at line 265 in file
+        '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           279            |    user/user     |
+===============================================
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing. (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing. (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing. (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing. (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 248 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing. (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing. (HDL-380)
+Warning: No MUX_OP inferred for the case 
+	in routine eCONTROL_213 line 279 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v' because it might lose the benefit of resource sharing. (HDL-380)
+
+Inferred THREE-STATE control devices in process 
+	in routine eCONTROL_213 line
+         134 in file '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+============================================================================
+|     Three-state Device Name      |               Type               | MB |
+============================================================================
+|            Dx_tri<0>             |        Three-state Buffer        | N  |
+============================================================================
+
+
+Inferred memory devices in process 
+	in routine eCONTROL_213 line 196 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       P0_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P1_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P2_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P3_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P4_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P5_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P6_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P7_reg        | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+P0_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P1_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P2_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P3_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P4_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P5_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P6_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+P7_reg (width 12)
+-----------------
+    Async-reset: reset
+
+
+
+Inferred memory devices in process 
+	in routine eCONTROL_213 line 219 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       A0_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       A1_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A2_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A3_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A4_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A5_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A6_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       A7_reg        | Flip-flop |   4   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+A0_reg (width 4)
+----------------
+    Async-reset: reset
+
+
+A1_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A2_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A3_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A4_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A5_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A6_reg (width 4)
+----------------
+    Async-set: reset
+
+
+A7_reg (width 4)
+----------------
+    Async-set: reset
+
+
+
+Inferred memory devices in process 
+	in routine eCONTROL_213 line 237 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     tb_reg_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+tb_reg_reg (width 3)
+--------------------
+    Async-reset: reset
+
+
+
+Inferred memory devices in process 
+	in routine eCONTROL_213 line 265 in file
+         '/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   NEXT_STATE_reg    | Flip-flop |   7   |  N  | N  | ?  | ?  | ?  | ?  | ?  |
+|       ae_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|       le_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|       oe_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|  symbol_count_reg   | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       te_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|    trace_ptr_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       we_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+|    write_ptr_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+NEXT_STATE_reg<0>
+-----------------
+    Async-set: reset
+
+
+NEXT_STATE_reg<4>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<6>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<2>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<3>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<5>
+-----------------
+    Async-reset: reset
+
+
+NEXT_STATE_reg<1>
+-----------------
+    Async-reset: reset
+
+
+ae_reg
+------
+    Async-reset: reset
+
+
+le_reg
+------
+    Async-reset: reset
+
+
+oe_reg
+------
+    Async-reset: reset
+
+
+symbol_count_reg (width 9)
+--------------------------
+    Async-reset: reset
+
+
+te_reg
+------
+    Async-reset: reset
+
+
+trace_ptr_reg (width 4)
+-----------------------
+    Async-reset: reset
+
+
+we_reg
+------
+    Async-reset: reset
+
+
+write_ptr_reg (width 4)
+-----------------------
+    Async-reset: reset
+
+
+Writing to hnl file './eVITERBI_213_proj/workdirs/WORK/eCONTROL_213.hnl'

@@ -1,0 +1,53 @@
+#
+# constraints.fst
+#
+# This script sets constraints. It is called by the 
+# am2910_xx.fst scripts.
+#
+# It will run under either the NT or UNIX environments.
+#
+# This script and the design can be found in the samples/Synopsys
+# sub-directory of the FPGA Express installation.
+#
+
+#
+# Specify the clock waveform
+#
+set_clock -period 20 -rise 0 -fall 10 CLOCK
+
+#
+# Create a subpath 
+#
+create_subpath -from_name my_from -to_name my_to -from_list /AM2910/U1\/STACK_TOP_reg<3> -to_list /AM2910/U1\/STACK_TOP_reg<1> -maxd 10 (RC,CLOCK):(RC,CLOCK)
+
+#
+# Specify delay for path groups
+#
+set_max_delay -path my_from:my_to 77
+
+#
+# Specify input delay relative to input pad timing group
+#
+set_input_delay -group "(I)" 21 "/AM2910/D<1>"
+
+#
+# Specify input delay relative to default group
+#
+set_input_delay 22 "/AM2910/D<2>"
+
+#
+# Specify output delay relative to output pad timing group
+#
+set_output_delay -group "(O)" 23 "/AM2910/Y_OUTPUT<1>"
+
+#
+# Specify output delay relative to default group
+#
+set_output_delay 24 "/AM2910/Y_OUTPUT<2>"
+
+
+#
+# Preserve the hierarchy for the module U4
+#
+set_module_primitive preserve "/AM2910/U4"
+

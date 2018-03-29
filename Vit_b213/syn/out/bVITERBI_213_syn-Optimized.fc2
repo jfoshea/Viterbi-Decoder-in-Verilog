@@ -1,0 +1,20 @@
+create_project bVITERBI_213_proj
+
+add_file -library WORK -format Verilog ../../src/bVITERBI_213.v
+add_file -library WORK -format Verilog ../../src/bCONTROL_213.v
+add_file -library WORK -format Verilog ../../src/bBMU_213.v
+add_file -library WORK -format Verilog ../../src/bACS_213.v
+add_file -library WORK -format Verilog ../../src/bACSU_213.v
+add_file -library WORK -format Verilog ../../src/bSYNCERR_213.v
+add_file -library WORK -format Verilog ../../src/bTBDECISION_213.v
+
+analyze_file -progress
+
+create_chip -progress -name bVITERBI_213_syn -target VIRTEX -device V50TQ144 -speed -4 -frequency 25 -module -preserve bVITERBI_213
+current_chip bVITERBI_213_syn
+
+optimize_chip -name bVITERBI_213_syn-Optimized -progress
+
+export_chip
+
+list_message

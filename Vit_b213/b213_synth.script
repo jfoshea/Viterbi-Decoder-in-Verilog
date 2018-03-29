@@ -1,0 +1,52 @@
+/* =======================================================*/
+/*    Synopsys Script                                     */
+/*    (2,1,3) Backward Label Viterbi Decoder              */
+/*    Targets a  Xilinx XC4028XLA-09 BG256                */
+/* =======================================================*/
+
+
+   TOP = bVITERBI_213
+   edifout_design_name = bVITERBI_213
+   designer = "John O'Shea"
+   company  = "EMC Corporation"
+   part     = "XC4028XLABG256-09"
+
+   sh "rm -rf WORK; mkdir WORK"
+
+   read -format verilog "bBMU_213.v"
+   read -format verilog "bACS_213.v"
+   read -format verilog "bACSU_213.v"
+   read -format verilog "bSYNCERR_213.v"
+   read -format verilog "bTBDECISION_213.v"
+   read -format verilog "bCONTROL_213.v"
+   read -format verilog "bVITERBI_213.v"
+
+   set_operating_conditions -library "xprim_4028xla-09" "WCCOM"
+   current_design bVITERBI_213
+   uniquify
+   remove_constraint -all
+
+   create_clock -name "clock" -period 50 {"clock"}
+   set_input_delay 5.0 -clock clock all_inputs() - clock
+   set_output_delay 5.0 -clock clock all_outputs()
+   set_max_delay 100 -to find(port,Dx)
+
+
+   set_port_is_pad "*"
+   set_pad_type -no_clock {"clock"}
+   set_pad_type -exact BUFGP_F{"clock"}
+   set_pad_type -slewrate HIGH all_outputs()
+   insert_pads
+
+   compile -map_effort high
+
+   set_attribute bVITERBI_213 "part" -type string part
+
+   ungroup -all -flatten 
+
+   write -format edif -hierarchy -output bVITERBI_213.sedif
+
+   write -format db -hierarchy -output bVITERBI_213.db
+
+exit
+

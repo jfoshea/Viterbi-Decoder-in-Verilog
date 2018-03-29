@@ -1,0 +1,92 @@
+#@ # 
+#@ # Running fc2_shell on Sat Mar 24 18:42:10 2001
+#@ 
+
+source -echo -verbose ../scr/../scr/bVITERBI_213_script
+#@ # setup default variables
+#@ 
+#@ 
+#@ set top $env(SYN_TOP)
+#@ set quick $env(SYN_QUICK)
+#@ set preserve $env(SYN_PRESERVE)
+#@ set timing $env(SYN_TIMING_DRIVEN)
+#@ set target VIRTEX
+#@ set chip ${top}_syn
+#@ set device V50TQ144
+#@ set speed -4
+#@ set frequency 25
+#@ set constraints $env(CONSTRAINTS)
+#@ 
+#@ # create project
+#@ create_project $env(SYN_PROJECT)
+#@ 
+#@ # proj_export_timing_constraint = "yes"
+#@ 
+#@ puts "proj_enable_vpp = yes  (turns on verilog pre-processor for `ifdefs)"
+#@ proj_enable_vpp = "yes"
+#@ 
+#@ # identify design source files
+#@ 
+#@ add_file -library WORK -format Verilog ../../src/bVITERBI_213.v
+#@ add_file -library WORK -format Verilog ../../src/bCONTROL_213.v
+#@ add_file -library WORK -format Verilog ../../src/bBMU_213.v
+#@ add_file -library WORK -format Verilog ../../src/bACS_213.v
+#@ add_file -library WORK -format Verilog ../../src/bACSU_213.v
+#@ add_file -library WORK -format Verilog ../../src/bSYNCERR_213.v
+#@ add_file -library WORK -format Verilog ../../src/bTBDECISION_213.v
+#@ 
+#@ # analyze all source files and list progress
+#@ analyze_file -progress
+#@ 
+#@ set option $quick
+#@ append option $preserve
+#@ puts $option
+#@ 
+#@ switch -exact -- $option {
+#@ "-normal-no_preserve"       {create_chip -module -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top}
+#@ "-normal-preserve"          {create_chip -module -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top        $preserve}
+#@ "-quick_mode-no_preserve"   {create_chip -module -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top $quick}
+#@ "-quick_mode-preserve"      {create_chip -module -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top $quick $preserve}
+#@ 
+#@ }
+#@ 
+#@ 
+#@ #if {$preserve=="-preserve"} {
+#@ #     create_chip  -preserve -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top
+#@ #} else {
+#@ #create_chip -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top
+#@ #}
+#@ 
+#@ #if {$quick=="-quick_mode"} {
+#@ #     create_chip -quick_mode -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top
+#@ #} else {
+#@ #create_chip -progress -name $chip -target $target -device $device -speed $speed -frequency $frequency $top
+#@ #}
+#@ current_chip $chip
+#@ 
+#@ puts "set_chip_constraint_driven $timing"
+#@ set_chip_constraint_driven $timing
+#@ 
+#@ 
+#@ # read fc2 timing constraints if they exist
+#@ if {$timing=="-enable"} {
+#@ source ../scr/$constraints
+#@ }
+#@ 
+#@ set opt_chip [format "%s-Optimized" $chip]
+#@ optimize_chip -name $opt_chip -progress
+#@ 
+#@ export_chip -progress  -s "Verilog" -pri
+#@ export_chip -progress 
+#@ 
+#@ # write out script of commands that were used.
+#@ script_chip
+#@ 
+#@ # create a timing report
+#@ report_timing
+#@ 
+#@ 
+#@ 
+#@ list_message
+#@ close_project
+#@ quit

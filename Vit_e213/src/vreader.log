@@ -1,0 +1,27 @@
+Host command: /hwapps/pe13.6/tools/bin/vreadern
+Command arguments:
+    /emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v
+
+
+vreadern version 4.3 Tue Feb 1 23:52:00 PST 1994 (smcc11)
+Mar 24, 2001  22:44:47
+
+  * Copyright Cadence Design Systems, Inc. 1991.          *
+  *     All Rights Reserved.       Licensed Software.     *
+  * Confidential and proprietary information which is the *
+  *      property of Cadence Design Systems, Inc.         *
+
+Analyzing source file "/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v"
+Analyzing included file "params_e213.inc.v"
+Continuing analyzing of source file "/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_213.v"
+
+Warning!  Ignoring bit range on parameter declaration      [Verilog Reader DS  
+                                                           Builder-IROPD]      
+          "/emc/joshea/JOS/Verilog/Vit_e213/src/eCONTROL_21                    
+          3.v", 107: 
+100 cpu secs to build
+1 warning
+
+End of vreadern version 4.3 Tue Feb 1 23:52:00 PST 1994 (smcc11)
+Mar 24, 2001  22:44:47
+

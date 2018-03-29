@@ -1,0 +1,10 @@
+tb_b322.v
+bBMU_322.v
+bACS_322.v
+bACSU_322.v
+bTBDECISION_322.v
+bSYNCERR_322.v
+bCONTROL_322.v
+bVITERBI_322.v
++libext+.v+.V
+-y	/hwapps/xilinx/M.1.5.i/verilog/src/UNI4000X

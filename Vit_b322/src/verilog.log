@@ -1,0 +1,629 @@
+Host command: verilog
+Command arguments:
+    -f sim_b322.script
+        tb_b322.v
+        bBMU_322.v
+        bACS_322.v
+        bACSU_322.v
+        bTBDECISION_322.v
+        bSYNCERR_322.v
+        bCONTROL_322.v
+        bVITERBI_322.v
+        +libext+.v+.V
+        -y /hwapps/xilinx/M.1.5.i/verilog/src/UNI4000X
+
+VERILOG-XL 3.0.s007 log file created Mar 17, 2001  22:34:07
+VERILOG-XL 3.0.s007   Mar 17, 2001  22:34:07
+
+Copyright (c) 1995 Cadence Design Systems, Inc.  All Rights Reserved.
+Unpublished -- rights reserved under the copyright laws of the United States.
+
+Copyright (c) 1995 UNIX Systems Laboratories, Inc.  Reproduced with Permission.
+
+THIS SOFTWARE AND ON-LINE DOCUMENTATION CONTAIN CONFIDENTIAL INFORMATION
+AND TRADE SECRETS OF CADENCE DESIGN SYSTEMS, INC.  USE, DISCLOSURE, OR
+REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+CADENCE DESIGN SYSTEMS, INC.
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c)(1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+                Cadence Design Systems, Inc.
+                555 River Oaks Parkway
+                San Jose, California  95134
+
+For technical assistance please contact the Cadence Response Center at
+1-877-CDS-4911 or send email to support@cadence.com
+
+For more information on Cadence's Verilog-XL product line send email to
+talkverilog@cadence.com
+
+For quick reference of Cadence's Verilog-XL product command line options
+Please look at the html page <instal_path>/tools/verilog/doc/index.html 
+in a web browser
+
+Compiling source file "tb_b322.v"
+Compiling included source file "params_b322.inc"
+Continuing compilation of source file "tb_b322.v"
+Compiling source file "bBMU_322.v"
+Compiling included source file "params_b322.inc"
+Continuing compilation of source file "bBMU_322.v"
+Compiling source file "bACS_322.v"
+Compiling included source file "params_b322.inc"
+Continuing compilation of source file "bACS_322.v"
+Compiling source file "bACSU_322.v"
+Compiling included source file "params_b322.inc"
+Continuing compilation of source file "bACSU_322.v"
+Compiling source file "bTBDECISION_322.v"
+Compiling included source file "params_b322.inc"
+Continuing compilation of source file "bTBDECISION_322.v"
+Compiling source file "bSYNCERR_322.v"
+Compiling source file "bCONTROL_322.v"
+Compiling included source file "params_b322.inc"
+Continuing compilation of source file "bCONTROL_322.v"
+Compiling source file "bVITERBI_322.v"
+Compiling included source file "params_b322.inc"
+Continuing compilation of source file "bVITERBI_322.v"
+Highest level modules:
+tb_b322
+
+Debussy Release 4.4.h9 (May  5 2000 compile) Verilog-XL Version
+Fsdb file verilog.fsdb is created
+time=   0, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000001
+time=  20, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000001
+time=  40, clock=0, Rx=000, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000001
+time=  60, clock=1, Rx=000, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time=  80, clock=0, Rx=000, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 100, clock=1, Rx=000, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 120, clock=0, Rx=000, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 140, clock=1, Rx=000, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 160, clock=0, Rx=011, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 180, clock=1, Rx=011, we=1, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=0222ffff,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 200, clock=0, Rx=011, we=1, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=0222ffff,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 220, clock=1, Rx=011, we=0, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=0222ffff,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 240, clock=0, Rx=011, we=0, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=0222ffff,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 260, clock=1, Rx=011, we=0, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=0222ffff,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 280, clock=0, Rx=111, we=0, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=0222ffff,P_in=0000000000000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 300, clock=1, Rx=111, we=1, te=0, oe=0, wptr=2, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=0000000000010000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 320, clock=0, Rx=111, we=1, te=0, oe=0, wptr=2, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=0000000000010000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 340, clock=1, Rx=111, we=0, te=0, oe=0, wptr=2, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=0000000000010000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 360, clock=0, Rx=111, we=0, te=0, oe=0, wptr=2, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=0000000000010000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 380, clock=1, Rx=111, we=0, te=0, oe=0, wptr=2, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=0000000000010000,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 400, clock=0, Rx=011, we=0, te=0, oe=0, wptr=2, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=0000000000010000,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 420, clock=1, Rx=011, we=1, te=0, oe=0, wptr=3, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0100000001010001,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 440, clock=0, Rx=011, we=1, te=0, oe=0, wptr=3, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0100000001010001,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 460, clock=1, Rx=011, we=0, te=0, oe=0, wptr=3, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0100000001010001,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 480, clock=0, Rx=011, we=0, te=0, oe=0, wptr=3, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0100000001010001,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 500, clock=1, Rx=011, we=0, te=0, oe=0, wptr=3, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0100000001010001,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 520, clock=0, Rx=100, we=0, te=0, oe=0, wptr=3, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0100000001010001,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 540, clock=1, Rx=100, we=1, te=0, oe=0, wptr=4, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 560, clock=0, Rx=100, we=1, te=0, oe=0, wptr=4, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 580, clock=1, Rx=100, we=0, te=0, oe=0, wptr=4, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 600, clock=0, Rx=100, we=0, te=0, oe=0, wptr=4, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 620, clock=1, Rx=100, we=0, te=0, oe=0, wptr=4, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 640, clock=0, Rx=110, we=0, te=0, oe=0, wptr=4, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 660, clock=1, Rx=110, we=1, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 680, clock=0, Rx=110, we=1, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 700, clock=1, Rx=110, we=0, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 720, clock=0, Rx=110, we=0, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 740, clock=1, Rx=110, we=0, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 760, clock=0, Rx=010, we=0, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 780, clock=1, Rx=010, we=1, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=1011111110101110,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 800, clock=0, Rx=010, we=1, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=1011111110101110,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 820, clock=1, Rx=010, we=0, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=1011111110101110,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 840, clock=0, Rx=010, we=0, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=1011111110101110,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 860, clock=1, Rx=010, we=0, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=1011111110101110,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 880, clock=0, Rx=000, we=0, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=000,A_in=22203333,P_in=1011111110101110,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time= 900, clock=1, Rx=000, we=1, te=0, oe=0, wptr=7, tptr=0, min_state=100, tb_reg=000,A_in=33330222,P_in=0001000001010100,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 920, clock=0, Rx=000, we=1, te=0, oe=0, wptr=7, tptr=0, min_state=100, tb_reg=000,A_in=33330222,P_in=0001000001010100,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time= 940, clock=1, Rx=000, we=0, te=0, oe=0, wptr=7, tptr=0, min_state=100, tb_reg=000,A_in=33330222,P_in=0001000001010100,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 960, clock=0, Rx=000, we=0, te=0, oe=0, wptr=7, tptr=0, min_state=100, tb_reg=000,A_in=33330222,P_in=0001000001010100,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time= 980, clock=1, Rx=000, we=0, te=0, oe=0, wptr=7, tptr=0, min_state=100, tb_reg=000,A_in=33330222,P_in=0001000001010100,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time=1000, clock=0, Rx=100, we=0, te=0, oe=0, wptr=7, tptr=0, min_state=100, tb_reg=000,A_in=33330222,P_in=0001000001010100,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time=1020, clock=1, Rx=100, we=1, te=0, oe=0, wptr=8, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1010101011101010,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time=1040, clock=0, Rx=100, we=1, te=0, oe=0, wptr=8, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1010101011101010,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time=1060, clock=1, Rx=100, we=0, te=0, oe=0, wptr=8, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1010101011101010,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time=1080, clock=0, Rx=100, we=0, te=0, oe=0, wptr=8, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1010101011101010,tb=000,plabels=0000000000000000,Dx=zz, ns=0000100
+time=1100, clock=1, Rx=100, we=0, te=0, oe=0, wptr=8, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1010101011101010,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time=1120, clock=0, Rx=011, we=0, te=0, oe=0, wptr=8, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1010101011101010,tb=000,plabels=0000000000000000,Dx=zz, ns=0001000
+time=1140, clock=1, Rx=011, we=1, te=0, oe=0, wptr=9, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time=1160, clock=0, Rx=011, we=1, te=0, oe=0, wptr=9, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000000000000,Dx=zz, ns=0000010
+time=1180, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000100000000,Dx=zz, ns=0000100
+time=1200, clock=0, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000100000000,Dx=zz, ns=0000100
+time=1220, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000100000000,Dx=zz, ns=0001000
+time=1240, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=0, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=0000000100000000,Dx=zz, ns=0001000
+time=1260, clock=1, Rx=100, we=1, te=0, oe=0, wptr=a, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0010000
+time=1280, clock=0, Rx=100, we=1, te=0, oe=0, wptr=a, tptr=0, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0010000
+time=1300, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1320, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1340, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1360, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1380, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=100,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1400, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=100,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1420, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1440, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1460, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1480, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1500, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1520, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1540, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1560, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1580, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1600, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=1620, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=1000000
+time=1640, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=1000000
+time=1660, clock=1, Rx=100, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=00, ns=0000010
+time=1680, clock=0, Rx=100, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=00, ns=0000010
+time=1700, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=1110111110101011,Dx=zz, ns=0000100
+time=1720, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=1110111110101011,Dx=zz, ns=0000100
+time=1740, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=1110111110101011,Dx=zz, ns=0001000
+time=1760, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=000,A_in=22023333,P_in=1110111110101011,tb=000,plabels=1110111110101011,Dx=zz, ns=0001000
+time=1780, clock=1, Rx=100, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1110111110101011,Dx=zz, ns=0010000
+time=1800, clock=0, Rx=011, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=101, tb_reg=000,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1110111110101011,Dx=zz, ns=0010000
+time=1820, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=111,plabels=1110111110101011,Dx=zz, ns=0100000
+time=1840, clock=0, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=111,plabels=1110111110101011,Dx=zz, ns=0100000
+time=1860, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=1880, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=1900, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=100,plabels=1110111110101011,Dx=zz, ns=0100000
+time=1920, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=100,plabels=1110111110101011,Dx=zz, ns=0100000
+time=1940, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=101, tb_reg=100,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=1960, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=101, tb_reg=100,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=1980, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2000, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2020, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2040, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2060, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2080, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2100, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2120, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2140, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1110111110101011,Dx=zz, ns=1000000
+time=2160, clock=0, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1110111110101011,Dx=zz, ns=1000000
+time=2180, clock=1, Rx=011, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1110111110101011,Dx=11, ns=0000010
+time=2200, clock=0, Rx=011, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1110111110101011,Dx=11, ns=0000010
+time=2220, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=101,plabels=0000000100000000,Dx=zz, ns=0000100
+time=2240, clock=0, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=101,plabels=0000000100000000,Dx=zz, ns=0000100
+time=2260, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=101,plabels=0000000100000000,Dx=zz, ns=0001000
+time=2280, clock=0, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=101,plabels=0000000100000000,Dx=zz, ns=0001000
+time=2300, clock=1, Rx=011, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0010000
+time=2320, clock=0, Rx=011, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0010000
+time=2340, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2360, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2380, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2400, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2420, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2440, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2460, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2480, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2500, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=100,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2520, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=100,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2540, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2560, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2580, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2600, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2620, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2640, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=2660, clock=1, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=111,plabels=0000000100000000,Dx=zz, ns=1000000
+time=2680, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=111,plabels=0000000100000000,Dx=zz, ns=1000000
+time=2700, clock=1, Rx=001, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=111,plabels=0000000100000000,Dx=01, ns=0000010
+time=2720, clock=0, Rx=001, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=111,plabels=0000000100000000,Dx=01, ns=0000010
+time=2740, clock=1, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=1110111110101011,Dx=zz, ns=0000100
+time=2760, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=1110111110101011,Dx=zz, ns=0000100
+time=2780, clock=1, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=1110111110101011,Dx=zz, ns=0001000
+time=2800, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=1110111110101011,Dx=zz, ns=0001000
+time=2820, clock=1, Rx=001, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0010000
+time=2840, clock=0, Rx=001, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0010000
+time=2860, clock=1, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=111,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2880, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=111,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2900, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2920, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2940, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2960, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=2980, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3000, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3020, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3040, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3060, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3080, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3100, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=100, tb_reg=011,A_in=33330222,P_in=0000010000000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3120, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=100, tb_reg=011,A_in=33330222,P_in=0000010000000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3140, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3160, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=3180, clock=1, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=000,plabels=1110111110101011,Dx=zz, ns=1000000
+time=3200, clock=0, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=000,plabels=1110111110101011,Dx=zz, ns=1000000
+time=3220, clock=1, Rx=000, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=000,plabels=1110111110101011,Dx=10, ns=0000010
+time=3240, clock=0, Rx=000, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=000,plabels=1110111110101011,Dx=10, ns=0000010
+time=3260, clock=1, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=101,plabels=0000010000000000,Dx=zz, ns=0000100
+time=3280, clock=0, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=101,plabels=0000010000000000,Dx=zz, ns=0000100
+time=3300, clock=1, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=101,plabels=0000010000000000,Dx=zz, ns=0001000
+time=3320, clock=0, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=101,plabels=0000010000000000,Dx=zz, ns=0001000
+time=3340, clock=1, Rx=000, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0000010000000000,Dx=zz, ns=0010000
+time=3360, clock=0, Rx=000, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0000010000000000,Dx=zz, ns=0010000
+time=3380, clock=1, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=001,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3400, clock=0, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=001,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3420, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3440, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3460, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3480, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3500, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3520, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3540, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3560, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3580, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=100,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3600, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=100,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3620, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=100,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3640, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=100,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3660, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=011,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3680, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=011,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=3700, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=111,plabels=0000010000000000,Dx=zz, ns=1000000
+time=3720, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=111,plabels=0000010000000000,Dx=zz, ns=1000000
+time=3740, clock=1, Rx=100, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=111,plabels=0000010000000000,Dx=01, ns=0000010
+time=3760, clock=0, Rx=100, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=111,plabels=0000010000000000,Dx=01, ns=0000010
+time=3780, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=1010101011101010,Dx=zz, ns=0000100
+time=3800, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=1010101011101010,Dx=zz, ns=0000100
+time=3820, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=1010101011101010,Dx=zz, ns=0001000
+time=3840, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=1010101011101010,Dx=zz, ns=0001000
+time=3860, clock=1, Rx=100, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0010000
+time=3880, clock=0, Rx=100, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0010000
+time=3900, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=110,plabels=1010101011101010,Dx=zz, ns=0100000
+time=3920, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=110,plabels=1010101011101010,Dx=zz, ns=0100000
+time=3940, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=011,plabels=1010101011101010,Dx=zz, ns=0100000
+time=3960, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=011,plabels=1010101011101010,Dx=zz, ns=0100000
+time=3980, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4000, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4020, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4040, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4060, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4080, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4100, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4120, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4140, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=100,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4160, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=100,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4180, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=100,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4200, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=100,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=4220, clock=1, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1010101011101010,Dx=zz, ns=1000000
+time=4240, clock=0, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1010101011101010,Dx=zz, ns=1000000
+time=4260, clock=1, Rx=110, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1010101011101010,Dx=11, ns=0000010
+time=4280, clock=0, Rx=110, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1010101011101010,Dx=11, ns=0000010
+time=4300, clock=1, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=100,plabels=0000000100000000,Dx=zz, ns=0000100
+time=4320, clock=0, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=100,plabels=0000000100000000,Dx=zz, ns=0000100
+time=4340, clock=1, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=100,plabels=0000000100000000,Dx=zz, ns=0001000
+time=4360, clock=0, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=100,plabels=0000000100000000,Dx=zz, ns=0001000
+time=4380, clock=1, Rx=110, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=011, tb_reg=011,A_in=22203333,P_in=1011111110101110,tb=100,plabels=0000000100000000,Dx=zz, ns=0010000
+time=4400, clock=0, Rx=110, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=011, tb_reg=011,A_in=22203333,P_in=1011111110101110,tb=100,plabels=0000000100000000,Dx=zz, ns=0010000
+time=4420, clock=1, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=011, tb_reg=011,A_in=22203333,P_in=1011111110101110,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4440, clock=0, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=011, tb_reg=011,A_in=22203333,P_in=1011111110101110,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4460, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=011, tb_reg=011,A_in=22203333,P_in=1011111110101110,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4480, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=011, tb_reg=011,A_in=22203333,P_in=1011111110101110,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4500, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=011,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4520, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=011,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4540, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=011, tb_reg=010,A_in=22203333,P_in=1011111110101110,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4560, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=011, tb_reg=010,A_in=22203333,P_in=1011111110101110,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4580, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=011, tb_reg=101,A_in=22203333,P_in=1011111110101110,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4600, clock=0, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=011, tb_reg=101,A_in=22203333,P_in=1011111110101110,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4620, clock=1, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=011, tb_reg=010,A_in=22203333,P_in=1011111110101110,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4640, clock=0, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=011, tb_reg=010,A_in=22203333,P_in=1011111110101110,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4660, clock=1, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=011, tb_reg=101,A_in=22203333,P_in=1011111110101110,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4680, clock=0, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=011, tb_reg=101,A_in=22203333,P_in=1011111110101110,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4700, clock=1, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=011, tb_reg=010,A_in=22203333,P_in=1011111110101110,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4720, clock=0, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=011, tb_reg=010,A_in=22203333,P_in=1011111110101110,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=4740, clock=1, Rx=010, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=110,plabels=0000000100000000,Dx=zz, ns=1000000
+time=4760, clock=0, Rx=010, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=110,plabels=0000000100000000,Dx=zz, ns=1000000
+time=4780, clock=1, Rx=010, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=110,plabels=0000000100000000,Dx=00, ns=0000010
+time=4800, clock=0, Rx=010, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=110,plabels=0000000100000000,Dx=00, ns=0000010
+time=4820, clock=1, Rx=010, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=010,plabels=1011111110101110,Dx=zz, ns=0000100
+time=4840, clock=0, Rx=010, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=010,plabels=1011111110101110,Dx=zz, ns=0000100
+time=4860, clock=1, Rx=010, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=010,plabels=1011111110101110,Dx=zz, ns=0001000
+time=4880, clock=0, Rx=010, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=011, tb_reg=100,A_in=22203333,P_in=1011111110101110,tb=010,plabels=1011111110101110,Dx=zz, ns=0001000
+time=4900, clock=1, Rx=010, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=100, tb_reg=100,A_in=33330222,P_in=0001000001010100,tb=010,plabels=1011111110101110,Dx=zz, ns=0010000
+time=4920, clock=0, Rx=010, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=100, tb_reg=100,A_in=33330222,P_in=0001000001010100,tb=010,plabels=1011111110101110,Dx=zz, ns=0010000
+time=4940, clock=1, Rx=010, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=100, tb_reg=100,A_in=33330222,P_in=0001000001010100,tb=111,plabels=1011111110101110,Dx=zz, ns=0100000
+time=4960, clock=0, Rx=010, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=100, tb_reg=100,A_in=33330222,P_in=0001000001010100,tb=111,plabels=1011111110101110,Dx=zz, ns=0100000
+time=4980, clock=1, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=100, tb_reg=100,A_in=33330222,P_in=0001000001010100,tb=010,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5000, clock=0, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=100, tb_reg=100,A_in=33330222,P_in=0001000001010100,tb=010,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5020, clock=1, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=100,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5040, clock=0, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=100,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5060, clock=1, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=100, tb_reg=100,A_in=33330222,P_in=0001000001010100,tb=011,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5080, clock=0, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=100, tb_reg=100,A_in=33330222,P_in=0001000001010100,tb=011,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5100, clock=1, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=101,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5120, clock=0, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=101,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5140, clock=1, Rx=010, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=100, tb_reg=101,A_in=33330222,P_in=0001000001010100,tb=010,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5160, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=100, tb_reg=101,A_in=33330222,P_in=0001000001010100,tb=010,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5180, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=101,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5200, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=101,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5220, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=101,A_in=33330222,P_in=0001000001010100,tb=010,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5240, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=101,A_in=33330222,P_in=0001000001010100,tb=010,plabels=1011111110101110,Dx=zz, ns=0100000
+time=5260, clock=1, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=000,plabels=1011111110101110,Dx=zz, ns=1000000
+time=5280, clock=0, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=000,plabels=1011111110101110,Dx=zz, ns=1000000
+time=5300, clock=1, Rx=000, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=000,plabels=1011111110101110,Dx=10, ns=0000010
+time=5320, clock=0, Rx=000, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=000,plabels=1011111110101110,Dx=10, ns=0000010
+time=5340, clock=1, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=101,plabels=0001000001010100,Dx=zz, ns=0000100
+time=5360, clock=0, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=101,plabels=0001000001010100,Dx=zz, ns=0000100
+time=5380, clock=1, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=101,plabels=0001000001010100,Dx=zz, ns=0001000
+time=5400, clock=0, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0001000001010100,tb=101,plabels=0001000001010100,Dx=zz, ns=0001000
+time=5420, clock=1, Rx=000, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0001000001010100,Dx=zz, ns=0010000
+time=5440, clock=0, Rx=000, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0001000001010100,Dx=zz, ns=0010000
+time=5460, clock=1, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=000,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5480, clock=0, Rx=000, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=000,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5500, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5520, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5540, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5560, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5580, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=100,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5600, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=100,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5620, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=100,A_in=22023333,P_in=1010101011101010,tb=011,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5640, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=100,A_in=22023333,P_in=1010101011101010,tb=011,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5660, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5680, clock=0, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5700, clock=1, Rx=000, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5720, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5740, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5760, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1010101011101010,tb=101,plabels=0001000001010100,Dx=zz, ns=0100000
+time=5780, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=111,plabels=0001000001010100,Dx=zz, ns=1000000
+time=5800, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=111,plabels=0001000001010100,Dx=zz, ns=1000000
+time=5820, clock=1, Rx=100, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=111,plabels=0001000001010100,Dx=01, ns=0000010
+time=5840, clock=0, Rx=100, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=111,plabels=0001000001010100,Dx=01, ns=0000010
+time=5860, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=1010101011101010,Dx=zz, ns=0000100
+time=5880, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=1010101011101010,Dx=zz, ns=0000100
+time=5900, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=1010101011101010,Dx=zz, ns=0001000
+time=5920, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1010101011101010,tb=010,plabels=1010101011101010,Dx=zz, ns=0001000
+time=5940, clock=1, Rx=100, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0010000
+time=5960, clock=0, Rx=100, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0010000
+time=5980, clock=1, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=110,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6000, clock=0, Rx=100, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=110,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6020, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6040, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6060, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6080, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=101, tb_reg=011,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6100, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6120, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6140, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=100,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6160, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=100,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6180, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=101, tb_reg=100,A_in=33332022,P_in=0000000100000000,tb=011,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6200, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=101, tb_reg=100,A_in=33332022,P_in=0000000100000000,tb=011,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6220, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6240, clock=0, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6260, clock=1, Rx=100, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6280, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=101,A_in=33332022,P_in=0000000100000000,tb=010,plabels=1010101011101010,Dx=zz, ns=0100000
+time=6300, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1010101011101010,Dx=zz, ns=1000000
+time=6320, clock=0, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1010101011101010,Dx=zz, ns=1000000
+time=6340, clock=1, Rx=011, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1010101011101010,Dx=10, ns=0000010
+time=6360, clock=0, Rx=011, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=000,plabels=1010101011101010,Dx=10, ns=0000010
+time=6380, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=0000000100000000,Dx=zz, ns=0000100
+time=6400, clock=0, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=0000000100000000,Dx=zz, ns=0000100
+time=6420, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=0000000100000000,Dx=zz, ns=0001000
+time=6440, clock=0, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=101, tb_reg=010,A_in=33332022,P_in=0000000100000000,tb=101,plabels=0000000100000000,Dx=zz, ns=0001000
+time=6460, clock=1, Rx=011, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0010000
+time=6480, clock=0, Rx=011, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0010000
+time=6500, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6520, clock=0, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=000,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6540, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6560, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6580, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=100,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6600, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=010, tb_reg=100,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6620, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6640, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=010, tb_reg=011,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6660, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6680, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=010,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6700, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6720, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=100,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6740, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=100,A_in=22023333,P_in=1110111110101011,tb=011,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6760, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=010, tb_reg=100,A_in=22023333,P_in=1110111110101011,tb=011,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6780, clock=1, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6800, clock=0, Rx=011, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=010,A_in=22023333,P_in=1110111110101011,tb=101,plabels=0000000100000000,Dx=zz, ns=0100000
+time=6820, clock=1, Rx=011, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=111,plabels=0000000100000000,Dx=zz, ns=1000000
+time=6840, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=111,plabels=0000000100000000,Dx=zz, ns=1000000
+time=6860, clock=1, Rx=001, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=111,plabels=0000000100000000,Dx=01, ns=0000010
+time=6880, clock=0, Rx=001, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=111,plabels=0000000100000000,Dx=01, ns=0000010
+time=6900, clock=1, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=011,plabels=1110111110101011,Dx=zz, ns=0000100
+time=6920, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=011,plabels=1110111110101011,Dx=zz, ns=0000100
+time=6940, clock=1, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=011,plabels=1110111110101011,Dx=zz, ns=0001000
+time=6960, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=010, tb_reg=101,A_in=22023333,P_in=1110111110101011,tb=011,plabels=1110111110101011,Dx=zz, ns=0001000
+time=6980, clock=1, Rx=001, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=011,plabels=1110111110101011,Dx=zz, ns=0010000
+time=7000, clock=0, Rx=001, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=011,plabels=1110111110101011,Dx=zz, ns=0010000
+time=7020, clock=1, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=111,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7040, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=111,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7060, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7080, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7100, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7120, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7140, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7160, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7180, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=100, tb_reg=011,A_in=33330222,P_in=0000010000000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7200, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=100, tb_reg=011,A_in=33330222,P_in=0000010000000000,tb=101,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7220, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7240, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=100, tb_reg=101,A_in=33330222,P_in=0000010000000000,tb=010,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7260, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7280, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7300, clock=1, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=011,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7320, clock=0, Rx=001, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=100,A_in=33330222,P_in=0000010000000000,tb=011,plabels=1110111110101011,Dx=zz, ns=0100000
+time=7340, clock=1, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=001,plabels=1110111110101011,Dx=zz, ns=1000000
+time=7360, clock=0, Rx=001, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=001,plabels=1110111110101011,Dx=zz, ns=1000000
+time=7380, clock=1, Rx=001, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=001,plabels=1110111110101011,Dx=10, ns=0000010
+time=7400, clock=0, Rx=110, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=001,plabels=1110111110101011,Dx=10, ns=0000010
+time=7420, clock=1, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=0000010000000000,Dx=zz, ns=0000100
+time=7440, clock=0, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=0000010000000000,Dx=zz, ns=0000100
+time=7460, clock=1, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=0000010000000000,Dx=zz, ns=0001000
+time=7480, clock=0, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=100, tb_reg=010,A_in=33330222,P_in=0000010000000000,tb=100,plabels=0000010000000000,Dx=zz, ns=0001000
+time=7500, clock=1, Rx=110, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=0000010000000000,Dx=zz, ns=0010000
+time=7520, clock=0, Rx=110, we=1, te=0, oe=0, wptr=a, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=0000010000000000,Dx=zz, ns=0010000
+time=7540, clock=1, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=001,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7560, clock=0, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=001,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7580, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7600, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7620, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7640, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7660, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7680, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7700, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7720, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7740, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7760, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=101,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7780, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7800, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7820, clock=1, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7840, clock=0, Rx=110, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=0000010000000000,Dx=zz, ns=0100000
+time=7860, clock=1, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=0000010000000000,Dx=zz, ns=1000000
+time=7880, clock=0, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=0000010000000000,Dx=zz, ns=1000000
+time=7900, clock=1, Rx=110, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=0000010000000000,Dx=00, ns=0010000
+time=7920, clock=0, Rx=110, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=0000010000000000,Dx=00, ns=0010000
+time=7940, clock=1, Rx=110, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=7960, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=7980, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=001,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8000, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=001,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8020, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8040, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8060, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8080, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8100, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8120, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8140, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8160, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8180, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8200, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8220, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8240, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8260, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=zz, ns=1000000
+time=8280, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=zz, ns=1000000
+time=8300, clock=1, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=10, ns=0010000
+time=8320, clock=0, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=10, ns=0010000
+time=8340, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8360, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8380, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8400, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8420, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8440, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8460, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8480, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8500, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8520, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8540, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8560, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8580, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8600, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8620, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8640, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8660, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=111,plabels=1010101010101110,Dx=zz, ns=1000000
+time=8680, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=111,plabels=1010101010101110,Dx=zz, ns=1000000
+time=8700, clock=1, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=111,plabels=1010101010101110,Dx=01, ns=0010000
+time=8720, clock=0, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=111,plabels=1010101010101110,Dx=01, ns=0010000
+time=8740, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8760, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8780, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8800, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8820, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8840, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8860, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8880, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8900, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8920, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8940, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8960, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=8980, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9000, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9020, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9040, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9060, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=zz, ns=1000000
+time=9080, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=zz, ns=1000000
+time=9100, clock=1, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=11, ns=0010000
+time=9120, clock=0, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=011,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=11, ns=0010000
+time=9140, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9160, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9180, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9200, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9220, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9240, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9260, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9280, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9300, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9320, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9340, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9360, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9380, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9400, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9420, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9440, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9460, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=1000000
+time=9480, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=1000000
+time=9500, clock=1, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=00, ns=0010000
+time=9520, clock=0, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=00, ns=0010000
+time=9540, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9560, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9580, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9600, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9620, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9640, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9660, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9680, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9700, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9720, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9740, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9760, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9780, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9800, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9820, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9840, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=010,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9860, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=zz, ns=1000000
+time=9880, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=zz, ns=1000000
+time=9900, clock=1, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=10, ns=0010000
+time=9920, clock=0, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=000,plabels=1010101010101110,Dx=10, ns=0010000
+time=9940, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9960, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=9980, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10000, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10020, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10040, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10060, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10080, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10100, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10120, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10140, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10160, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10180, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10200, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10220, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10240, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=101,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10260, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=111,plabels=1010101010101110,Dx=zz, ns=1000000
+time=10280, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=111,plabels=1010101010101110,Dx=zz, ns=1000000
+time=10300, clock=1, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=111,plabels=1010101010101110,Dx=01, ns=0010000
+time=10320, clock=0, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=101,A_in=02223333,P_in=1010101010101110,tb=111,plabels=1010101010101110,Dx=01, ns=0010000
+time=10340, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10360, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10380, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10400, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10420, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10440, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10460, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10480, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10500, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10520, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10540, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10560, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10580, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10600, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10620, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10640, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=011,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10660, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=001,plabels=1010101010101110,Dx=zz, ns=1000000
+time=10680, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=001,plabels=1010101010101110,Dx=zz, ns=1000000
+time=10700, clock=1, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=001,plabels=1010101010101110,Dx=10, ns=0010000
+time=10720, clock=0, Rx=xxx, we=0, te=0, oe=1, wptr=9, tptr=2, min_state=000, tb_reg=010,A_in=02223333,P_in=1010101010101110,tb=001,plabels=1010101010101110,Dx=10, ns=0010000
+time=10740, clock=1, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10760, clock=0, Rx=xxx, we=0, te=0, oe=0, wptr=9, tptr=9, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10780, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10800, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=8, min_state=000, tb_reg=000,A_in=02223333,P_in=1010101010101110,tb=100,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10820, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10840, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=7, min_state=000, tb_reg=100,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10860, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10880, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=6, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10900, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10920, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=5, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10940, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10960, clock=0, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=4, min_state=000, tb_reg=110,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+time=10980, clock=1, Rx=xxx, we=0, te=1, oe=0, wptr=9, tptr=3, min_state=000, tb_reg=111,A_in=02223333,P_in=1010101010101110,tb=110,plabels=1010101010101110,Dx=zz, ns=0100000
+L117 "tb_b322.v": $finish at simulation time 11000
+0 simulation events (use +profile or +listcounts option to count)
+CPU time: 1.3 secs to compile + 0.1 secs to link + 0.3 secs in simulation
+End of VERILOG-XL 3.0.s007   Mar 17, 2001  22:34:09

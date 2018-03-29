@@ -1,0 +1,562 @@
+Complete Build Log for e213 
+Build Started 
+Sat Mar 24 22:52:15 EST 2001
+
+ 
+ISSUED COMMAND : ngdbuild -dd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/ngo -nt timestamp -p V50TQ144-4  /emc/joshea/JOS/Verilog/Vit_e213/syn/out/eVITERBI_213.edf /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ngd| 
+ 
+Release v3.3.07i - ngdbuild D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+
+Command Line: ngdbuild -dd
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/ngo -nt timestamp -p
+V50TQ144-4 /emc/joshea/JOS/Verilog/Vit_e213/syn/out/eVITERBI_213.edf
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ngd 
+
+Launcher: Executing edif2ngd
+"/emc/joshea/JOS/Verilog/Vit_e213/syn/out/eVITERBI_213.edf"
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/ngo/eVITERBI_213.ngo"
+Release v3.3.07i - edif2ngd D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+Writing the design to
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/ngo/eVITERBI_213.ngo"...
+Reading NGO file
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/ngo/eVITERBI_213.ngo" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ngd" ...
+
+Writing NGDBUILD log file
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.bld"...
+
+NGDBUILD done.
+
+ 
+FINISHED COMMAND : ngdbuild -dd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/ngo -nt timestamp -p V50TQ144-4  /emc/joshea/JOS/Verilog/Vit_e213/syn/out/eVITERBI_213.edf /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ngd| 
+  
+Sat Mar 24 22:52:21 EST 2001
+
+ 
+ISSUED COMMAND : map -u -p V50TQ144-4 -pr b -o /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ngd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf| 
+ 
+Release v3.3.07i - Map D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+Using target part "v50tq144-4".
+Reading NGD file "eVITERBI_213.ngd"...
+Processing FMAPs...
+Removing unused or disabled logic...
+Running cover...
+Writing file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ngm...
+Running directed packing...
+Running delay-based packing...
+Running related packing...
+Writing design file
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd"...
+
+Design Summary:
+   Number of errors:      0
+   Number of warnings:    6
+   Number of Slices:                295 out of    768   38%
+   Number of Slices containing
+      unrelated logic:                0 out of    295    0%
+   Number of Slice Flip Flops:      256 out of  1,536   16%
+   Number of 4 input LUTs:          443 out of  1,536   28%
+   Number of Tbufs:                   1 out of    832    1%
+Total equivalent gate count for design:  4,760
+
+Removed Logic Summary:
+   4 block(s) optimized away
+
+Mapping completed.
+See MAP report file
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.mrp" for
+details.
+
+ 
+FINISHED COMMAND : map -u -p V50TQ144-4 -pr b -o /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ngd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf| 
+  
+Sat Mar 24 22:52:30 EST 2001
+
+ 
+ISSUED COMMAND : trce /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf -o /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.twr -e 10 -s 4 -u| 
+ 
+Release v3.3.07i - Trace D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+
+
+Loading design for application trce from file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd.
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+   "eVITERBI_213" is an NCD, version 2.35, device xcv50, package tq144, speed
+-4
+Loading device for application trce from file 'v50.nph' in environment
+/hwapps/xilinx/3.3isp7.
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+trce /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf -o
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.twr -e 10 -s 4
+-u
+
+Design file:              eVITERBI_213_m.ncd
+Physical constraint file: eVITERBI_213.pcf
+Device,speed:             xcv50,-4 (FINAL 1.113 2001-01-12)
+Report level:             error report, limited to 10 items per constraint
+                          unconstrained path report
+--------------------------------------------------------------------------------
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 1509762 paths, 0 nets, and 1718 connections (98.4% coverage)
+
+Design statistics:
+   Minimum period:  18.303ns (Maximum frequency:  54.636MHz)
+
+
+Analysis completed Sat Mar 24 22:52:35 2001
+--------------------------------------------------------------------------------
+
+Total time: 5 secs 
+
+ 
+FINISHED COMMAND : trce /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf -o /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.twr -e 10 -s 4 -u| 
+  
+Sat Mar 24 22:52:35 EST 2001
+
+ 
+ISSUED COMMAND : par -l 4 -t 1  -i 5 -n 1 -w /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf| 
+ 
+Release v3.3.07i - Par D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+
+WARNING:Par:171 - For best results when running "FPGA Multi-Pass Place & Route"
+   (command line: PAR -n) the "Place & Route Effort Level" should always be set
+   to "High Effort" (command line: PAR -ol 5).  For designs with loose timing
+   constraints or no timing constraints, the results of every Place & Route run
+   are likely to be identical.  This recommendation is specific to this family
+   of devices.
+
+Constraints file:
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf
+
+Loading design for application par from file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd.
+   "eVITERBI_213" is an NCD, version 2.35, device xcv50, package tq144, speed
+-4
+Loading device for application par from file 'v50.nph' in environment
+/hwapps/xilinx/3.3isp7.
+Device speed data version:  FINAL 1.113 2001-01-12.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+
+   Number of SLICEs                  295 out of 768    38%
+
+   Number of TBUFs                     1 out of 832     1%
+
+
+
+Overall effort level (-ol):   4 (set by user)
+Placer effort level (-pl):    4 (default)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    4 (default)
+
+Number of clock constraints =0
+Starting the placer. REAL time: 4 secs 
+Placement pass 1 ........................................
+Number of clock constraints =0
+Placement pass 2 .........................................................................
+Number of clock constraints =0
+Placer score = 74745
+Placement pass 3 ..........................................................
+Number of clock constraints =0
+Placer score = 43310
+Placement pass 4 .................................................................
+Number of clock constraints =0
+Placer score = 51755
+Optimizing ... 
+Number of clock constraints =0
+Placer score = 33770
+Improving the placement. REAL time: 10 secs 
+Placer score = 33430
+Placer score = 32815
+Placer score = 32375
+Placer score = 31705
+Placer score = 31130
+Placer score = 30840
+Placer score = 30650
+Placer score = 30465
+Placer score = 30345
+Placer score = 30110
+Placer score = 30110
+Placer stage completed in real time: 15 secs 
+
+All IOBs have been constrained to specific sites.
+Placer completed in real time: 15 secs 
+
+Dumping design to file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd.
+
+Total REAL time to Placer completion: 16 secs 
+Total CPU time to Placer completion: 16 secs 
+
+Number of clock constraints =0
+0 connection(s) routed; 1746 unrouted.
+Starting router resource preassignment
+Completed router resource preassignment. REAL time: 16 secs 
+Starting iterative routing. 
+Routing active signals.
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+Number of clock constraints =0
+.......
+Number of clock constraints =0
+End of iteration 1 
+1746 successful; 0 unrouted; (0) REAL time: 21 secs 
+Total REAL time: 21 secs 
+Total CPU  time: 21 secs 
+End of route.  1746 routed (100.00%); 0 unrouted.
+No errors found. 
+WARNING:Route:49 - The signal "Dx<0>" has no loads so was not routed. 
+WARNING:Route:48 - The signal "clock" has no driver so was not routed. 
+WARNING:Route:48 - The signal "reset" has no driver so was not routed. 
+WARNING:Route:48 - The signal "Rx<1>" has no driver so was not routed. 
+WARNING:Route:48 - The signal "Rx<0>" has no driver so was not routed. 
+WARNING:Route:48 - The signal "seq_ready" has no driver so was not routed. 
+
+This design was run without timing constraints.  It is likely that much better
+circuit performance can be obtained by trying either or both of the following:
+
+  - Enabling the Delay Based Cleanup router pass, if not already enabled
+  - Supplying timing constraints in the input design
+
+
+Total REAL time to Router completion: 22 secs 
+Total CPU time to Router completion: 21 secs 
+
+Generating PAR statistics.
+Dumping design to file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd.
+
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 23 secs 
+Total CPU time to PAR completion: 23 secs 
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+PAR done.
+
+ 
+FINISHED COMMAND : par -l 4 -t 1  -i 5 -n 1 -w /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf| 
+  
+Sat Mar 24 22:52:59 EST 2001
+
+ 
+ISSUED COMMAND : trce /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf -o /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.twr -e 20 -s 4 -u| 
+ 
+Release v3.3.07i - Trace D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+
+
+Loading design for application trce from file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd.
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+   "eVITERBI_213" is an NCD, version 2.35, device xcv50, package tq144, speed
+-4
+Loading device for application trce from file 'v50.nph' in environment
+/hwapps/xilinx/3.3isp7.
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+trce /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf -o
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.twr -e 20 -s 4
+-u
+
+Design file:              eVITERBI_213.ncd
+Physical constraint file: eVITERBI_213.pcf
+Device,speed:             xcv50,-4 (FINAL 1.113 2001-01-12)
+Report level:             error report, limited to 20 items per constraint
+                          unconstrained path report
+--------------------------------------------------------------------------------
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 1509762 paths, 0 nets, and 1718 connections (98.4% coverage)
+
+Design statistics:
+   Minimum period:  43.352ns (Maximum frequency:  23.067MHz)
+
+
+Analysis completed Sat Mar 24 22:53:05 2001
+--------------------------------------------------------------------------------
+
+Total time: 5 secs 
+
+ 
+FINISHED COMMAND : trce /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf -o /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.twr -e 20 -s 4 -u| 
+  
+Sat Mar 24 22:53:05 EST 2001
+
+ 
+ISSUED COMMAND : bitgen -b -m  -d -w /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.rbt /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf| 
+ 
+Release v3.3.07i - Bitgen D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Loading design for application Bitgen from file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd.
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+   "eVITERBI_213" is an NCD, version 2.35, device xcv50, package tq144, speed
+-4
+Loading device for application Bitgen from file 'v50.nph' in environment
+/hwapps/xilinx/3.3isp7.
+Opened constraints file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf.
+
+Sat Mar 24 22:53:09 2001
+
+Creating bit map...
+Saving bit stream in
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.bit".
+Saving bit stream in
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.rbt".
+Creating bit mask...
+Saving mask bit stream in
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.msk".
+
+ 
+FINISHED COMMAND : bitgen -b -m  -d -w /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.rbt /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf| 
+  
+Sat Mar 24 22:53:16 EST 2001
+
+ 
+ISSUED COMMAND : bitgen -d -g startupclk:jtagclk -w /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_jtag.bit /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf| 
+ 
+Release v3.3.07i - Bitgen D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Loading design for application Bitgen from file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd.
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+   "eVITERBI_213" is an NCD, version 2.35, device xcv50, package tq144, speed
+-4
+Loading device for application Bitgen from file 'v50.nph' in environment
+/hwapps/xilinx/3.3isp7.
+Opened constraints file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf.
+
+Sat Mar 24 22:53:19 2001
+
+Creating bit map...
+Saving bit stream in
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_jtag.bit".
+
+ 
+FINISHED COMMAND : bitgen -d -g startupclk:jtagclk -w /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_jtag.bit /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf| 
+  
+Sat Mar 24 22:53:25 EST 2001
+
+ 
+ Timing Summary - first 50 lines : 
+ 
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+trce /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf -o
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.twr -e 20 -s 4
+-u
+
+Design file:              eVITERBI_213.ncd
+Physical constraint file: eVITERBI_213.pcf
+Device,speed:             xcv50,-4 (FINAL 1.113 2001-01-12)
+Report level:             error report, limited to 20 items per constraint
+                          unconstrained path report
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Timing constraint: Unconstrained path analysis
+ 1509762 items analyzed, 0 timing errors detected.
+ Minimum period is  43.352ns.
+--------------------------------------------------------------------------------
+Delay:    43.352ns U2/ACS7/suma<1> to U3/tb_reg<0> (41.853ns delay plus 1.499ns setup)
+
+Path U2/ACS7/suma<1> to U3/tb_reg<0> contains 21 levels of logic:
+Path starting from Comp: CLB_R16C11.S0.CLK (from clock)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R16C11.S0.YQ     Tcko                  1.372R  U2/ACS7/suma<1>
+                                                   U2/ACS7/suma_reg<1>
+CLB_R16C7.S1.F1      net (fanout=3)        2.556R  U2/ACS7/suma<1>
+CLB_R16C7.S1.X       Tilo                  0.738R  U2/ACS7/syn160
+                                                   U2/ACS7/C97
+CLB_R15C7.S0.F2      net (fanout=1)        1.025R  U2/ACS7/syn160
+CLB_R15C7.S0.X       Tilo                  0.738R  U3/P7<10>
+                                                   U2/ACS7/C95
+CLB_R15C7.S0.G4      net (fanout=1)        0.032R  U2/ACS7/syn169
+CLB_R15C7.S0.Y       Tilo                  0.738R  U3/P7<10>
+                                                   U2/ACS7/C94
+CLB_R16C7.S0.G2      net (fanout=4)        1.018R  U3/N1982
+CLB_R16C7.S0.Y       Tilo                  0.738R  U3/A7<1>
+                                                   U2/ACS7/C91
+CLB_R16C7.S0.F3      net (fanout=1)        0.112R  acs7_ppm_out<1>
+CLB_R16C7.S0.X       Tilo                  0.738R  U3/A7<1>
+                                                   U3/C1777
+CLB_R16C17.S1.F4     net (fanout=8)        4.165R  A7_out<1>
+CLB_R16C17.S1.X      Tilo                  0.738R  U3/TB_1/syn348
+                                                   U3/TB_1/C214
+CLB_R15C17.S1.G2     net (fanout=1)        1.063R  U3/TB_1/syn348
+
+ 
+ psc status -p 
+
+[Error] Can't determine project.
+
+ 
+ file revisions for /scr 
+total 96
+-rwxr-----   1 joshea   ficon      18096 Mar 24 22:49 make_chip
+-rwxr-----   1 joshea   ficon      18096 Mar 23 11:03 make_chip~
+
+ 
+ file revisions for ../../comp 
+
+ 
+ file revisions for ../out 
+total 0
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.bld" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.bld  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.bld 
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.bld" is NOT in a PSC workarea.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.pcf" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.pcf 
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.pcf" is NOT in a PSC workarea.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213_bld.v" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_bld.v  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213_bld.v 
+cp: cannot access /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_bld.v
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213_bld.v" not found.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.ngd" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ngd  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.ngd 
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.ngd" is NOT in a PSC workarea.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213_m.mrp" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_m.mrp  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213_m.mrp 
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213_m.mrp" is NOT in a PSC workarea.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.ncd" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.ncd 
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.ncd" is NOT in a PSC workarea.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.pad" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pad  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.pad 
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.pad" is NOT in a PSC workarea.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.par" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.par  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.par 
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.par" is NOT in a PSC workarea.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.hex" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.hex  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.hex 
+cp: cannot access /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.hex
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.hex" not found.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.twr" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.twr  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.twr 
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213.twr" is NOT in a PSC workarea.
+
+[Error] File "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213_jtag.bit" not found.
+cp /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213_jtag.bit  /emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213_jtag.bit 
+
+[Error] "/emc/joshea/JOS/Verilog/Vit_e213/chip/out/eVITERBI_213_jtag.bit" is NOT in a PSC workarea.

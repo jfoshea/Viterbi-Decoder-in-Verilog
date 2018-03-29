@@ -1,0 +1,89 @@
+/* =================================================== */
+/* Template .synopsys_dc.setup file for Xilinx designs */
+/*       For use with Synopsys FPGA Compiler.          */
+/* =================================================== */
+
+/* ================================================= */
+/* The Synopsys search path should be set to point   */
+/* to the directories that contain the various       */  
+/* synthesis libraries used by FPGA Compiler during  */
+/* synthesis.                                        */
+/* ================================================= */
+
+XilinxInstall = get_unix_variable(XILINX);
+SynopsysInstall = get_unix_variable(SYNOPSYS);
+
+search_path = { .       \
+        XilinxInstall + /synopsys/libraries/syn \
+        SynopsysInstall + /libraries/syn }
+
+                /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+                /* Ensure that your UNIX environment */
+                /* includes the two environment var- */
+                /* iables: $XILINX (points to the    */
+                /* Xilinx installation directory) and*/
+                /* $SYNOPSYS (points to the Synopsys */
+                /* installation directory.)          */  
+                /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* ================================================= */
+/* Define a work library in the current project dir  */
+/* to hold temporary files and keep the project area */
+/* uncluttered. Note: You must create a subdirectory */
+/* in your project directory called WORK.            */  
+/* ================================================= */
+ 
+
+   define_design_lib WORK -path ./WORK
+
+
+bus_extraction_style = "%s<%d:%d>"
+bus_naming_style = "%s<%d>"
+bus_dimension_separator_style = "><"
+
+edifin_lib_logic_1_symbol = "VCC"
+edifin_lib_logic_0_symbol = "GND"
+edifout_ground_name = "GND"
+edifout_ground_pin_name = "G"
+edifout_power_name = "VCC"
+edifout_power_pin_name = "P"
+edifout_netlist_only = "true"
+edifout_no_array = "true"
+edifout_power_and_ground_representation = "cell"
+edifout_write_properties_list = {"CLK1X_DUTY" "INIT_00" "INIT_01" "INIT_02" "INIT_03" \
+ "INIT_04"  "INIT_05" "INIT_06" "INIT_07" "INIT_08" "INIT_09" "INIT_0A" "INIT_0B" "INIT_0C" \
+ "INIT_0D" "INIT_0E" "INIT_0F" "INIT" "CLKDV_DIVIDE" "IOB" "EQN" "lut_function"}
+
+/* ================================================= */
+/* Set the link, target and synthetic library        */  
+/* variables. Use synlibs (with the -dc switch) to   */
+/* determine the link and target library settings.   */
+/* You may like to copy this file to your project    */
+/* directory, rename it ".synopsys_dc.setup" and     */  
+/* append the output of synlibs. For example:        */  
+/* synlibs xfpga_virtex-3 >> .synopsys_dc.setup      */
+/* ================================================= */
+
+
+
+/*link_library = {xfpga_virtex-5.db xdw_virtex.sldb}*/
+/*target_library = {xfpga_virtex-5.db }*/
+/*symbol_library = {virtex.sdb}*/
+/*define_design_lib xdw_virtex -path XilinxInstall + /synopsys/libraries/dw/lib/virtex*/
+/*synthetic_library = {xdw_virtex.sldb standard.sldb}*/
+
+
+link_library = {xprim_4028xla-09.db xprim_4000xla-09.db xgen_4000xla.db xdc_4000xla-09.db xio_4000xla-09.db xdw_4000xla.sldb}
+target_library = {xprim_4028xla-09.db xprim_4000xla-09.db xgen_4000xla.db xdc_4000xla-09.db xio_4000xla-09.db}
+define_design_lib xdw_4000xla -path XilinxInstall + /synopsys/libraries/dw/lib/xc4000xla
+symbol_library = {xc4000ex.sdb}
+synthetic_library = {xdw_4000xla.sldb standard.sldb}
+
+
+
+/*link_library = {xprim_4013xla-09.db xprim_4000xla-09.db xgen_4000xla.db xdc_4000xla-09.db xio_4000xla-09.db xdw_4000xla.sldb}*/
+/*target_library = {xprim_4013xla-09.db xprim_4000xla-09.db xgen_4000xla.db xdc_4000xla-09.db xio_4000xla-09.db}*/
+/*define_design_lib xdw_4000xla -path XilinxInstall + /synopsys/libraries/dw/lib/xc4000xla*/
+/*symbol_library = {xc4000ex.sdb}*/
+/*synthetic_library = {xdw_4000xla.sldb standard.sldb}*/
+

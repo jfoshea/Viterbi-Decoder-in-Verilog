@@ -1,0 +1,120 @@
+Magic 271485
+Revision 1.0
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 2 8 1908 1164 148 134
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] path_name file_name
+openDirFile -d / "/emc/joshea/Files/Verilog/Vit_e213" "verilog.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 3
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 500.000000
+cursor 2660.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name
+; visible top row signal index
+top 0
+; marker line index
+markerPos 6
+
+; Run Time Signal and Member
+; addRunTimeSig 
+activeDirFile "/emc/joshea/Files/Verilog/Vit_e213" "verilog.fsdb"
+
+userBusMem /tb_e213/TB_U2/U3/A0_in[3:0]
+userBusMem /tb_e213/TB_U2/U3/A1_in[3:0]
+userBusMem /tb_e213/TB_U2/U3/A2_in[3:0]
+userBusMem /tb_e213/TB_U2/U3/A3_in[3:0]
+userBusMem /tb_e213/TB_U2/U3/A4_in[3:0]
+userBusMem /tb_e213/TB_U2/U3/A5_in[3:0]
+userBusMem /tb_e213/TB_U2/U3/A6_in[3:0]
+userBusMem /tb_e213/TB_U2/U3/A7_in[3:0]
+saveRunSig A_in[31:0]
+userBusMem /tb_e213/TB_U2/U3/A0_out[3:0]
+userBusMem /tb_e213/TB_U2/U3/A1_out[3:0]
+userBusMem /tb_e213/TB_U2/U3/A2_out[3:0]
+userBusMem /tb_e213/TB_U2/U3/A3_out[3:0]
+userBusMem /tb_e213/TB_U2/U3/A4_out[3:0]
+userBusMem /tb_e213/TB_U2/U3/A5_out[3:0]
+userBusMem /tb_e213/TB_U2/U3/A6_out[3:0]
+userBusMem /tb_e213/TB_U2/U3/A7_out[3:0]
+saveRunSig A_out[31:0]
+userBusMem /tb_e213/TB_U2/U3/P0_in[0:0]
+userBusMem /tb_e213/TB_U2/U3/P1_in[0:0]
+userBusMem /tb_e213/TB_U2/U3/P2_in[0:0]
+userBusMem /tb_e213/TB_U2/U3/P3_in[0:0]
+userBusMem /tb_e213/TB_U2/U3/P4_in[0:0]
+userBusMem /tb_e213/TB_U2/U3/P5_in[0:0]
+userBusMem /tb_e213/TB_U2/U3/P6_in[0:0]
+userBusMem /tb_e213/TB_U2/U3/P7_in[0:0]
+saveRunSig P_in[7:0]
+
+; analog to digital list
+; allAtoD sig_name low_threshold high_threshold member_sig_name
+
+; logical expression list
+; addExprSig expr_name expression_string
+
+; analog expression list
+; addAnaExprSig expr_name expression_string
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+SEQUENCE_BEGIN
+
+
+SEQUENCE_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+addSignal -h 15 /tb_e213/TB_U2/clock
+addSignal -h 15 /tb_e213/TB_U2/reset
+addSignal -h 15 /tb_e213/TB_U2/U3/clr
+addSignal -h 15 /tb_e213/TB_U2/error
+addSignal -h 15 /tb_e213/TB_U1/Ux[0:0]
+addSignal -h 15 /tb_e213/TB_U1/Vx[1:0]
+addGroup "G2"
+addSignal -h 15 /tb_e213/TB_U2/U1/HD[31:0]
+addGroup "G3"
+addUserBus -h 15 A_in[31:0]
+addUserBus -h 15 P_in[7:0]
+addUserBus -h 15 A_out[31:0]
+addGroup "G4"
+addSignal -h 15 /tb_e213/TB_U2/U3/write_ptr[3:0]
+addSignal -h 15 /tb_e213/TB_U2/U3/we
+addSignal -h 15 /tb_e213/TB_U2/U3/min_state[2:0]
+addSignal -h 15 /tb_e213/TB_U2/U3/best_state[2:0]
+addSignal -h 15 /tb_e213/TB_U2/U3/te
+addSignal -h 15 /tb_e213/TB_U2/U3/trace_ptr[3:0]
+addSignal -h 15 /tb_e213/TB_U2/U3/P_1/tb_reg[2:0]
+addGroup "G5"
+addSignal -h 15 /tb_e213/TB_U2/U3/NEXT_STATE[4:0]
+addSignal -h 15 /tb_e213/TB_U2/U3/block_count[4:0]
+addSignal -h 15 /tb_e213/TB_U2/U3/oe
+addSignal -h 15 /tb_e213/TB_U2/U3/Dx[0:0]
+addGroup "G6"
+
+; grid status
+; gridSignal signal_name
+; gridEdge 0 | 1
+

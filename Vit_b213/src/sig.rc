@@ -1,0 +1,170 @@
+Magic 271485
+Revision 1.0
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -2 15 1908 1069 148 158
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] path_name file_name
+openDirFile -d / "/emc/joshea/JOS/Verilog/Vit_b213/src" "verilog.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 3
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 11231.111112 17000.000000
+cursor 5540.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name
+; visible top row signal index
+top 0
+; marker line index
+markerPos 85
+
+; Run Time Signal and Member
+; addRunTimeSig 
+activeDirFile "/emc/joshea/JOS/Verilog/Vit_b213/src" "verilog.fsdb"
+
+activeDirFile "/emc/joshea/JOS/Verilog/Vit_b213/src" "verilog.fsdb"
+userBusMem /tb_b213/TB_U2/U1/HD1[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD2[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD3[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD4[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD5[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD6[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD7[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD8[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD9[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD10[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD11[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD12[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD13[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD14[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD15[1:0]
+userBusMem /tb_b213/TB_U2/U1/HD16[1:0]
+saveRunSig HD[31:0]
+
+; analog to digital list
+; allAtoD sig_name low_threshold high_threshold member_sig_name
+
+; logical expression list
+; addExprSig expr_name expression_string
+
+; analog expression list
+; addAnaExprSig expr_name expression_string
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+SEQUENCE_BEGIN
+
+
+SEQUENCE_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+addGroup "control"
+addSignal -h 15 /tb_b213/TB_U2/U3/reset
+addSignal -h 15 /tb_b213/TB_U2/U3/clock
+addSignal -h 15 /tb_b213/TB_U2/U3/le
+addSignal -h 15 /tb_b213/TB_U2/U3/ae
+addSignal -h 15 /tb_b213/TB_U2/U3/we
+addSignal -h 15 /tb_b213/TB_U2/U3/te
+addSignal -h 15 /tb_b213/TB_U2/U3/oe
+addSignal -h 15 /tb_b213/TB_U2/U3/write_ptr[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/trace_ptr[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/tb_reg[2:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/min_state[2:0]
+addGroup "BMU"
+addSignal -h 15 /tb_b213/TB_U2/U1/Rx[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/clock
+addSignal -h 15 /tb_b213/TB_U2/U1/le
+addSignal -h 15 /tb_b213/TB_U2/U1/HD1[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD2[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD3[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD4[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD5[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD6[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD7[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD8[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD9[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD10[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD11[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD12[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD13[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD14[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD15[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/HD16[1:0]
+addSignal -h 15 /tb_b213/TB_U2/U1/Rx[1:0]
+addGroup "metric update"
+addSignal -h 15 /tb_b213/TB_U2/U3/reset
+addSignal -h 15 /tb_b213/TB_U2/U3/clock
+addSignal -h 15 -UNSIGNED -UDEC /tb_b213/i
+addSignal -h 15 /tb_b213/seq_ready
+addSignal -h 15 -UNSIGNED -UDEC /tb_b213/TB_U2/U3/symbol_count[8:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/le
+addSignal -h 15 /tb_b213/TB_U2/U3/ae
+addSignal -h 15 /tb_b213/TB_U2/U3/we
+addSignal -h 15 /tb_b213/TB_U2/U3/te
+addSignal -h 15 /tb_b213/TB_U2/U3/oe
+addSignal -h 15 /tb_b213/TB_U2/U3/Dx[0:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/NEXT_STATE[6:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/min_state[2:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/tb_reg[2:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/trace_ptr[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/write_ptr[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/A0[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/A1[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/A2[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/A3[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/A4[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/A5[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/A6[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/A7[3:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/write_ptr[3:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b213/TB_U2/U3/P0[14:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b213/TB_U2/U3/P1[14:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b213/TB_U2/U3/P2[14:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b213/TB_U2/U3/P3[14:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b213/TB_U2/U3/P4[14:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b213/TB_U2/U3/P5[14:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b213/TB_U2/U3/P6[14:0]
+addSignal -h 15 -UNSIGNED -BIN /tb_b213/TB_U2/U3/P7[14:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/P0_in[0:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/P1_in[0:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/P2_in[0:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/P3_in[0:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/P4_in[0:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/P5_in[0:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/P6_in[0:0]
+addSignal -h 15 /tb_b213/TB_U2/U3/P7_in[0:0]
+addGroup "G12"
+addGroup "G14"
+addGroup "ACS0"
+addGroup "ACS1"
+addGroup "acs2"
+addGroup "acs3"
+addGroup "acs4"
+addGroup "acs5"
+addGroup "acs6"
+addGroup "acs7"
+
+; grid status
+; gridSignal signal_name
+; gridEdge 0 | 1
+

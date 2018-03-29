@@ -1,0 +1,560 @@
+#!/usr/local/SOLARIS/bin/perl
+###########################################################################
+##
+##  $Log
+##
+##
+## EMC Corporation CopyRight 2000
+## 
+## 
+## DESCRIPTION: Updates and submits changed components in top level workarea /comp directory.
+## 
+## 
+###############################################################################
+
+$RDIR = `pwd`;
+chomp($RDIR);
+
+$PROJECT = "b213";
+$CHIPOUT = "$RDIR/chip/out";
+$CHIPSCR = "$RDIR/chip/scr";
+$VERTEST = "$RDIR/ver/test";
+$DESIGN = "bVITERBI_213";
+$SPEED  = "4";
+$PART   = "V50TQ144-$SPEED";
+$COST   = 1;
+$SYNOUT = "$RDIR/syn/out";
+$SYNSCR = "$RDIR/syn/scr";
+$SRC    = "$RDIR/src";
+$COMPDIR   = "$RDIR/comp";
+$TMPDIR= "$RDIR/chip/out/.chiptmp";
+$REGRESS_LIST = "";
+$REGRESS_LOG ="${VERTEST}/regress_log";
+
+$username = "";
+#@CC_LIST = ($username);
+@CC_LIST = ($username);
+@M_LIST = "";
+$subject = "";
+@mail_body = "";
+$user ="";
+@BUILD_FILE_LIST = ("${DESIGN}.bld","${DESIGN}.pcf","${DESIGN}_bld.v","${DESIGN}.ngd","${DESIGN}_m.mrp",
+"${DESIGN}.ncd","${DESIGN}.pad","${DESIGN}.par","${DESIGN}.hex","${DESIGN}.twr","${DESIGN}_jtag.bit");
+
+@LOG_FILE_LIST = ("build_log","mail_log");
+
+
+############################################################################
+# 
+# ROUTINE:     write_full_log
+# 
+# DESCRIPTION: append contents of array to buil_log file
+# 
+###############################################################################
+
+sub write_full_log {
+    ($array_ref) = @_;
+    my ($i);
+
+    if (open (FULL_LOG, ">>$TMPDIR/build_log")){
+	for ($i = 0; $i <= $#{$array_ref}; $i++) {
+	    print FULL_LOG ("@$array_ref[$i]");
+        }
+        close FULL_LOG;
+    }
+    else {
+	print ("ERROR cannot open file $TMPDIR/build_log for writing\n");
+    }
+
+}
+
+###############################################################################
+############################################################################
+# 
+# ROUTINE:     write_brief_log
+# 
+# DESCRIPTION: append contents of array to mail_log file
+#
+# EXIT:         
+# 
+###############################################################################
+
+sub write_brief_log {
+    ($array_ref) = @_;
+    my ($i);
+
+    if (open (BRIEF_LOG, ">>$TMPDIR/mail_log")){
+	for ($i = 0; $i <= $#{$array_ref}; $i++) {
+	    print BRIEF_LOG ("@$array_ref[$i]");
+            push (@BUILD_LOG,"@$array_ref[$i]");
+        }
+        close BRIEF_LOG;
+    }
+    else {
+	print ("ERROR cannot open file $TMPDIR/mail_log for writing\n");
+    }
+
+}
+
+
+############################################################################
+# 
+# ROUTINE:     notify
+# 
+# DESCRIPTION: send email status
+#
+# EXIT:         
+# 
+###############################################################################
+
+
+#
+# Mail user if there is an error detected.
+#
+
+	sub notify 
+	{
+
+	   local(*M_LIST) = @_[0];			# email TO: list
+	   $m_sub = @_[1];				# subject text
+	   local(*mail_body) = @_[2];			# body of email text
+	   $user = @_[3];				# originator
+
+	   open(SENDMAIL,"|/usr/lib/sendmail -oi -t")
+             or die "Can't fork for sendmail : $!\n";
+
+# don't move the following 6 lines.
+
+print SENDMAIL <<"EOF";
+From: $user
+To: @M_LIST
+Subject: $m_sub
+@mail_body
+EOF
+	   
+	   close(SENDMAIL) or die "Error in sendmail : $!\n";
+
+	}
+
+############################################################################
+# 
+# ROUTINE:     execute command
+# 
+# DESCRIPTION: execute a xilinx tool
+#
+# EXIT:         
+# 
+###############################################################################
+
+sub execute_command {
+
+   my $cmd = @_[0];			# unix command to execute
+   my $fail = @_[1];			# failure message
+   ($pattern_array) = @_[2];	        # pattern list to match for logging
+   my $close_flag = @_[3];		# close flag - for use with bsub jobs
+   my $open_flag = @_[4];		# open flag - for use with bsub jobs
+   local *CMD_STATUS;			# local filehandle
+   local *CLOSE_STATUS = @_[5];		# local filehandle
+   my $pattern;
+   print "$cmd \n";
+ 
+   my @chip_log_text = ();
+   my @cmd_log = ();
+   if ($open_flag) 
+   {
+      push (@chip_log_text,"\n \nISSUED COMMAND : $cmd \n \n");
+      &write_full_log(\@chip_log_text);
+      &write_brief_log(\@chip_log_text);
+
+      open CMD_STATUS, $cmd or &error_exit("ERROR can't launch $cmd: $!",$fail);
+   }
+
+   if ($close_flag) {@cmd_log = (<CLOSE_STATUS>);}
+   &write_full_log(\@cmd_log);
+
+   my $record;
+   my @cmd_error = ();
+   my $grab_next_line = 0;
+
+   foreach $pattern (@$pattern_array) 
+   {
+
+      foreach $record (@cmd_log) 
+      {
+       if (($record =~ /.*$pattern.*/i) || ($grab_next_line != 0))
+           {
+	       push @cmd_error,$record;		       # push only records which match a pattern list
+               if (($pattern eq "ERROR") && $grab_next_line != 2) 
+	       { $grab_next_line++;}
+               else
+	       { $grab_next_line = 0 ;}
+ 
+           }
+      }
+
+  }
+   &write_brief_log(\@cmd_error);
+
+     @chip_log_text = ();
+
+   if ($close_flag) 
+     {
+      push (@chip_log_text,"\n \nFINISHED COMMAND : $cmd \n  \n");
+      push (@chip_log_text,`date \n`);
+      close CLOSE_STATUS or &error_exit("\n \n error in child unix command $cmd : \n $! @cmd_log \n $?",$fail);
+     }
+      &write_full_log(\@chip_log_text);
+      &write_brief_log(\@chip_log_text);
+
+    return *CMD_STATUS;
+}
+
+
+############################################################################
+# 
+# ROUTINE:     error_exit
+# 
+# DESCRIPTION: send email with brief log, then die
+#
+# EXIT:         
+# 
+###############################################################################
+
+
+sub error_exit 
+{
+    my $error_text = @_[0];             # die message
+    my $fail = @_[1];			# failure "subject" to email
+    my @error_log_text = ();
+
+    print "Error..sending email to @M_LIST \n";
+    push (@error_log_text,"Fix error - all files are in $TMPDIR \n");
+    print "Please Fix error - all files are in $TMPDIR \n";
+    push (@error_log_text,"remove $TMPDIR after fixing error \n");
+    print "Remove $TMPDIR after fixing error \n";
+    &write_brief_log(\@error_log_text);
+
+    notify \@M_LIST,$fail,\@BUILD_LOG,$username;
+
+    'bkill -J $DESIGN';  # kill regression if it was started.
+
+
+    die "$error_text";
+}
+
+############################################################################
+# 
+# ROUTINE:     check_in
+# 
+# DESCRIPTION: File checkout, copy files from temp dir, checkin
+#
+# EXIT:         
+# 
+################################################################################ 
+# 
+#
+   sub check_in {
+   ($file_list) = @_[0];					# file list array 
+   my $tempdir = @_[1];						# temp dir to copy from
+   my $log_flag = @_[2];					# flag to enable/disable file logging
+   
+   my $file_fail = 0;						# reset file fail
+   my $cp_stat;							# cp command output text
+   my $ci_stat;							# ci command output text
+
+   @file_stat = ();						# output log text array
+
+# check-out build files, then copy files from temp area to /out before checking back in.
+
+   foreach $file (@$file_list)
+   {
+       print "co file : $CHIPOUT/$file";
+       print $co_stat = `psc -force co -nc $CHIPOUT/$file`;
+       push (@file_stat,$co_stat);
+
+       $cp_stat = `cp $tempdir/$file  $CHIPOUT/$file 2>&1` and $file_fail = 1;
+       print "cp $tempdir/$file $CHIPOUT/$file \n $cp_stat";
+       push (@file_stat,"cp $tempdir/$file  $CHIPOUT/$file \n",$cp_stat);
+
+#       print $ci_stat = `psc -force co -cancel  $CHIPOUT/$file`;
+       print $ci_stat = `psc ci -c "chip build"  $CHIPOUT/$file`;
+       push (@file_stat,$ci_stat);
+       if (($ci_stat =~ /Error(.*)/m) || !($ci_stat =~ /was checked in|unchanged/m)) {$file_fail = 1};
+#       if (($ci_stat =~ /Error(.*)/m) || !($ci_stat =~ /canceled/m)) {$file_fail = 1};
+   }
+
+   if ($log_flag == 1) { &write_full_log(\@file_stat);}		# update log file with build file status
+   print "sub check_in file fail is $file_fail \n";
+   return ($file_fail);
+}
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+
+# Initialization
+
+         $FILE_FAIL,$FILE_FAIL1,$FILE_FAIL2 = 0;
+         print "Running make_chip \n";
+#
+# get username
+#
+#
+	print "rundir :$RDIR \n";
+	print "chipscr $CHIPSCR \n";
+	print "tmpdir $TMPDIR \n";
+	print "vertest $VERTEST \n";
+
+        chdir $CHIPSCR or die "can't cd to $CHIPSCR - run from top level project dir: $!\n";
+        if(!(-d $TMPDIR)) 
+          {system("mkdir $TMPDIR");}
+        else
+	  {die ".chiptmp already exists - remove after examination! \n: $!\n";}
+	  {warn ".chiptmp already exists - remove after examination! \n: $!\n";}
+
+	$command ="whoami|";
+        open STATUS, $command
+           or die "can't fork whoami : $1";
+        $username = (<STATUS>);
+        chomp $username;
+        close STATUS or die "Error whoami failed : \n $! $username \n $?";
+        print "Username is $username \n";
+
+        @M_LIST = ($username,@CC_LIST);
+
+#
+# Check for -checkin command line argument.
+#
+        @tmp_args = @ARGV;
+        unless(@tmp_args) {print "no args \n";}
+
+        while($arg = shift @tmp_args)
+        {
+	    print "arg is $arg \n";
+	    if($arg =~ /^-checkin$/) 
+            {
+                &check_in(\@BUILD_FILE_LIST,$TMPDIR,1);
+                &check_in(\@LOG_FILE_LIST,$TMPDIR,0)
+            }	
+        }
+
+
+#
+# Save psc status of project - print to file later
+#
+
+print "psc status -p \n";
+@pscstatus = `psc status -p`;
+print "psc status -p completed \n";
+
+# Save dir status of project
+
+@scrdir  = `ls -l`;
+@compdir = `ls -l $COMPDIR`;
+@outdir  = `ls -l $CHIPOUT`;
+
+
+
+
+
+#
+# Open chip log file
+#
+
+    unless( open (FULL_LOG, ">$TMPDIR/build_log") )
+    {
+	    print "ERROR: cannot open file $TMPDIR/build_log for writing\n";
+    }	    
+
+   printf FULL_LOG  ("Complete Build Log for $PROJECT \n") ;
+   printf FULL_LOG "Build Started \n";
+   printf FULL_LOG `date \n`;
+
+   close FULL_LOG;
+
+
+#
+# Open brief log file
+#
+
+    unless( open (BRIEF_LOG, ">$TMPDIR/mail_log") )
+    {
+	    print "ERROR: cannot open file $TMPDIR/mail_log for writing\n";
+    }	    
+
+   printf BRIEF_LOG  ("Condensed Build Log for $PROJECT \n") ;
+   push (@BUILD_LOG,"Condensed Build Log for $PROJECT \n");
+   printf BRIEF_LOG  ("For complete log view latest $TMPDIR\/build_log \n");
+   push (@BUILD_LOG,"For complete log view latest $TMPDIR\/build_log \n");
+   printf BRIEF_LOG "Build Started \n";
+   push (@BUILD_LOG,"Build Started \n");
+   printf BRIEF_LOG `date \n`;
+   push (@BUILD_LOG,`date \n`);
+
+   close BRIEF_LOG;
+
+
+# merge edif netlists
+
+   $command = "ngdbuild -dd ${TMPDIR}/ngo -nt timestamp -p $PART  ${SYNOUT}/${DESIGN}.edf ${TMPDIR}/${DESIGN}.ngd|";
+   $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART NGDBUILD \n";
+   @patterns = ("error","Number of");
+   $closehandle = &execute_command ($command,$fail_msg,\@patterns,0,1,0);
+   &execute_command ($command,$fail_msg,\@patterns,1,0,$closehandle);
+
+# map design
+   chdir $CHIPSCR or die "can't cd to $CHIPSCR - run from top level project dir: $!\n";
+   $command = "map -u -p ${PART} -pr b -o ${TMPDIR}/${DESIGN}_m.ncd ${TMPDIR}/${DESIGN}.ngd ${TMPDIR}/${DESIGN}.pcf|";
+   $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART MAP \n";
+   @patterns = ("writing","error","Number of","done","flop","lut");
+   $closehandle = &execute_command ($command,$fail_msg,\@patterns,0,1,0);
+   &execute_command ($command,$fail_msg,\@patterns,1,0,$closehandle);
+
+# create verilog gatelevel netlist
+
+   $command = "ngd2ver -tm ${DESIGN} -w ${TMPDIR}/${DESIGN}.ngd ${TMPDIR}/${DESIGN}_bld.v|";
+   $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART NGD2VER \n";
+   @patterns = ("writing","error");
+#   $closehandle = &execute_command ($command,$fail_msg,\@patterns,0,1,0);
+#   &execute_command ($command,$fail_msg,\@patterns,1,0,$closehandle);
+
+# Run gate-level regression - launch job (open pipe) but don't wait for completion so that regress and par can run in parallel.
+
+#   chdir $VERTEST or die "can't cd to $VERTEST - run from top level project dir: $!\n";   
+#   system("rm -f ${REGRESS_LOG}");
+   #$command = "xterm -e bsub -I -o $REGRESS_LOG -q regression  -J $DESIGN -R model=u60s450 regress -lsf=3 $VERTEST/${REGRESS_LIST}|";
+   #$fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART REGRESS-GATE \n";
+   #@patterns = ("passed","fail","error","completed");
+#   $bsubhandle = &execute_command ($command,$fail_msg,\@patterns,0,1);
+
+# run static timing anlayzer on map .ncd file
+
+   $command = "trce ${TMPDIR}/${DESIGN}_m.ncd ${TMPDIR}/${DESIGN}.pcf -o ${TMPDIR}/${DESIGN}.twr -e 10 -s ${SPEED} -u|";
+   $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART TRACE after map \n";
+   @patterns = ("writing","Timing errors","completed:");
+   $closehandle = &execute_command ($command,$fail_msg,\@patterns,0,1,0);
+   &execute_command ($command,$fail_msg,\@patterns,1,0,$closehandle);
+
+# place & route design. 
+
+   $command = "par -l 4 -t ${COST}  -i 5 -n 1 -w ${TMPDIR}/${DESIGN}_m.ncd ${TMPDIR}/${DESIGN}.ncd ${TMPDIR}/${DESIGN}.pcf|";
+#   $command = "par -l 1 -x -t ${COST}  -i 5 -n 1 -w ${TMPDIR}/${DESIGN}_m.ncd ${TMPDIR}/${DESIGN}.ncd ${TMPDIR}/${DESIGN}.pcf|";
+   $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART PAR \n";
+   @patterns = ("not completely routed","error","Number of","PAR done","TS_PERIOD = PERIOD","TS_PCLK_PERIOD = PERIOD");
+   $closehandle = &execute_command ($command,$fail_msg,\@patterns,0,1,0);
+   &execute_command ($command,$fail_msg,\@patterns,1,0,$closehandle);
+
+# run static timing anlayzer
+
+   $command = "trce ${TMPDIR}/${DESIGN}.ncd ${TMPDIR}/${DESIGN}.pcf -o ${TMPDIR}/${DESIGN}.twr -e 20 -s ${SPEED} -u|";
+   $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART TRACE \n";
+   @patterns = ("writing","Timing errors","completed:");
+   $closehandle = &execute_command ($command,$fail_msg,\@patterns,0,1,0);
+   &execute_command ($command,$fail_msg,\@patterns,1,0,$closehandle);
+
+# create configuration (raw bits) file.
+
+   $command = "bitgen -b -m  -d -w ${TMPDIR}/${DESIGN}.ncd ${TMPDIR}/${DESIGN}.rbt ${TMPDIR}/${DESIGN}.pcf|";
+   $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART BITGEN \n";
+   @patterns = ("BITGEN");
+   $closehandle = &execute_command ($command,$fail_msg,\@patterns,0,1,0);
+   &execute_command ($command,$fail_msg,\@patterns,1,0,$closehandle);
+
+# create .bit for downoad with Multilynx cable via laptop.
+   $command = "bitgen -d -g startupclk:jtagclk -w ${TMPDIR}/${DESIGN}.ncd ${TMPDIR}/${DESIGN}_jtag.bit ${TMPDIR}/${DESIGN}.pcf|";
+   $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART BITGEN \n";
+   @patterns = ("BITGEN");
+   $closehandle = &execute_command ($command,$fail_msg,\@patterns,0,1,0);
+   &execute_command ($command,$fail_msg,\@patterns,1,0,$closehandle);
+
+# convert hex file to assembly code image file. CGA program does not return proper status code.
+
+   chdir $TMPDIR or die "can't cd to $TMPSCR - run from top level project dir: $!\n";   
+#   $command = "cga ${DESIGN} |";
+#   $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART CGA \n";
+#   @patterns = ("Creating","Saving","core","Done!","Converting");
+#   &execute_command ($command,$fail_msg,\@patterns,1,1);
+    push (@chip_log_text,`cga ${DESIGN}`);
+    &write_full_log(\@chip_log_text);
+    &write_brief_log(\@chip_log_text);
+
+
+# Wait for gate level regression to complete and check for errors.
+
+   #$command = "bsub -I  -q regression  -J $DESIGN -R model=u60s450 regress -lsf=3 $VERTEST/${REGRESS_LIST}|";
+   #$fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART REGRESS-GATE \n";
+   #@patterns = ("passed","fail","error","Total");
+   #&execute_command ($command,$fail_msg,\@patterns,1,0,$bsubhandle);
+   
+
+#Parse regress log. (Unfortunately I could not get the console output to work with execute command like the non-bsub commands)
+
+    #@regress_output = `/usr/xpg4/bin/grep -i -e "fail" -e "pass"  $REGRESS_LOG`;
+    #print "/usr/xpg4/bin/grep -i -e fail -e pass  $REGRESS_LOG \n";
+    #@chip_log_text = ();
+    #push (@chip_log_text,"\n \n Regress test status : \n");
+    #&write_brief_log(\@chip_log_text);
+    #&write_brief_log(\@regress_output);
+    #&write_full_log(\@chip_log_text);
+    #&write_full_log(\@regress_output);
+
+# Grab first 50 lines in .twr file
+    @timing_output = `head -n 50 $DESIGN.twr`;
+    print "head -n 50 $DESIGN.twr \n";
+    push (@chip_log_text,"\n \n Timing Summary - first 50 lines : \n \n");
+    &write_brief_log(\@chip_log_text);
+    &write_brief_log(\@timing_output);
+    &write_full_log(\@chip_log_text);
+    &write_full_log(\@timing_output);
+
+
+# send psc status to build_log
+print "psc status -p \n";
+@chip_log_text = ();
+push (@chip_log_text,"\n \n psc status -p \n");
+&write_full_log(\@chip_log_text);
+&write_full_log(\@pscstatus);
+
+
+# Send directory status
+
+@chip_log_text = ();
+push (@chip_log_text,"\n \n file revisions for /scr \n");
+&write_full_log(\@chip_log_text);
+&write_full_log(\@scrdir);
+
+@chip_log_text = ();
+push (@chip_log_text,"\n \n file revisions for ../../comp \n");
+&write_full_log(\@chip_log_text);
+&write_full_log(\@compdir);
+
+@chip_log_text = ();
+push (@chip_log_text,"\n \n file revisions for ../out \n");
+&write_full_log(\@chip_log_text);
+&write_full_log(\@outdir);
+
+  
+# print "file checkin commented out ! \n";
+
+  $FILE_FAIL1 = &check_in(\@BUILD_FILE_LIST,$TMPDIR,1);
+  $FILE_FAIL2 = &check_in(\@LOG_FILE_LIST,$TMPDIR,0);
+  $FILE_FAIL  = $FILE_FAIL1 || $FILE_FAIL2;
+  print "FILE FAIL = $FILE_FAIL \n";
+
+if ($FILE_FAIL == 0) 
+   {
+     rmdir $TMPDIR or die "can't remove $TMPDIR \n $! \n";
+     chdir $CHIPOUT or die "can't cd to $CHIPOUT - run from top level project dir: $!\n";   
+
+     # Submit chip build files and logs
+
+     $command = "psc submit -c \"$PROJECT $PART Chip Build Submission\" @BUILD_FILE_LIST|";
+     $fail_msg = "ChipBuild FAILED: Project = $PROJECT, DEVICE = $PART SUBMIT \n";
+     @patterns = ("Error");
+     &execute_command ($command,$fail_msg,\@patterns,1,1);
+   }
+
+   $pass_msg = "ChipBuild PASSED: Project = $PROJECT, DEVICE = $PART NGDBUILD \n";
+   notify \@M_LIST,$pass_msg,\@BUILD_LOG,$username;
+

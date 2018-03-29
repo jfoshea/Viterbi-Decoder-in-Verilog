@@ -1,0 +1,16 @@
+
+Inferred memory devices in process 
+	in routine bSYNCERR_213 line 26 in file
+         '/emc/joshea/JOS/Verilog/Vit_b213/src/bSYNCERR_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      error_reg      | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+error_reg
+---------
+    Async-reset: reset
+
+
+Writing to hnl file './bVITERBI_213_proj/workdirs/WORK/bSYNCERR_213.hnl'

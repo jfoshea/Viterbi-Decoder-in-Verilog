@@ -1,0 +1,1849 @@
+Host command: verilog
+Command arguments:
+    -f sim_e213.script
+        tb_e213.v
+        VIT_ENC.v
+        eBMU_213.v
+        eACS_213.v
+        eACSU_213.v
+        eTBDECISION_213.v
+        eSYNCERR_213.v
+        eCONTROL_213.v
+        eVITERBI_213.v
+        +libext+.v+.V
+        -y /hwapps/xilinx/M.1.5.i/verilog/src/UNI4000X
+
+VERILOG-XL 3.0.s007 log file created Feb 10, 2001  18:21:43
+VERILOG-XL 3.0.s007   Feb 10, 2001  18:21:43
+
+Copyright (c) 1995 Cadence Design Systems, Inc.  All Rights Reserved.
+Unpublished -- rights reserved under the copyright laws of the United States.
+
+Copyright (c) 1995 UNIX Systems Laboratories, Inc.  Reproduced with Permission.
+
+THIS SOFTWARE AND ON-LINE DOCUMENTATION CONTAIN CONFIDENTIAL INFORMATION
+AND TRADE SECRETS OF CADENCE DESIGN SYSTEMS, INC.  USE, DISCLOSURE, OR
+REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+CADENCE DESIGN SYSTEMS, INC.
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c)(1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+                Cadence Design Systems, Inc.
+                555 River Oaks Parkway
+                San Jose, California  95134
+
+For technical assistance please contact the Cadence Response Center at
+1-877-CDS-4911 or send email to support@cadence.com
+
+For more information on Cadence's Verilog-XL product line send email to
+talkverilog@cadence.com
+
+For quick reference of Cadence's Verilog-XL product command line options
+Please look at the html page <instal_path>/tools/verilog/doc/index.html 
+in a web browser
+
+Compiling source file "tb_e213.v"
+Compiling included source file "params_e213.inc"
+Continuing compilation of source file "tb_e213.v"
+Compiling source file "VIT_ENC.v"
+Compiling included source file "params_e213.inc"
+Continuing compilation of source file "VIT_ENC.v"
+Compiling source file "eBMU_213.v"
+Compiling included source file "params_e213.inc"
+Continuing compilation of source file "eBMU_213.v"
+Compiling source file "eACS_213.v"
+Compiling included source file "params_e213.inc"
+Continuing compilation of source file "eACS_213.v"
+Compiling source file "eACSU_213.v"
+Compiling included source file "params_e213.inc"
+Continuing compilation of source file "eACSU_213.v"
+Compiling source file "eTBDECISION_213.v"
+Compiling included source file "params_e213.inc"
+Continuing compilation of source file "eTBDECISION_213.v"
+Compiling source file "eSYNCERR_213.v"
+Compiling source file "eCONTROL_213.v"
+Compiling included source file "params_e213.inc"
+Continuing compilation of source file "eCONTROL_213.v"
+Compiling source file "eVITERBI_213.v"
+Compiling included source file "params_e213.inc"
+Continuing compilation of source file "eVITERBI_213.v"
+Highest level modules:
+tb_e213
+
+Debussy Release 4.4.h9 (May  5 2000 compile) Verilog-XL Version
+Fsdb file verilog.fsdb is created
+#####################
+#   COND is reset   #
+#####################
+time=   0, clk=0, reset=1, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, PX[trc_ptr]=00000000, tb_reg=000, A_in=02ffffff, P_in=00000000, Dx=z, error=0
+#####################
+#   COND is reset   #
+#####################
+time=  20, clk=1, reset=1, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, PX[trc_ptr]=00000000, tb_reg=000, A_in=02ffffff, P_in=00000000, Dx=z, error=0
+time=  40, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, PX[trc_ptr]=00000000, tb_reg=000, A_in=02ffffff, P_in=00000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=  60, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=0, CNT=20, min_state=000, PX[trc_ptr]=00000000, tb_reg=000, A_in=0233ffff, P_in=00000000, Dx=z, error=0
+time=  80, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=0, CNT=20, min_state=000, PX[trc_ptr]=00000000, tb_reg=000, A_in=0233ffff, P_in=00000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time= 100, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=2, tptr=0, CNT=20, min_state=000, PX[trc_ptr]=00000000, tb_reg=000, A_in=20333544, P_in=00000000, Dx=z, error=0
+time= 120, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=2, tptr=0, CNT=20, min_state=000, PX[trc_ptr]=00000000, tb_reg=000, A_in=20333544, P_in=00000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time= 140, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=0, CNT=20, min_state=001, PX[trc_ptr]=00000000, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time= 160, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=0, CNT=20, min_state=001, PX[trc_ptr]=00000000, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time= 180, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=0, CNT=20, min_state=011, PX[trc_ptr]=00000000, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+time= 200, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=0, CNT=20, min_state=011, PX[trc_ptr]=00000000, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 220, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=5, tptr=0, CNT=20, min_state=110, PX[trc_ptr]=00000000, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+time= 240, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=5, tptr=0, CNT=20, min_state=110, PX[trc_ptr]=00000000, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 260, clk=1, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=6, tptr=0, CNT=20, min_state=101, PX[trc_ptr]=00000000, tb_reg=110, A_in=33204434, P_in=11111110, Dx=z, error=0
+time= 280, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=6, tptr=0, CNT=20, min_state=101, PX[trc_ptr]=00000000, tb_reg=110, A_in=33204434, P_in=11111110, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 300, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=0, CNT=20, min_state=011, PX[trc_ptr]=00000000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+time= 320, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=0, CNT=20, min_state=011, PX[trc_ptr]=00000000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 340, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=8, tptr=0, CNT=20, min_state=110, PX[trc_ptr]=00000000, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+time= 360, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=8, tptr=0, CNT=20, min_state=110, PX[trc_ptr]=00000000, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 380, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=9, tptr=0, CNT=20, min_state=100, PX[trc_ptr]=00000000, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+time= 400, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=9, tptr=0, CNT=20, min_state=100, PX[trc_ptr]=00000000, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 420, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=a, tptr=0, CNT=20, min_state=001, PX[trc_ptr]=00000000, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+time= 440, clk=0, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=a, tptr=0, CNT=20, min_state=001, PX[trc_ptr]=00000000, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 460, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=b, tptr=0, CNT=20, min_state=010, PX[trc_ptr]=00000000, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+time= 480, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=b, tptr=0, CNT=20, min_state=010, PX[trc_ptr]=00000000, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 500, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=0, CNT=20, min_state=101, PX[trc_ptr]=00000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time= 520, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=0, CNT=20, min_state=101, PX[trc_ptr]=00000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 540, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=d, tptr=0, CNT=20, min_state=010, PX[trc_ptr]=00000000, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+time= 560, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=d, tptr=0, CNT=20, min_state=010, PX[trc_ptr]=00000000, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 580, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=11111101, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+time= 600, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=11111101, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 620, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+time= 640, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 660, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=11111101, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time= 680, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=11111101, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time= 700, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=11111101, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+time= 720, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=11111101, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time= 740, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=11111101, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+time= 760, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=11111101, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time= 780, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=11111101, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+time= 800, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=11111101, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time= 820, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=11111101, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+time= 840, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=11111101, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 860, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+time= 880, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 900, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=11111101, tb_reg=010, A_in=20333444, P_in=11111011, Dx=z, error=0
+time= 920, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=11111101, tb_reg=010, A_in=20333444, P_in=11111011, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 940, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=11111101, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+time= 960, clk=0, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=11111101, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time= 980, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1000, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1020, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1040, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1060, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1080, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1100, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1120, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1140, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1160, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1180, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1200, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1220, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1240, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1260, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1280, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1300, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1320, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=1340, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=1380, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1400, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=1420, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1440, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=1460, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1480, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1500, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1520, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1540, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1560, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1580, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1600, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1620, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1640, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1660, clk=1, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33204434, P_in=11111110, Dx=z, error=0
+time=1680, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33204434, P_in=11111110, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1700, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=01000000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=1720, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=01000000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1740, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=01000000, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+time=1760, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=01000000, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1780, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=110, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1800, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=110, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1820, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1840, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1860, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1880, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1900, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=1920, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=1940, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=1960, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=1980, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=2000, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=2020, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=2040, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=2060, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=2080, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=2100, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=2120, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2140, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=2160, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2180, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=2200, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2220, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=2240, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2260, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=2280, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2300, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=2320, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2340, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=2360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2380, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=2400, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2420, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=2440, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=11111101, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2460, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=2480, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=11111101, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2500, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=11111101, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=2520, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=11111101, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2540, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=100, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2560, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=100, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2580, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2600, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=2620, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2640, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=2660, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2680, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=2700, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2720, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=2740, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2760, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2780, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2800, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2820, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2840, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2860, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2880, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2900, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2920, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2940, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=2960, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=2980, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3000, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3020, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3040, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3060, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3080, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=11111101, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3100, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3120, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3140, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3160, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3180, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3200, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3220, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3240, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=3260, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3280, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=3300, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3320, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=3340, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=3360, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=3380, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=3400, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3420, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00001000, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time=3440, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00001000, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3460, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00001000, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=3480, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00001000, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3500, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00001000, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+time=3520, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00001000, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3540, clk=1, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00001000, tb_reg=110, A_in=33204434, P_in=11111110, Dx=z, error=0
+time=3560, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00001000, tb_reg=110, A_in=33204434, P_in=11111110, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3580, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00001000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=3600, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00001000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3620, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00001000, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+time=3640, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00001000, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3660, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00001000, tb_reg=110, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=3680, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00001000, tb_reg=110, A_in=02334344, P_in=11110111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3700, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=3720, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00001000, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3740, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time=3760, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3780, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000100, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=3800, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000100, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3820, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000100, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+time=3840, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000100, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=3860, clk=1, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000100, tb_reg=110, A_in=33204434, P_in=11111110, Dx=z, error=0
+time=3880, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000100, tb_reg=110, A_in=33204434, P_in=11111110, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=3900, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000100, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=3920, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000100, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=3940, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000100, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+time=3960, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000100, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=3980, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=110, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=4000, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=110, A_in=02334344, P_in=11110111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=4020, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000100, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=4040, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000100, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4060, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=0
+time=4080, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4100, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=4120, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4140, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=20333444, P_in=11111011, Dx=z, error=0
+time=4160, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=20333444, P_in=11111011, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4180, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+time=4200, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4220, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=4240, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4260, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=4280, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4300, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000100, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=4320, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000100, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4340, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time=4360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4380, clk=1, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44343320, P_in=00010000, Dx=z, error=0
+time=4400, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44343320, P_in=00010000, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4420, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=011, A_in=44433302, P_in=11011111, Dx=z, error=0
+time=4440, clk=0, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=011, A_in=44433302, P_in=11011111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4460, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=111, A_in=34442033, P_in=10111111, Dx=z, error=0
+time=4480, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=111, A_in=34442033, P_in=10111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4500, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000001, tb_reg=110, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=4520, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000001, tb_reg=110, A_in=33024443, P_in=11111101, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=4540, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=4560, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=4580, clk=1, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000001, tb_reg=010, A_in=33204434, P_in=11111110, Dx=z, error=0
+time=4600, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000001, tb_reg=010, A_in=33204434, P_in=11111110, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=4620, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=4640, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=4660, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+time=4680, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4700, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=110, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=4720, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=110, A_in=02334344, P_in=11110111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4740, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=4760, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4780, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time=4800, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4820, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=4840, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4860, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+time=4880, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4900, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=110, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=4920, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=110, A_in=02334344, P_in=11110111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4940, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=100, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=4960, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=100, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=4980, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=5000, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5020, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=0
+time=5040, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5060, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=5080, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5100, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=20333444, P_in=11111011, Dx=z, error=0
+time=5120, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=20333444, P_in=11111011, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5140, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+time=5160, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=5180, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=5200, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=5220, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=5240, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=5260, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000100, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=5280, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000100, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=5300, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time=5320, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5340, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000100, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=5360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000100, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5380, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000100, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+time=5400, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000100, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5420, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000100, tb_reg=110, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=5440, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000100, tb_reg=110, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5460, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=5480, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5500, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=5520, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000100, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5540, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000100, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=5560, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000100, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5580, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=0
+time=5600, clk=0, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000100, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5620, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=5640, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000100, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5660, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=5680, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5700, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=5720, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5740, clk=1, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33204434, P_in=11111110, Dx=z, error=0
+time=5760, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33204434, P_in=11111110, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5780, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=01000000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=5800, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=01000000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=5820, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=01000000, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+time=5840, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=01000000, tb_reg=011, A_in=34442033, P_in=10111111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=5860, clk=1, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=110, A_in=33204434, P_in=11111110, Dx=z, error=0
+time=5880, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=110, A_in=33204434, P_in=11111110, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=5900, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=01000000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=5920, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=01000000, tb_reg=101, A_in=44433302, P_in=00100000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=5940, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=01000000, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+time=5960, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=01000000, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=5980, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=01000000, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+time=6000, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=01000000, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6020, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=01000000, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+time=6040, clk=0, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=01000000, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6060, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=6080, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6100, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=6120, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=01000000, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6140, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=6160, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=01000000, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6180, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=01000000, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=6200, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=01000000, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6220, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=01000000, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=6240, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=01000000, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6260, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=01000000, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time=6280, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=01000000, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6300, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=6320, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6340, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+time=6360, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6380, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+time=6400, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6420, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+time=6440, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=6460, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=6480, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=6500, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=010, A_in=20333444, P_in=11111011, Dx=z, error=0
+time=6520, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=010, A_in=20333444, P_in=11111011, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=6540, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+time=6560, clk=0, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=6580, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=6600, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=001, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6620, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000001, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=6640, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000001, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6660, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+time=6680, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=101, A_in=34442033, P_in=01000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6700, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000001, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+time=6720, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=101, PX[trc_ptr]=00000001, tb_reg=010, A_in=33024443, P_in=11111101, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6740, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=6760, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=101, A_in=43440233, P_in=10000000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6780, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=6800, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6820, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=100, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=6840, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=100, A_in=02334344, P_in=00001000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6860, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=6880, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6900, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time=6920, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6940, clk=1, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+time=6960, clk=0, reset=0, Ux=0, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44433302, P_in=00100000, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=6980, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+time=7000, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=110, PX[trc_ptr]=00000001, tb_reg=011, A_in=43440233, P_in=01111111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7020, clk=1, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+time=7040, clk=0, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=110, A_in=20333444, P_in=11111011, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7060, clk=1, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+time=7080, clk=0, reset=0, Ux=0, Vx=01, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=100, A_in=33024443, P_in=00000010, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=7100, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+time=7120, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=010, PX[trc_ptr]=00000001, tb_reg=001, A_in=43440233, P_in=10000000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=7140, clk=1, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+time=7160, clk=0, reset=0, Ux=0, Vx=11, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=100, PX[trc_ptr]=00000001, tb_reg=010, A_in=02334344, P_in=11110111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=7180, clk=1, reset=0, Ux=0, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=100, A_in=02334344, P_in=00001000, Dx=z, error=0
+time=7200, clk=0, reset=0, Ux=1, Vx=00, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=100, A_in=02334344, P_in=00001000, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=7220, clk=1, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=0
+time=7240, clk=0, reset=0, Ux=1, Vx=11, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=000, PX[trc_ptr]=00000001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7260, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+time=7280, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=001, PX[trc_ptr]=00000001, tb_reg=000, A_in=33204434, P_in=00000001, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7300, clk=1, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44343320, P_in=00010000, Dx=z, error=0
+time=7320, clk=0, reset=0, Ux=1, Vx=01, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=011, PX[trc_ptr]=00000001, tb_reg=001, A_in=44343320, P_in=00010000, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7340, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=011, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=011, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7380, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7400, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7420, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7440, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7460, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7480, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7500, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7520, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7540, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7560, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=00000001, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7580, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7600, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7620, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7640, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7660, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7680, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7700, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7720, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=7740, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7760, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=7780, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7800, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=7820, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7840, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=7860, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7880, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7900, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7920, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7940, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=7960, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=7980, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8000, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8020, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8040, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8060, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8080, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8100, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8120, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8140, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8160, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8180, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8200, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8220, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8240, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8260, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8280, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8300, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8320, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8340, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=8380, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8400, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=8420, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8440, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=8460, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8480, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=8500, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8520, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8540, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8560, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8580, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8600, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8620, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8640, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8660, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8680, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8700, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8720, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8740, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8760, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8780, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8800, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8820, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8840, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8860, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8880, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8900, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8920, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8940, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=8960, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=8980, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9000, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=9020, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9040, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=9060, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9080, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=9100, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9120, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=9140, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9160, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9180, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9200, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9220, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9240, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9260, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9280, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9300, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9320, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9340, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9380, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9400, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9420, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9440, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9460, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9480, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9500, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9520, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9540, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9560, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9580, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9600, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9620, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9640, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=9660, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9680, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=9700, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9720, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=9740, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9760, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=9780, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9800, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9820, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9840, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9860, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9880, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9900, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9920, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9940, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=9960, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=9980, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10000, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10020, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10040, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10060, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10080, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10100, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10120, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10140, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10160, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10180, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10200, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10220, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10240, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10260, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10280, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=10300, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10320, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=10340, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=10380, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10400, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=10420, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10440, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10460, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10480, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10500, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10520, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10540, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10560, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10580, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10600, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10620, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10640, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10660, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10680, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10700, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10720, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10740, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10760, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10780, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10800, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10820, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10840, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10860, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10880, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=10900, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10920, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=10940, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=10960, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=10980, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11000, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=11020, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11040, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=11060, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11080, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11100, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11120, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11140, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11160, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11180, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11200, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11220, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11240, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11260, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11280, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11300, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11320, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11340, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11380, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11400, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11420, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11440, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11460, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11480, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11500, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11520, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11540, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11560, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=11580, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11600, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=11620, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11640, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=11660, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11680, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=11700, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11720, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11740, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11760, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11780, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11800, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11820, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11840, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11860, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11880, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11900, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11920, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11940, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=11960, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=11980, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12000, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12020, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12040, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12060, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12080, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12100, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12120, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12140, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12160, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12180, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12200, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=12220, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12240, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=12260, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12280, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=12300, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12320, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=12340, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12380, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12400, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12420, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12440, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12460, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12480, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12500, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12520, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12540, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12560, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12580, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12600, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12620, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12640, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12660, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12680, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12700, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12720, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12740, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12760, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12780, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12800, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=12820, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12840, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=12860, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12880, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=12900, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12920, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=12940, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=12960, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=12980, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13000, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=4, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13020, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13040, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=5, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13060, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13080, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=6, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13100, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13120, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=7, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13140, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13160, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=8, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13180, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13200, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=9, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13220, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13240, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=a, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13260, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13280, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=b, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13300, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13320, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=c, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13340, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13360, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=d, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr==`T #
+###############################
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13380, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13400, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=e, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13420, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13440, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=f, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+####################################
+# COND is we && write_ptr >m <`T-1 #
+####################################
+time=13460, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13480, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=0, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=13500, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13520, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=1, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=13540, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+time=13560, clk=0, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=2, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+###############################
+# COND is we && write_ptr <`m #
+###############################
+time=13580, clk=1, reset=0, Ux=1, Vx=10, we=1,te=0, oe=0, wptr=3, tptr=c, CNT=20, min_state=111, PX[trc_ptr]=11101111, tb_reg=111, A_in=44343320, P_in=11101111, Dx=z, error=0
+L102 "tb_e213.v": $finish at simulation time 13600
+0 simulation events (use +profile or +listcounts option to count)
+CPU time: 0.1 secs to compile + 0.1 secs to link + 0.5 secs in simulation
+End of VERILOG-XL 3.0.s007   Feb 10, 2001  18:21:46

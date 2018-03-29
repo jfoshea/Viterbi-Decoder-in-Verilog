@@ -1,0 +1,4048 @@
+Sat Feb 10 19:02:27 2001
+
+File: eVITERBI_r_213.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   9.141            U3/n4930
+   9.111            U3/n4919
+   7.826            U3/n716<0>
+   7.507            n43
+   7.448            U3/n_779
+   7.294            U1/n131
+   6.803            U3/n4849
+   6.738            U3/n4861
+   6.717            HD6<1>
+   6.498            U1/n129
+   6.369            U3/n5023
+   6.191            U3/n4886
+   6.124            U3/n5297
+   6.120            U3/n4870
+   6.093            U2/ACS1/n160
+   6.009            U3/n1158
+   5.998            U3/n5279
+   5.807            U3/n5087
+   5.782            U3/n4875
+   5.733            U3/n5295
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+A0_out<3>
+   U3/n5074.XQ
+         2.822  U2/ACS0/n397.F1
+         2.822  U2/ACS0/n397.G1
+         3.282  U3/TB_1/n89.F1
+         1.929  U3/TB_1/n89.C2
+         2.004  U2/ACS0/n160.G1
+         2.056  U2/ACS1/n160.G3
+         2.643  U3/TB_1/*cell*3027/net11162.F3
+
+A2_out<3>
+   A2_out<3>.XQ
+         3.827  U2/ACS4/n187.F4
+         3.827  U2/ACS4/n187.G4
+         4.557  U3/TB_1/n97.G4
+         4.068  U3/TB_1/n97.C1
+         3.300  U3/TB_1/*cell*2704/net8337.F2
+         3.251  U2/ACS4/n160.G3
+         3.984  U2/ACS5/n160.G4
+
+A4_out<3>
+   A2_out<3>.YQ
+         5.151  U2/ACS0/U64/GATE2.F2
+         4.972  U2/ACS0/U64/GATE2.G3
+         3.878  U2/ACS1/n378.C4
+         5.147  U2/ACS0/n408.C2
+         4.431  U3/TB_1/*cell*2704/net8326.F4
+         2.708  U3/TB_1/n105.F4
+         2.242  U3/TB_1/*cell*2704/net8300.F1
+         5.103  U2/ACS0/sumb<2>.G2
+         3.261  U2/ACS1/sumb<2>.G2
+         5.293  U2/ACS0/sumb<1>.G3
+         4.497  U2/ACS1/sumb<1>.G3
+
+A6_out<3>
+   A6_out<3>.XQ
+         3.850  U2/ACS4/U65/GATE2.F3
+         5.052  U2/ACS5/U64/GATE2.F4
+         4.215  U2/ACS5/n290.C4
+         4.066  U2/ACS4/n199.C3
+         4.015  U3/TB_1/*cell*3027/net11187.F1
+         2.386  U3/TB_1/n113.F3
+         4.004  U2/ACS4/sumb<2>.G1
+         3.739  U2/ACS5/sumb<2>.G4
+         3.018  U3/TB_1/min_67<3>.F3
+         4.004  U2/ACS4/sumb<1>.G1
+         5.121  U2/ACS5/sumb<1>.G4
+
+A7_out<3>
+   A6_out<3>.YQ
+         3.307  U2/ACS6/U63/GATE2.F4
+         3.182  U2/ACS7/U63/GATE2.F2
+         3.944  U2/ACS7/n260.C1
+         2.591  U2/ACS6/sumb<3>/2.0.C1
+         3.406  U3/TB_1/n113.F4
+         3.533  U2/ACS6/sumb<2>.G4
+         3.404  U2/ACS7/sumb<2>.G4
+         2.854  U3/TB_1/min_67<3>.F2
+         2.538  U2/ACS6/sumb<1>.G1
+         3.865  U2/ACS7/sumb<1>.G3
+
+GLOBAL_LOGIC0
+   U3/gt_321/u10/S0/SUB/CY4_0.X
+         2.095  U3/n4919.F1
+         2.095  U3/gt_321/u10/S0/SUB/CY4_4.F1
+         3.446  U3/gt_321/u10/S0/SUB/CY4_4.G4
+         1.701  U3/gt_321/u10/S0/SUB/CY4_3.F1
+         3.431  U3/gt_321/u10/S0/SUB/CY4_3.G4
+         1.701  U3/gt_321/u10/S0/SUB/CY4_2.F1
+         3.407  U3/gt_321/u10/S0/SUB/CY4_2.G4
+         1.701  U3/block_count<0>.F1
+         3.372  U3/block_count<0>.G4
+
+HD12<0>
+   HD12<0>.X
+         1.425  U2/ACS7/sumb<0>.F4
+         1.425  U2/ACS7/sumb<0>.G4
+         4.131  U2/ACS6/sumb<0>.F1
+         4.162  U2/ACS6/sumb<0>.G3
+         2.653  U2/ACS3/sumb<0>.F1
+         2.319  U2/ACS2/sumb<0>.F3
+         2.319  U2/ACS2/sumb<0>.G3
+         2.267  U2/ACS2/n319.F1
+         2.764  U2/ACS3/n231.F2
+         2.743  U2/ACS6/sumb<3>/2.0.G3
+         2.340  U2/ACS7/n260.F1
+
+HD6<1>
+   HD6<1>.X
+         6.150  U2/ACS4/U65/GATE2.F1
+         6.150  U2/ACS4/U65/GATE2.G1
+         6.203  U2/ACS4/sumb<1>.F3
+         6.717  U2/ACS4/sumb<1>.G4
+         4.148  U2/ACS1/sumb<1>.F1
+         4.148  U2/ACS1/sumb<1>.G1
+         2.853  U2/ACS0/suma<1>.F2
+         2.913  U2/ACS0/n411.F3
+         4.025  U2/ACS1/sumb<2>.F3
+         6.495  U2/ACS4/sumb<2>.F2
+         5.962  U2/ACS5/n293.F2
+         2.470  U2/ACS0/U64/GATE2.G2
+         5.492  U2/ACS4/suma<1>.G1
+
+HD7<1>
+   HD7<1>.X
+         4.372  U2/ACS2/U63/GATE2.F3
+         3.130  U2/ACS7/U63/GATE2.F3
+         3.130  U2/ACS7/U63/GATE2.G3
+         2.009  U2/ACS7/sumb<1>.F2
+         2.009  U2/ACS7/sumb<1>.G2
+         3.197  U2/ACS6/suma<1>.F4
+         3.784  U2/ACS2/sumb<1>.F2
+         3.784  U2/ACS2/sumb<1>.G2
+         3.767  U2/ACS2/sumb<2>.F2
+         2.796  U2/ACS3/n234.F3
+         3.197  U2/ACS6/n351.F4
+         2.660  U2/ACS7/sumb<2>.F4
+         4.000  U2/ACS2/suma<1>.G3
+
+HD8<1>
+   HD8<1>.X
+         2.336  U2/ACS6/U63/GATE2.F2
+         2.336  U2/ACS6/U63/GATE2.G2
+         2.369  U2/ACS6/sumb<1>.F2
+         2.369  U2/ACS6/sumb<1>.G2
+         3.840  U2/ACS2/suma<1>.F3
+         3.291  U2/ACS2/n322.F2
+         2.266  U2/ACS3/sumb<2>.F2
+         2.357  U2/ACS6/sumb<2>.F2
+         1.331  U2/ACS7/n263.F3
+         1.331  U2/ACS2/U63/GATE2.G3
+         3.832  U2/ACS3/sumb<0>.G4
+         3.833  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.G2
+         1.483  U2/ACS6/suma<1>.G4
+
+U1/n129
+   U1/n129.X
+         3.992  U2/ACS0/U64/GATE2.F4
+         6.498  U2/ACS5/U64/GATE2.F3
+         6.498  U2/ACS5/U64/GATE2.G3
+         6.119  U2/ACS5/sumb<1>.F2
+         6.127  U2/ACS5/sumb<1>.G2
+         5.815  U2/ACS4/suma<1>.F1
+         3.992  U2/ACS0/sumb<1>.F4
+         3.992  U2/ACS0/sumb<1>.G4
+         3.860  U1/n131.F1
+         3.924  U2/ACS0/sumb<2>.F2
+         3.486  U2/ACS1/n381.F2
+         5.815  U2/ACS2/n320.F1
+         5.815  U2/ACS2/n320.G1
+         3.876  HD12<0>.F3
+         4.891  U2/ACS3/n232.F3
+         4.891  U2/ACS3/n232.G3
+         5.815  U2/ACS4/n202.F1
+         6.142  U2/ACS5/sumb<2>.F4
+         5.768  U2/ACS6/n349.F3
+         5.768  U2/ACS6/n349.G3
+         5.716  U2/ACS7/n261.F1
+         5.716  U2/ACS7/n261.G1
+         3.924  U2/ACS0/suma<1>.G2
+
+U1/n130
+   U1/n130.X
+         1.918  U1/n131.F2
+         4.370  U2/ACS2/n320.F3
+         4.370  U2/ACS2/n320.G3
+         2.287  HD12<0>.F2
+         5.144  U2/ACS3/n232.F1
+         5.144  U2/ACS3/n232.G1
+         3.708  U2/ACS6/n349.F1
+         3.789  U2/ACS6/n349.G4
+         2.711  U2/ACS7/n261.F3
+         2.711  U2/ACS7/n261.G3
+
+U1/n131
+   U1/n131.X
+         6.418  U2/ACS4/n200.F1
+         6.325  U2/ACS4/n200.G2
+         7.241  U2/ACS4/n190.F1
+         7.241  U2/ACS4/n190.G1
+         7.294  U2/ACS4/sumb<0>.F3
+         7.294  U2/ACS4/sumb<0>.G3
+         6.129  U2/ACS4/suma<0>.F3
+         6.129  U2/ACS4/suma<0>.G3
+         2.822  U2/ACS1/sumb<0>.F3
+         2.822  U2/ACS1/sumb<0>.G3
+         2.282  U2/ACS1/suma<0>.F1
+         2.422  U2/ACS0/sumb<0>.F1
+         3.032  U2/ACS0/sumb<0>.G2
+         2.365  U2/ACS0/suma<0>.F2
+         2.365  U2/ACS0/suma<0>.G2
+         2.422  U2/ACS0/n408.F1
+         3.731  U2/ACS1/n378.F4
+         7.029  U2/ACS4/n199.F1
+         7.105  U2/ACS5/n290.F1
+
+U2/ACS0/U64/GATE1/2.0
+   U2/ACS0/sumb<1>.Y
+         1.393  U2/ACS0/sumb<3>.F4
+
+U2/ACS0/U64/GATE2
+   U2/ACS0/U64/GATE2.X
+         2.102  U2/ACS0/sumb<3>.F3
+
+U2/ACS0/lte_60/lte_60/u4/S0/SUB/CO_2
+   U2/ACS0/lte_60/lte_60/u4/S0/SUB/CO_2.X
+         1.265  U2/ACS0/n160.F3
+
+U2/ACS0/n160
+   U2/ACS0/n160.X
+         1.484  U3/n5283.F1
+         1.477  U3/n5281.F1
+         1.477  U3/n5281.G1
+         2.970  U3/n4889.F3
+         2.845  U3/n5096.F2
+         1.484  U3/n5074.G1
+
+U2/ACS0/n396
+   U2/ACS0/sumb<2>.Y
+         0.460  U2/ACS0/n408.C1
+         1.285  U2/ACS0/sumb<1>.F3
+         1.899  U2/ACS0/sumb<0>.F2
+
+U2/ACS0/n397
+   U2/ACS0/n397.X
+         1.466  U2/ACS0/n411.C1
+         0.624  U2/ACS0/suma<1>.F4
+         1.809  U2/ACS0/suma<0>.F1
+         2.575  U2/ACS0/n160.G3
+
+U2/ACS0/n399
+   U2/ACS0/sumb<0>.Y
+         2.194  U2/ACS0/sumb<1>.F2
+         0.971  U2/ACS0/sumb<0>.F3
+         1.647  U2/ACS0/sumb<2>.F3
+
+U2/ACS0/n408
+   U2/ACS0/n408.X
+         1.308  U2/ACS0/sumb<3>.F2
+
+U2/ACS0/n408/2.1
+   U1/n129.Y
+         1.748  U2/ACS0/n408.F4
+
+U2/ACS0/n409
+   U1/n131.Y
+         1.431  U2/ACS0/suma<1>.F1
+         1.606  U2/ACS0/suma<0>.F4
+         1.282  U2/ACS0/n411.F1
+
+U2/ACS0/n411
+   U2/ACS0/n411.X
+         2.564  U2/ACS0/n160.G4
+
+U2/ACS0/suma<0>
+   U2/ACS0/suma<0>.X
+         2.150  U2/ACS0/lte_60/lte_60/u4/S0/SUB/CO_2.F3
+         3.077  U3/n5283.F2
+
+U2/ACS0/suma<1>
+   U2/ACS0/suma<1>.X
+         2.082  U2/ACS0/lte_60/lte_60/u4/S0/SUB/CO_2.F2
+         2.037  U3/n5281.G2
+
+U2/ACS0/suma<2>
+   U2/ACS0/n411.Y
+         1.274  U2/ACS0/n160.F1
+         0.991  U3/n5281.F2
+
+U2/ACS0/suma<3>
+   U2/ACS0/n160.Y
+         1.770  U3/n5074.G4
+
+U2/ACS0/sumb<0>
+   U2/ACS0/sumb<0>.X
+         2.684  U2/ACS0/lte_60/lte_60/u4/S0/SUB/CO_2.F1
+         3.112  U3/n5283.F4
+
+U2/ACS0/sumb<1>
+   U2/ACS0/sumb<1>.X
+         1.856  U2/ACS0/lte_60/lte_60/u4/S0/SUB/CO_2.F4
+         1.988  U3/n5281.G3
+
+U2/ACS0/sumb<2>
+   U2/ACS0/sumb<2>.X
+         1.567  U2/ACS0/n160.F2
+         1.520  U3/n5281.F3
+
+U2/ACS0/sumb<3>
+   U2/ACS0/sumb<3>.X
+         2.313  U2/ACS0/n160.C2
+         3.103  U3/n5074.G3
+
+U2/ACS0/sumb<3>/2.0
+   U2/ACS0/n408.Y
+         0.237  U2/ACS0/sumb<3>.F1
+
+U2/ACS1/U64/GATE1/2.0
+   U2/ACS0/U64/GATE2.Y
+         2.911  U2/ACS1/sumb<3>.F3
+
+U2/ACS1/U64/GATE2
+   U2/ACS1/sumb<1>.Y
+         1.301  U2/ACS1/sumb<3>.F4
+
+U2/ACS1/lte_60/*cell*2262/S0/SUB/CO_2
+   U2/ACS1/lte_60/*cell*2262/S0/SUB/CO_2.X
+         1.387  U2/ACS1/n160.F4
+
+U2/ACS1/n160
+   U2/ACS1/n160.X
+         3.992  U3/n5287.F3
+         1.934  U3/n5285.F3
+         1.934  U3/n5285.G3
+         5.847  U3/n4888.F2
+         6.093  U3/P1<10>.F1
+         1.543  U3/n5283.G2
+
+U2/ACS1/n366
+   U2/ACS1/sumb<2>.Y
+         1.414  U2/ACS1/n378.C2
+         1.483  U2/ACS1/sumb<1>.F4
+         1.518  U2/ACS1/sumb<0>.F1
+
+U2/ACS1/n367
+   U2/ACS0/n397.Y
+         0.866  U2/ACS1/n381.C1
+         1.335  U2/ACS1/suma<0>.F3
+         1.658  U2/ACS1/n160.G1
+         1.853  U2/ACS0/suma<1>.G4
+
+U2/ACS1/n369
+   U2/ACS1/sumb<0>.Y
+         1.335  U2/ACS1/sumb<1>.F3
+         1.265  U2/ACS1/sumb<0>.F4
+         1.696  U2/ACS1/sumb<2>.F2
+
+U2/ACS1/n378
+   U2/ACS1/n378.X
+         1.279  U2/ACS1/sumb<3>.F2
+
+U2/ACS1/n378/2.1
+   HD6<1>.Y
+         2.081  U2/ACS1/n378.F2
+
+U2/ACS1/n379
+   U2/ACS0/suma<0>.Y
+         1.490  U2/ACS1/suma<0>.F2
+         1.169  U2/ACS1/n381.F1
+         1.465  U2/ACS0/suma<1>.G1
+
+U2/ACS1/n381
+   U2/ACS1/n381.X
+         2.493  U2/ACS1/n160.G4
+
+U2/ACS1/suma<0>
+   U2/ACS1/suma<0>.X
+         2.994  U2/ACS1/lte_60/*cell*2262/S0/SUB/CO_2.F1
+         3.616  U3/n5287.F1
+
+U2/ACS1/suma<1>
+   U2/ACS0/suma<1>.Y
+         2.274  U2/ACS1/lte_60/*cell*2262/S0/SUB/CO_2.F3
+         2.209  U3/n5285.G2
+
+U2/ACS1/suma<2>
+   U2/ACS1/n381.Y
+         1.327  U2/ACS1/n160.F3
+         1.906  U3/n5285.F4
+
+U2/ACS1/suma<3>
+   U2/ACS1/n160.Y
+         0.166  U3/n5283.G1
+
+U2/ACS1/sumb<0>
+   U2/ACS1/sumb<0>.X
+         1.337  U2/ACS1/lte_60/*cell*2262/S0/SUB/CO_2.F4
+         2.084  U3/n5287.F4
+
+U2/ACS1/sumb<1>
+   U2/ACS1/sumb<1>.X
+         1.269  U2/ACS1/lte_60/*cell*2262/S0/SUB/CO_2.F2
+         1.337  U3/n5285.G4
+
+U2/ACS1/sumb<2>
+   U2/ACS1/sumb<2>.X
+         2.421  U2/ACS1/n160.F2
+         2.421  U3/n5285.F2
+
+U2/ACS1/sumb<3>
+   U2/ACS1/sumb<3>.X
+         1.366  U2/ACS1/n160.C4
+         1.366  U3/n5283.G4
+
+U2/ACS1/sumb<3>/2.0
+   U2/ACS1/n378.Y
+         0.166  U2/ACS1/sumb<3>.F1
+
+U2/ACS2/U63/GATE1/2.0
+   U2/ACS2/sumb<1>.Y
+         1.764  U2/ACS2/sumb<3>.F4
+
+U2/ACS2/U63/GATE2
+   U2/ACS2/U63/GATE2.X
+         2.272  U2/ACS2/sumb<3>.F3
+
+U2/ACS2/lte_60/*cell*2146/S0/SUB/CO_2
+   U2/ACS2/lte_60/*cell*2146/S0/SUB/CO_2.X
+         1.375  U2/ACS2/n160.F2
+
+U2/ACS2/n160
+   U2/ACS2/n160.X
+         2.032  U3/n5289.F4
+         2.032  U3/n5289.G4
+         1.730  A2_out<3>.F3
+         2.231  U3/n4887.F3
+         2.656  U3/P2<10>.F2
+         1.578  U3/n5287.G1
+
+U2/ACS2/n308
+   U2/ACS2/sumb<2>.Y
+         1.992  U2/ACS2/n319.C2
+         1.595  U2/ACS2/sumb<1>.F3
+         1.992  U2/ACS2/sumb<0>.F2
+
+U2/ACS2/n309
+   U2/ACS2/n309.X
+         2.121  U2/ACS2/n322.C2
+         2.565  U2/ACS2/suma<1>.F1
+         2.053  U2/ACS2/n320.G4
+         2.897  U2/ACS2/n160.G1
+
+U2/ACS2/n310
+   HD12<0>.Y
+         2.122  U2/ACS2/sumb<1>.F1
+         2.093  U2/ACS2/sumb<0>.F1
+         2.021  U2/ACS2/sumb<2>.F3
+
+U2/ACS2/n319
+   U2/ACS2/n319.X
+         1.121  U2/ACS2/sumb<3>.F1
+
+U2/ACS2/n319/2.1
+   HD7<1>.Y
+         0.991  U2/ACS2/n319.F2
+
+U2/ACS2/n320
+   U2/ACS2/n320.X
+         1.389  U2/ACS2/suma<1>.F4
+         0.466  U2/ACS2/n320.G2
+         1.389  U2/ACS2/n322.F4
+
+U2/ACS2/n322
+   U2/ACS2/n322.X
+         2.053  U2/ACS2/n160.G4
+
+U2/ACS2/suma<0>
+   U2/ACS2/n320.Y
+         0.305  U2/ACS2/lte_60/*cell*2146/S0/SUB/CO_2.F1
+         1.011  U3/n5289.G1
+
+U2/ACS2/suma<1>
+   U2/ACS2/suma<1>.X
+         1.942  U2/ACS2/lte_60/*cell*2146/S0/SUB/CO_2.F2
+         1.536  U3/n5289.F1
+
+U2/ACS2/suma<2>
+   U2/ACS2/n322.Y
+         1.328  U2/ACS2/n160.F3
+         1.468  U3/n5287.G4
+
+U2/ACS2/suma<3>
+   U2/ACS2/n160.Y
+         1.301  A2_out<3>.F4
+
+U2/ACS2/sumb<0>
+   U2/ACS2/sumb<0>.X
+         2.459  U2/ACS2/lte_60/*cell*2146/S0/SUB/CO_2.F4
+         2.391  U3/n5289.G2
+
+U2/ACS2/sumb<1>
+   U2/ACS2/sumb<1>.X
+         1.448  U2/ACS2/lte_60/*cell*2146/S0/SUB/CO_2.F3
+         2.554  U3/n5289.F2
+
+U2/ACS2/sumb<2>
+   U2/ACS2/sumb<2>.X
+         1.213  U2/ACS2/n160.F1
+         2.981  U3/n5287.G3
+
+U2/ACS2/sumb<3>
+   U2/ACS2/sumb<3>.X
+         2.181  U2/ACS2/n160.C3
+         2.257  A2_out<3>.F2
+
+U2/ACS2/sumb<3>/2.0
+   U2/ACS2/n319.Y
+         0.991  U2/ACS2/sumb<3>.F2
+
+U2/ACS3/U63/GATE1/2.0
+   U2/ACS2/U63/GATE2.Y
+         0.991  U2/ACS3/sumb<3>.F2
+
+U2/ACS3/U63/GATE2
+   U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.Y
+         1.906  U2/ACS3/sumb<3>.F4
+
+U2/ACS3/lte_60/*cell*1972/S0/SUB/CO_2
+   U2/ACS3/lte_60/*cell*1972/S0/SUB/CO_2.X
+         1.394  U2/ACS3/n160.F1
+
+U2/ACS3/n160
+   U2/ACS3/n160.X
+         2.390  U3/n5293.F1
+         2.390  U3/n5293.G1
+         1.989  U3/n5291.F2
+         1.989  U3/n5291.G2
+         3.450  U3/n4886.F1
+         3.592  U3/P3<10>.F2
+
+U2/ACS3/n220
+   U2/ACS3/sumb<2>.Y
+         1.471  U2/ACS3/n231.C3
+         1.335  U2/ACS3/sumb<0>.F2
+         1.335  U2/ACS3/sumb<0>.G2
+
+U2/ACS3/n221
+   U2/ACS2/n309.Y
+         2.088  U2/ACS3/n234.C1
+         2.409  U2/ACS3/n232.G4
+         2.140  U2/ACS3/n160.G3
+         0.941  U2/ACS2/suma<1>.G1
+
+U2/ACS3/n222
+   U2/ACS2/sumb<0>.Y
+         2.342  U2/ACS3/sumb<0>.F4
+         2.357  U2/ACS3/sumb<0>.G1
+         1.716  U2/ACS3/sumb<2>.F4
+
+U2/ACS3/n231
+   U2/ACS3/n231.X
+         1.710  U2/ACS3/sumb<3>.F3
+
+U2/ACS3/n231/2.1
+   HD8<1>.Y
+         2.568  U2/ACS3/n231.F3
+
+U2/ACS3/n232
+   U2/ACS3/n232.X
+         0.546  U2/ACS3/n232.G2
+         1.351  U2/ACS3/n234.F2
+         2.980  U2/ACS2/suma<1>.G4
+
+U2/ACS3/n234
+   U2/ACS3/n234.X
+         0.962  U2/ACS3/n160.G2
+
+U2/ACS3/suma<0>
+   U2/ACS3/n232.Y
+         1.070  U2/ACS3/lte_60/*cell*1972/S0/SUB/CO_2.F3
+         1.292  U3/n5293.G3
+
+U2/ACS3/suma<1>
+   U2/ACS2/suma<1>.Y
+         1.242  U2/ACS3/lte_60/*cell*1972/S0/SUB/CO_2.F4
+         2.228  U3/n5293.F4
+
+U2/ACS3/suma<2>
+   U2/ACS3/n234.Y
+         1.670  U2/ACS3/n160.F2
+         2.086  U3/n5291.G3
+
+U2/ACS3/suma<3>
+   U2/ACS3/n160.Y
+         2.037  U3/n5291.F1
+
+U2/ACS3/sumb<0>
+   U2/ACS3/sumb<0>.X
+         2.388  U2/ACS3/lte_60/*cell*1972/S0/SUB/CO_2.F2
+         2.700  U3/n5293.G4
+
+U2/ACS3/sumb<1>
+   U2/ACS3/sumb<0>.Y
+         2.074  U2/ACS3/lte_60/*cell*1972/S0/SUB/CO_2.F1
+         2.126  U3/n5293.F3
+
+U2/ACS3/sumb<2>
+   U2/ACS3/sumb<2>.X
+         1.661  U2/ACS3/n160.F3
+         2.344  U3/n5291.G1
+
+U2/ACS3/sumb<3>
+   U2/ACS3/sumb<3>.X
+         1.217  U2/ACS3/n160.C1
+         1.270  U3/n5291.F3
+
+U2/ACS3/sumb<3>/2.0
+   U2/ACS3/n231.Y
+         0.166  U2/ACS3/sumb<3>.F1
+
+U2/ACS4/U65/GATE1/2.0
+   U2/ACS4/sumb<1>.Y
+         1.776  U2/ACS4/sumb<3>.F3
+
+U2/ACS4/U65/GATE2
+   U2/ACS4/U65/GATE2.X
+         1.713  U2/ACS4/sumb<3>.F4
+
+U2/ACS4/lte_60/*cell*1914/S0/SUB/CO_2
+   U2/ACS4/lte_60/*cell*1914/S0/SUB/CO_2.X
+         1.269  U2/ACS4/n160.F2
+
+U2/ACS4/n160
+   U2/ACS4/n160.X
+         2.115  U3/n5297.F4
+         1.131  U3/n5295.F4
+         1.131  U3/n5295.G4
+         3.958  U3/n4885.F1
+         2.855  U3/P4<10>.F2
+         2.402  A2_out<3>.G4
+
+U2/ACS4/n186
+   U2/ACS4/sumb<2>.Y
+         1.469  U2/ACS4/n199.C1
+         0.991  U2/ACS4/sumb<1>.F2
+         1.672  U2/ACS4/sumb<0>.F4
+
+U2/ACS4/n187
+   U2/ACS4/n187.X
+         1.503  U2/ACS4/n202.C4
+         1.435  U2/ACS4/suma<1>.F2
+         1.121  U2/ACS4/suma<0>.F1
+         0.667  U2/ACS4/n160.G4
+
+U2/ACS4/n190
+   U2/ACS4/n190.X
+         1.832  U2/ACS4/sumb<1>.F1
+         1.640  U2/ACS4/sumb<0>.F2
+         1.741  U2/ACS4/sumb<2>.F1
+
+U2/ACS4/n199
+   U2/ACS4/n199.X
+         1.308  U2/ACS4/sumb<3>.F2
+
+U2/ACS4/n199/2.1
+   U2/ACS4/U65/GATE2.Y
+         1.228  U2/ACS4/n199.F2
+
+U2/ACS4/n200
+   U2/ACS4/n200.X
+         1.762  U2/ACS4/suma<1>.F4
+         2.186  U2/ACS4/suma<0>.F4
+         2.173  U2/ACS4/n202.F4
+
+U2/ACS4/n202
+   U2/ACS4/n202.X
+         1.642  U2/ACS4/n160.G1
+
+U2/ACS4/suma<0>
+   U2/ACS4/suma<0>.X
+         1.247  U2/ACS4/lte_60/*cell*1914/S0/SUB/CO_2.F3
+         1.247  U3/n5297.F3
+
+U2/ACS4/suma<1>
+   U2/ACS4/suma<1>.X
+         1.337  U2/ACS4/lte_60/*cell*1914/S0/SUB/CO_2.F4
+         1.683  U3/n5295.G2
+
+U2/ACS4/suma<2>
+   U2/ACS4/n202.Y
+         1.863  U2/ACS4/n160.F3
+         2.380  U3/n5295.F2
+
+U2/ACS4/suma<3>
+   U2/ACS4/n160.Y
+         1.722  A2_out<3>.G3
+
+U2/ACS4/sumb<0>
+   U2/ACS4/sumb<0>.X
+         2.503  U2/ACS4/lte_60/*cell*1914/S0/SUB/CO_2.F1
+         2.405  U3/n5297.F2
+
+U2/ACS4/sumb<1>
+   U2/ACS4/sumb<1>.X
+         1.375  U2/ACS4/lte_60/*cell*1914/S0/SUB/CO_2.F2
+         2.656  U3/n5295.G1
+
+U2/ACS4/sumb<2>
+   U2/ACS4/sumb<2>.X
+         2.049  U2/ACS4/n160.F1
+         2.049  U3/n5295.F1
+
+U2/ACS4/sumb<3>
+   U2/ACS4/sumb<3>.X
+         1.503  U2/ACS4/n160.C4
+         3.112  A2_out<3>.G2
+
+U2/ACS4/sumb<3>/2.0
+   U2/ACS4/n199.Y
+         0.237  U2/ACS4/sumb<3>.F1
+
+U2/ACS5/U64/GATE1/2.0
+   U2/ACS5/sumb<1>.Y
+         1.887  U2/ACS5/sumb<3>.F3
+
+U2/ACS5/U64/GATE2
+   U2/ACS5/U64/GATE2.X
+         1.121  U2/ACS5/sumb<3>.F1
+
+U2/ACS5/lte_60/*cell*2088/S0/SUB/CO_2
+   U2/ACS5/lte_60/*cell*2088/S0/SUB/CO_2.X
+         1.699  U2/ACS5/n160.F2
+
+U2/ACS5/n160
+   U2/ACS5/n160.X
+         2.228  U3/n5301.F2
+         1.744  U3/n5299.F4
+         1.744  U3/n5299.G4
+         3.466  U3/n4884.F4
+         2.898  U3/P5<10>.F1
+         2.024  U3/n5297.G4
+
+U2/ACS5/n278
+   U2/ACS5/sumb<2>.Y
+         2.159  U2/ACS5/n290.C3
+         2.215  U2/ACS5/sumb<1>.F4
+         2.645  U2/ACS4/n190.G2
+
+U2/ACS5/n279
+   U2/ACS4/n187.Y
+         1.880  U2/ACS5/n293.C2
+         1.670  U2/ACS5/n160.G2
+         2.150  U2/ACS4/suma<1>.G4
+         2.740  U2/ACS4/n200.G1
+
+U2/ACS5/n281
+   U2/ACS4/sumb<0>.Y
+         1.338  U2/ACS5/sumb<1>.F1
+         1.743  U2/ACS5/sumb<2>.F1
+         1.121  U2/ACS4/n190.G4
+
+U2/ACS5/n290
+   U2/ACS5/n290.X
+         1.033  U2/ACS5/sumb<3>.F2
+
+U2/ACS5/n290/2.1
+   U2/ACS5/U64/GATE2.Y
+         1.097  U2/ACS5/n290.F2
+
+U2/ACS5/n291
+   U2/ACS4/suma<0>.Y
+         1.366  U2/ACS5/n293.F4
+         2.006  U2/ACS4/suma<1>.G2
+         1.366  U2/ACS4/n200.G4
+
+U2/ACS5/n293
+   U2/ACS5/n293.X
+         0.975  U2/ACS5/n160.G1
+
+U2/ACS5/suma<0>
+   U2/ACS4/n200.Y
+         1.540  U2/ACS5/lte_60/*cell*2088/S0/SUB/CO_2.F3
+         2.614  U3/n5301.F3
+
+U2/ACS5/suma<1>
+   U2/ACS4/suma<1>.Y
+         2.625  U2/ACS5/lte_60/*cell*2088/S0/SUB/CO_2.F2
+         3.071  U3/n5299.G1
+
+U2/ACS5/suma<2>
+   U2/ACS5/n293.Y
+         1.221  U2/ACS5/n160.F3
+         2.131  U3/n5299.F2
+
+U2/ACS5/suma<3>
+   U2/ACS5/n160.Y
+         1.833  U3/n5297.G2
+
+U2/ACS5/sumb<0>
+   U2/ACS4/n190.Y
+         2.157  U2/ACS5/lte_60/*cell*2088/S0/SUB/CO_2.F4
+         1.935  U3/n5301.F4
+
+U2/ACS5/sumb<1>
+   U2/ACS5/sumb<1>.X
+         2.046  U2/ACS5/lte_60/*cell*2088/S0/SUB/CO_2.F1
+         1.375  U3/n5299.G2
+
+U2/ACS5/sumb<2>
+   U2/ACS5/sumb<2>.X
+         2.037  U2/ACS5/n160.F4
+         1.597  U3/n5299.F1
+
+U2/ACS5/sumb<3>
+   U2/ACS5/sumb<3>.X
+         1.790  U2/ACS5/n160.C4
+         2.262  U3/n5297.G3
+
+U2/ACS5/sumb<3>/2.0
+   U2/ACS5/n290.Y
+         1.333  U2/ACS5/sumb<3>.F4
+
+U2/ACS6/U63/GATE1/2.0
+   U2/ACS6/sumb<1>.Y
+         1.301  U2/ACS6/sumb<3>.F4
+
+U2/ACS6/U63/GATE2
+   U2/ACS6/U63/GATE2.X
+         1.121  U2/ACS6/sumb<3>.F1
+
+U2/ACS6/lte_60/*cell*2204/S0/SUB/CO_2
+   U2/ACS6/lte_60/*cell*2204/S0/SUB/CO_2.X
+         1.292  U2/ACS6/n160.F1
+
+U2/ACS6/n160
+   U2/ACS6/n160.X
+         2.394  U3/n5303.F2
+         2.394  U3/n5303.G2
+         2.738  A6_out<3>.F1
+         3.797  U3/n4883.F1
+         4.531  U3/P6<10>.F1
+         3.216  U3/n5301.G3
+
+U2/ACS6/n337
+   U2/ACS6/sumb<2>.Y
+         1.800  U2/ACS6/sumb<3>/2.0.C4
+         1.665  U2/ACS6/sumb<1>.F3
+         1.593  U2/ACS6/sumb<0>.F4
+
+U2/ACS6/n338
+   U2/ACS6/n338.X
+         1.635  U2/ACS6/n351.C4
+         1.707  U2/ACS6/suma<1>.F3
+         2.136  U2/ACS6/n349.G2
+         2.286  U2/ACS6/n160.G4
+
+U2/ACS6/n339
+   U2/ACS6/sumb<0>.Y
+         0.434  U2/ACS6/sumb<1>.F1
+         0.488  U2/ACS6/sumb<0>.F3
+         1.370  U2/ACS6/sumb<2>.F4
+
+U2/ACS6/n348
+   U2/ACS6/sumb<3>/2.0.Y
+         1.335  U2/ACS6/sumb<3>.F3
+
+U2/ACS6/n348/2.1
+   U2/ACS6/U63/GATE2.Y
+         0.166  U2/ACS6/sumb<3>/2.0.G1
+
+U2/ACS6/n349
+   U2/ACS6/n349.X
+         1.588  U2/ACS6/suma<1>.F2
+         1.446  U2/ACS6/n349.G1
+         1.588  U2/ACS6/n351.F2
+
+U2/ACS6/n351
+   U2/ACS6/n351.X
+         1.121  U2/ACS6/n160.G1
+
+U2/ACS6/suma<0>
+   U2/ACS6/n349.Y
+         2.227  U2/ACS6/lte_60/*cell*2204/S0/SUB/CO_2.F3
+         2.460  U3/n5303.G1
+
+U2/ACS6/suma<1>
+   U2/ACS6/suma<1>.X
+         1.669  U2/ACS6/lte_60/*cell*2204/S0/SUB/CO_2.F1
+         2.171  U3/n5303.F1
+
+U2/ACS6/suma<2>
+   U2/ACS6/n351.Y
+         1.035  U2/ACS6/n160.F2
+         3.152  U3/n5301.G4
+
+U2/ACS6/suma<3>
+   U2/ACS6/n160.Y
+         1.278  A6_out<3>.F4
+
+U2/ACS6/sumb<0>
+   U2/ACS6/sumb<0>.X
+         1.448  U2/ACS6/lte_60/*cell*2204/S0/SUB/CO_2.F4
+         1.443  U3/n5303.G4
+
+U2/ACS6/sumb<1>
+   U2/ACS6/sumb<1>.X
+         2.034  U2/ACS6/lte_60/*cell*2204/S0/SUB/CO_2.F2
+         0.468  U3/n5303.F4
+
+U2/ACS6/sumb<2>
+   U2/ACS6/sumb<2>.X
+         0.817  U2/ACS6/n160.F4
+         2.218  U3/n5301.G2
+
+U2/ACS6/sumb<3>
+   U2/ACS6/sumb<3>.X
+         1.247  U2/ACS6/n160.C3
+         1.874  A6_out<3>.F2
+
+U2/ACS6/sumb<3>/2.0
+   U2/ACS6/sumb<3>/2.0.X
+         1.307  U2/ACS6/sumb<3>.F2
+
+U2/ACS7/U63/GATE1/2.0
+   U2/ACS7/sumb<1>.Y
+         1.393  U2/ACS7/sumb<3>.F4
+
+U2/ACS7/U63/GATE2
+   U2/ACS7/U63/GATE2.X
+         2.202  U2/ACS7/sumb<3>.F1
+
+U2/ACS7/lte_60/*cell*2030/S0/SUB/CO_2
+   U2/ACS7/lte_60/*cell*2030/S0/SUB/CO_2.X
+         1.354  U2/ACS7/n160.F3
+
+U2/ACS7/n160
+   U2/ACS7/n160.X
+         1.530  U3/n5305.F2
+         1.530  U3/n5305.G2
+         5.329  U3/n4869.F1
+         5.310  U3/P7<10>.F1
+         2.201  U2/ACS6/sumb<3>/2.0.F3
+         1.584  A6_out<3>.G1
+
+U2/ACS7/n249
+   U2/ACS7/sumb<2>.Y
+         2.225  U2/ACS7/n260.C2
+         2.117  U2/ACS7/sumb<1>.F3
+         1.696  U2/ACS7/sumb<0>.F2
+
+U2/ACS7/n250
+   U2/ACS6/n338.Y
+         0.534  U2/ACS7/n263.C1
+         1.753  U2/ACS7/n261.G4
+         1.391  U2/ACS7/n160.G3
+         1.616  U2/ACS6/suma<1>.G3
+
+U2/ACS7/n251
+   U2/ACS7/sumb<0>.Y
+         1.404  U2/ACS7/sumb<1>.F4
+         0.262  U2/ACS7/sumb<0>.F3
+         1.471  U2/ACS7/sumb<2>.F3
+
+U2/ACS7/n260
+   U2/ACS7/n260.X
+         1.490  U2/ACS7/sumb<3>.F2
+
+U2/ACS7/n260/2.1
+   U2/ACS7/U63/GATE2.Y
+         1.097  U2/ACS7/n260.F2
+
+U2/ACS7/n261
+   U2/ACS7/n261.X
+         0.774  U2/ACS7/n261.G2
+         2.262  U2/ACS7/n263.F1
+         1.363  U2/ACS6/suma<1>.G2
+
+U2/ACS7/n263
+   U2/ACS7/n263.X
+         1.661  U2/ACS7/n160.G2
+
+U2/ACS7/suma<0>
+   U2/ACS7/n261.Y
+         0.622  U2/ACS7/lte_60/*cell*2030/S0/SUB/CO_2.F1
+         1.658  U2/ACS6/sumb<3>/2.0.F2
+
+U2/ACS7/suma<1>
+   U2/ACS6/suma<1>.Y
+         1.301  U2/ACS7/lte_60/*cell*2030/S0/SUB/CO_2.F4
+         1.282  U3/n5305.G1
+
+U2/ACS7/suma<2>
+   U2/ACS7/n263.Y
+         1.851  U2/ACS7/n160.F4
+         1.386  U3/n5305.F3
+
+U2/ACS7/suma<3>
+   U2/ACS7/n160.Y
+         1.301  A6_out<3>.G4
+
+U2/ACS7/sumb<0>
+   U2/ACS7/sumb<0>.X
+         1.269  U2/ACS7/lte_60/*cell*2030/S0/SUB/CO_2.F2
+         1.938  U2/ACS6/sumb<3>/2.0.F4
+
+U2/ACS7/sumb<1>
+   U2/ACS7/sumb<1>.X
+         1.174  U2/ACS7/lte_60/*cell*2030/S0/SUB/CO_2.F3
+         1.174  U3/n5305.G3
+
+U2/ACS7/sumb<2>
+   U2/ACS7/sumb<2>.X
+         1.486  U2/ACS7/n160.F2
+         1.642  U3/n5305.F1
+
+U2/ACS7/sumb<3>
+   U2/ACS7/sumb<3>.X
+         2.303  U2/ACS7/n160.C4
+         2.065  A6_out<3>.G2
+
+U2/ACS7/sumb<3>/2.0
+   U2/ACS7/n260.Y
+         1.119  U2/ACS7/sumb<3>.F3
+
+U3/P0<0>
+   U3/n4889.YQ
+         1.503  U3/n5024.F3
+         0.154  U3/n5136/2.0.G1
+
+U3/P0<10>
+   U3/n5088.XQ
+         1.665  U3/n5092.F3
+         0.510  U3/n5088.G3
+         1.863  U3/n5078.G1
+
+U3/P0<11>
+   U3/n5096.XQ
+         1.739  U3/n5088.G4
+         1.428  U3/n5096.F4
+         0.949  U3/n5096.G1
+
+U3/P0<1>
+   U3/n5086.YQ
+         1.272  U3/n5086.F4
+         1.998  U3/n5096.G2
+         1.450  U3/n5024.F1
+
+U3/P0<2>
+   U3/n5085.YQ
+         2.550  U3/n5149.F2
+         2.043  U3/n5086.F1
+         0.228  U3/n5085.F3
+
+U3/P0<3>
+   U3/n5084.XQ
+         1.193  U3/n5085.F1
+         0.228  U3/n5084.G3
+         1.248  U3/n5139/2.0.G1
+
+U3/P0<4>
+   U3/n5083.YQ
+         1.759  U3/n5084.G4
+         0.228  U3/n5083.G3
+         0.977  U3/n5093/2.0.F2
+
+U3/P0<5>
+   U3/n5082.YQ
+         1.640  U3/n5083.G2
+         0.176  U3/n5082.G2
+         1.312  U3/n5093/2.0.F3
+
+U3/P0<6>
+   U3/n5081.XQ
+         1.551  U3/n5082.G1
+         0.511  U3/n5081.G2
+         1.454  U3/n5139/2.0.G4
+
+U3/P0<7>
+   U3/n5080.YQ
+         0.981  U3/n5149/4.0/2.1.F3
+         1.323  U3/n5081.G1
+         1.302  U3/n5080.G4
+
+U3/P0<8>
+   U3/n5079.YQ
+         2.377  U3/n5092.F4
+         3.070  U3/n5080.G1
+         0.228  U3/n5079.G3
+
+U3/P0<9>
+   U3/n5078.XQ
+         2.004  U3/n5093/2.0.C4
+         1.584  U3/n5079.G1
+         0.176  U3/n5078.G2
+
+U3/P1<0>
+   U3/n4888.XQ
+         0.428  U3/n4888.G2
+         1.564  U3/n5141/4.0/2.0.G2
+
+U3/P1<10>
+   U3/P1<10>.XQ
+         2.458  U3/P1<10>.G3
+         3.405  U3/n4868.G4
+         3.390  U3/n5098.F4
+
+U3/P1<11>
+   U3/P1<10>.YQ
+         1.046  U3/P1<10>.F4
+         1.046  U3/P1<10>.G4
+         2.090  U3/n5102.F4
+
+U3/P1<1>
+   U3/n5102.YQ
+         1.142  U3/n4888.G3
+         0.228  U3/n5102.F3
+         1.104  U3/n5102.G4
+
+U3/P1<2>
+   U3/n5148.YQ
+         1.552  U3/n5102.G1
+         0.344  U3/n5148.F3
+         1.163  U3/n5148.G4
+
+U3/P1<3>
+   U3/n5101.XQ
+         2.184  U3/n5148.G1
+         0.176  U3/n5101.F2
+         0.928  U3/n5101.G1
+
+U3/P1<4>
+   U3/n5024.XQ
+         3.588  U3/n5101.G4
+         0.725  U3/n5024.G2
+         3.655  U3/n5099/2.0.F3
+
+U3/P1<5>
+   U3/n4874.YQ
+         3.872  U3/n5024.G1
+         1.046  U3/n4874.G4
+         1.504  U3/n5099/2.0.F1
+
+U3/P1<6>
+   U3/n5148/4.0/2.1.YQ
+         1.122  U3/n4874.G1
+         0.176  U3/n5148/4.0/2.1.G2
+         0.350  U3/n5101.F1
+
+U3/P1<7>
+   U3/n5098.YQ
+         1.281  U3/n5148/4.0/2.1.F4
+         1.281  U3/n5148/4.0/2.1.G4
+         1.046  U3/n5098.G4
+
+U3/P1<8>
+   U3/n4870.YQ
+         0.288  U3/n5098.F1
+         0.288  U3/n5098.G1
+         0.315  U3/n4870.G3
+
+U3/P1<9>
+   U3/n4868.YQ
+         1.856  U3/n5099/2.0.C1
+         1.134  U3/n4870.G1
+         0.228  U3/n4868.G3
+
+U3/P2<0>
+   U3/n4887.YQ
+         1.153  U3/n5143/4.0/2.0.F2
+         0.228  U3/n4887.G3
+
+U3/P2<10>
+   U3/P2<10>.XQ
+         1.645  U3/P2<10>.G4
+         2.625  U3/P2<9>.F3
+         3.385  U3/n5116.F1
+
+U3/P2<11>
+   U3/P2<10>.YQ
+         1.495  U3/P2<10>.F1
+         0.228  U3/P2<10>.G3
+         1.548  U3/n5120.F3
+
+U3/P2<1>
+   U3/n5120.XQ
+         1.299  U3/n4887.G4
+         0.233  U3/n5120.F2
+         0.233  U3/n5120.G2
+
+U3/P2<2>
+   U3/n5143.XQ
+         1.604  U3/n5120.G1
+         0.520  U3/n5143.F2
+         0.520  U3/n5143.G2
+
+U3/P2<3>
+   U3/n5119.XQ
+         3.206  U3/n5143.G4
+         1.459  U3/n5119.F1
+         0.176  U3/n5119.G2
+
+U3/P2<4>
+   U3/n4875.XQ
+         1.142  U3/n5119.G3
+         0.345  U3/n4875.G3
+         0.272  U3/n5117/2.0.F4
+
+U3/P2<5>
+   U3/P2<5>.XQ
+         0.364  U3/n4875.G4
+         0.352  U3/P2<5>.F2
+         1.090  U3/n5117/2.0.F1
+
+U3/P2<6>
+   U3/n5143/4.0/2.1.YQ
+         1.922  U3/P2<5>.F4
+         0.613  U3/n5143/4.0/2.1.G3
+         1.753  U3/n5119.F4
+
+U3/P2<7>
+   U3/n5116.YQ
+         1.260  U3/n5143/4.0/2.1.F1
+         1.612  U3/n5143/4.0/2.1.G4
+         1.243  U3/n5116.G4
+
+U3/P2<8>
+   U3/P2<8>.XQ
+         0.327  U3/n5116.F4
+         1.090  U3/n5116.G1
+         0.291  U3/P2<8>.F2
+
+U3/P2<9>
+   U3/P2<9>.XQ
+         1.856  U3/n5117/2.0.C1
+         1.745  U3/P2<8>.F1
+         0.337  U3/P2<9>.F2
+
+U3/P3<0>
+   U3/n4886.XQ
+         1.495  U3/n4886.G1
+         3.670  U3/n5124/2.0.F3
+
+U3/P3<10>
+   U3/P3<10>.YQ
+         3.403  U3/n5124/2.0.C2
+         0.470  U3/P3<10>.G3
+         1.683  U3/P3<9>.F1
+
+U3/P3<11>
+   U3/P3<10>.XQ
+         1.623  U3/n5127.F4
+         1.340  U3/P3<10>.F1
+         1.340  U3/P3<10>.G1
+
+U3/P3<1>
+   U3/n5126.YQ
+         1.349  U3/n4886.G2
+         0.460  U3/n5126.F2
+         0.228  U3/n5126.G3
+
+U3/P3<2>
+   U3/n4878.YQ
+         0.997  U3/n5126.F1
+         0.997  U3/n5126.G1
+         0.319  U3/n4878.G3
+
+U3/P3<3>
+   U3/n4877.YQ
+         0.243  U3/n5127/2.0.C1
+         3.375  U3/n4878.G4
+         0.271  U3/n4877.G3
+
+U3/P3<4>
+   U3/n5124.XQ
+         1.663  U3/n4877.G1
+         0.623  U3/n5124.G2
+         0.655  U3/n5124/2.0.F4
+
+U3/P3<5>
+   U3/P3<5>.XQ
+         1.090  U3/n5124.F1
+         1.090  U3/n5124.G1
+         0.176  U3/P3<5>.F2
+
+U3/P3<6>
+   U3/n4873.YQ
+         1.390  U3/P3<5>.F3
+         0.600  U3/n4873.G3
+         1.449  U3/n5127/2.0.F2
+
+U3/P3<7>
+   U3/n5123.YQ
+         2.075  U3/n4873.G4
+         0.516  U3/n5123.G3
+         1.706  U3/n5127/2.0.F4
+
+U3/P3<8>
+   U3/P3<8>.XQ
+         1.777  U3/n5123.F4
+         1.777  U3/n5123.G4
+         0.621  U3/P3<8>.F2
+
+U3/P3<9>
+   U3/P3<9>.XQ
+         1.298  U3/P3<8>.F3
+         0.470  U3/P3<9>.F3
+         2.542  U3/n5123.F3
+
+U3/P4<0>
+   U3/n4885.YQ
+         0.928  U3/n4885.G1
+         1.276  U3/n5143/4.0/2.0.G2
+
+U3/P4<10>
+   U3/P4<10>.YQ
+         0.709  U3/P4<10>.G3
+         2.709  U3/P4<9>.F2
+         2.342  U3/n5104.F2
+
+U3/P4<11>
+   U3/P4<10>.XQ
+         1.245  U3/P4<10>.F3
+         0.949  U3/P4<10>.G1
+         0.949  U3/n5108.F1
+
+U3/P4<1>
+   U3/n5108.YQ
+         1.309  U3/n4885.G4
+         1.309  U3/n5108.F4
+         1.309  U3/n5108.G4
+
+U3/P4<2>
+   U3/n5146.YQ
+         1.633  U3/n5108.G1
+         0.239  U3/n5146.F2
+         0.345  U3/n5146.G3
+
+U3/P4<3>
+   U3/n5107.XQ
+         2.831  U3/n5146.G4
+         0.228  U3/n5107.F3
+         0.808  U3/n5107.G2
+
+U3/P4<4>
+   U3/P4<4>.XQ
+         1.090  U3/n5107.G1
+         0.291  U3/P4<4>.F2
+         0.327  U3/n5105/2.0.F4
+
+U3/P4<5>
+   U3/P4<5>.YQ
+         1.260  U3/P4<4>.F1
+         0.176  U3/P4<5>.F2
+         1.260  U3/n5105/2.0.F1
+
+U3/P4<6>
+   U3/n5146/4.0/2.1.YQ
+         2.047  U3/P4<5>.F1
+         0.250  U3/n5146/4.0/2.1.G2
+         0.595  U3/n5107.F1
+
+U3/P4<7>
+   U3/n5104.YQ
+         2.034  U3/n5146/4.0/2.1.F4
+         2.034  U3/n5146/4.0/2.1.G4
+         0.606  U3/n5104.G3
+
+U3/P4<8>
+   U3/P4<8>.YQ
+         1.403  U3/n5104.F1
+         1.403  U3/n5104.G1
+         0.344  U3/P4<8>.F3
+
+U3/P4<9>
+   U3/P4<9>.YQ
+         1.333  U3/n5105/2.0.C1
+         1.329  U3/P4<8>.F1
+         0.585  U3/P4<9>.F3
+
+U3/P5<0>
+   U3/n4884.XQ
+         1.188  U3/n5145/4.0/2.0.F1
+         0.176  U3/n4884.G2
+
+U3/P5<10>
+   U3/P5<10>.XQ
+         1.133  U3/P5<10>.G2
+         2.609  U3/P5<9>.F1
+         3.568  U3/n5110.F3
+
+U3/P5<11>
+   U3/P5<10>.YQ
+         0.667  U3/P5<10>.F3
+         0.667  U3/P5<10>.G3
+         1.382  U3/n5114.F1
+
+U3/P5<1>
+   U3/n5114.XQ
+         1.187  U3/n4884.G3
+         0.176  U3/n5114.F2
+         0.928  U3/n5114.G1
+
+U3/P5<2>
+   U3/n5145.YQ
+         1.251  U3/n5114.G3
+         0.315  U3/n5145.F3
+         0.315  U3/n5145.G3
+
+U3/P5<3>
+   U3/n5113.YQ
+         2.507  U3/n5145.G1
+         0.315  U3/n5113.F3
+         0.315  U3/n5113.G3
+
+U3/P5<4>
+   U3/P5<4>.XQ
+         1.932  U3/n5113.G1
+         0.291  U3/P5<4>.F2
+         0.327  U3/n5111/2.0.F4
+
+U3/P5<5>
+   U3/P5<5>.XQ
+         1.117  U3/P5<4>.F3
+         0.176  U3/P5<5>.F2
+         1.109  U3/n5111/2.0.F3
+
+U3/P5<6>
+   U3/n5145/4.0/2.1.XQ
+         1.164  U3/P5<5>.F1
+         0.421  U3/n5145/4.0/2.1.G3
+         1.516  U3/n5113.F1
+
+U3/P5<7>
+   U3/n5110.YQ
+         1.816  U3/n5145/4.0/2.1.F1
+         1.816  U3/n5145/4.0/2.1.G1
+         1.524  U3/n5110.G4
+
+U3/P5<8>
+   U3/P5<8>.YQ
+         1.188  U3/n5110.F2
+         1.340  U3/n5110.G1
+         0.228  U3/P5<8>.F3
+
+U3/P5<9>
+   U3/P5<9>.XQ
+         2.716  U3/n5111/2.0.C1
+         2.016  U3/P5<8>.F4
+         0.538  U3/P5<9>.F2
+
+U3/P6<0>
+   U3/n4883.XQ
+         2.605  U3/n5141/4.0/2.0.F1
+         0.285  U3/n4883.G2
+
+U3/P6<10>
+   U3/P6<10>.YQ
+         1.456  U3/P6<10>.G1
+         2.348  U3/P6<9>.F1
+         2.685  U3/n5128.F2
+
+U3/P6<11>
+   U3/P6<10>.XQ
+         0.379  U3/P6<10>.F2
+         1.304  U3/P6<10>.G3
+         1.331  U3/n5132.F4
+
+U3/P6<1>
+   U3/n5132.XQ
+         1.245  U3/n4883.G3
+         0.949  U3/n5132.F1
+         0.949  U3/n5132.G1
+
+U3/P6<2>
+   U3/n5141.XQ
+         1.310  U3/n5132.G4
+         0.404  U3/n5141.F3
+         0.176  U3/n5141.G2
+
+U3/P6<3>
+   U3/n5131.YQ
+         2.087  U3/n5141.G4
+         1.046  U3/n5131.F4
+         0.662  U3/n5131.G3
+
+U3/P6<4>
+   U3/P6<4>.YQ
+         1.823  U3/n5131.G4
+         0.176  U3/P6<4>.F2
+         1.134  U3/n5129/2.0.F3
+
+U3/P6<5>
+   U3/P6<5>.XQ
+         0.243  U3/P6<4>.F1
+         0.271  U3/P6<5>.F3
+         1.595  U3/n5129/2.0.F4
+
+U3/P6<6>
+   U3/n5141/4.0/2.1.YQ
+         1.881  U3/P6<5>.F4
+         0.271  U3/n5141/4.0/2.1.G3
+         0.243  U3/n5131.F1
+
+U3/P6<7>
+   U3/n5128.XQ
+         1.263  U3/n5141/4.0/2.1.F2
+         1.263  U3/n5141/4.0/2.1.G2
+         0.176  U3/n5128.G2
+
+U3/P6<8>
+   U3/P6<8>.YQ
+         1.340  U3/n5128.F1
+         1.340  U3/n5128.G1
+         0.228  U3/P6<8>.F3
+
+U3/P6<9>
+   U3/P6<9>.YQ
+         2.022  U3/n5129/2.0.C1
+         1.310  U3/P6<8>.F1
+         0.228  U3/P6<9>.F3
+
+U3/P7<0>
+   U3/n4869.YQ
+         0.421  U3/n4869.G3
+         1.164  U3/n5136/2.0.F1
+
+U3/P7<10>
+   U3/P7<10>.XQ
+         1.464  U3/n5136/2.0.C1
+         0.928  U3/P7<10>.G1
+         3.374  U3/P7<9>.F4
+
+U3/P7<11>
+   U3/P7<10>.YQ
+         1.295  U3/P7<10>.F2
+         0.429  U3/P7<10>.G3
+         1.509  U3/n5127.G3
+
+U3/P7<1>
+   U3/n5138.YQ
+         0.243  U3/n4869.G1
+         0.176  U3/n5138.F2
+         0.271  U3/n5138.G3
+
+U3/P7<2>
+   U3/P7<2>.YQ
+         1.164  U3/n5138.F1
+         1.164  U3/n5138.G1
+         0.421  U3/P7<2>.F3
+
+U3/P7<3>
+   U3/P7<3>.XQ
+         0.977  U3/n5139/2.0.C2
+         2.575  U3/P7<2>.F1
+         0.337  U3/P7<3>.F2
+
+U3/P7<4>
+   U3/n5136.XQ
+         1.439  U3/P7<3>.F3
+         0.228  U3/n5136.G3
+         1.595  U3/n5136/2.0.F4
+
+U3/P7<5>
+   U3/P7<5>.XQ
+         2.729  U3/n5136.F3
+         2.684  U3/n5136.G1
+         0.176  U3/P7<5>.F2
+
+U3/P7<6>
+   U3/P7<6>.YQ
+         1.456  U3/P7<5>.F1
+         0.513  U3/P7<6>.F3
+         1.593  U3/n5139/2.0.F4
+
+U3/P7<7>
+   U3/n5135.YQ
+         2.444  U3/P7<6>.F1
+         0.228  U3/n5135.G3
+         1.553  U3/n5139/2.0.F2
+
+U3/P7<8>
+   U3/P7<8>.XQ
+         1.173  U3/n5135.F2
+         0.154  U3/n5135.G1
+         0.428  U3/P7<8>.F2
+
+U3/P7<9>
+   U3/P7<9>.XQ
+         1.298  U3/P7<8>.F3
+         0.470  U3/P7<9>.F3
+         1.394  U3/n5135.F4
+
+U3/TB_1/*cell*2704/net8291
+   U3/TB_1/*cell*2704/net8291.X
+         1.485  U3/TB_1/lte_69/u4/S0/SUB/CO_2.F3
+         1.384  U3/TB_1/min_4567<1>.F1
+
+U3/TB_1/*cell*2704/net8300
+   U3/TB_1/*cell*2704/net8300.X
+         1.030  U3/TB_1/min_67<3>.C4
+
+U3/TB_1/*cell*2704/net8303
+   U3/TB_1/n97.Y
+         1.169  U3/TB_1/n121.F1
+         1.169  U3/TB_1/n121.C1
+
+U3/TB_1/*cell*2704/net8306
+   U3/TB_1/n89.Y
+         1.221  U3/TB_1/n121.F3
+         1.221  U3/TB_1/n121.C3
+
+U3/TB_1/*cell*2704/net8319
+   U3/TB_1/*cell*2704/net8319.Y
+         4.725  U3/TB_1/U105/GATE2.F4
+         4.725  U3/TB_1/U105/GATE2.G4
+         4.725  U3/TB_1/*cell*3027/net11161.F4
+         3.555  U3/TB_1/net11210.F2
+
+U3/TB_1/*cell*2704/net8326
+   U3/TB_1/*cell*2704/net8326.X
+         2.216  U3/TB_1/net11210.G2
+         2.216  U3/TB_1/net11210.C2
+
+U3/TB_1/*cell*2704/net8328
+   U3/TB_1/min_0123<2>.Y
+         3.130  U3/TB_1/*cell*3027/net11187.F3
+         3.157  U3/TB_1/*cell*2704/net8326.F3
+         2.400  U3/TB_1/*cell*3027/net11126.G2
+         2.474  U3/TB_1/*cell*2704/net8319.F3
+         3.104  U3/TB_1/*cell*3027/net11162.G1
+         3.394  U3/TB_1/*cell*2704/net8337.G2
+         3.051  U3/TB_1/net10771.G2
+
+U3/TB_1/*cell*2704/net8329
+   U3/TB_1/min_0123<0>.Y
+         2.144  U3/TB_1/*cell*2704/net8326.G2
+         2.229  U3/TB_1/*cell*3027/net11126.F4
+         2.703  U3/TB_1/*cell*2704/net8319.G2
+         2.642  U3/TB_1/*cell*3027/net11162.G3
+         2.212  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.G4
+         3.850  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.G4
+         2.446  U3/TB_1/net10771.G3
+
+U3/TB_1/*cell*2704/net8331
+   U3/TB_1/n137.Y
+         1.980  U3/TB_1/*cell*2704/net8337.F1
+         1.980  U3/TB_1/*cell*2704/net8337.G1
+         2.748  U3/TB_1/*cell*3027/net11187.F4
+         2.296  U3/TB_1/*cell*2704/net8326.F2
+         2.322  U3/TB_1/*cell*3027/net11126.G4
+         2.821  U3/TB_1/*cell*2704/net8319.G1
+         2.735  U3/TB_1/*cell*3027/net11162.F1
+
+U3/TB_1/*cell*2704/net8332
+   U3/TB_1/*cell*2704/net8332.X
+         2.094  U3/TB_1/*cell*2704/net8326.G3
+         3.450  U3/TB_1/*cell*3027/net11162.F4
+         3.221  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.G2
+         4.979  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.G3
+
+U3/TB_1/*cell*2704/net8337
+   U3/TB_1/*cell*2704/net8337.X
+         2.384  U3/TB_1/U105/GATE2.F2
+         2.384  U3/TB_1/U105/GATE2.G2
+         2.384  U3/TB_1/*cell*3027/net11161.F2
+         2.444  U3/TB_1/net11210.F4
+         2.444  U3/TB_1/net11210.G4
+
+U3/TB_1/*cell*2704/net8338
+   U3/TB_1/net10771.Y
+         2.971  U3/TB_1/U105/GATE2.F1
+         2.971  U3/TB_1/U105/GATE2.G1
+         4.133  U3/TB_1/*cell*3027/net11161.F1
+         2.971  U3/TB_1/net11210.F1
+         2.971  U3/TB_1/net11210.G1
+
+U3/TB_1/*cell*3027/net11126
+   U3/TB_1/*cell*3027/net11126.Y
+         3.765  U3/TB_1/net11210.G3
+         3.539  U3/TB_1/net11210.C1
+
+U3/TB_1/*cell*3027/net11160
+   U3/TB_1/*cell*3027/net11160.X
+         1.213  U3/min_state<0>.F1
+
+U3/TB_1/*cell*3027/net11161
+   U3/TB_1/*cell*3027/net11161.X
+         1.516  U3/min_state<0>.F3
+
+U3/TB_1/*cell*3027/net11162
+   U3/TB_1/*cell*3027/net11162.Y
+         0.166  U3/TB_1/*cell*3027/net11181.C1
+         1.413  U3/min_state<0>.F2
+
+U3/TB_1/*cell*3027/net11181
+   U3/TB_1/*cell*3027/net11181.X
+         2.367  U3/min_state<0>.F4
+
+U3/TB_1/*cell*3027/net11186
+   U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.Y
+         4.919  U3/TB_1/*cell*3027/net11160.F2
+
+U3/TB_1/*cell*3027/net11187
+   U3/TB_1/*cell*3027/net11187.X
+         3.069  U3/TB_1/*cell*3027/net11160.F1
+
+U3/TB_1/*cell*3027/net11188
+   U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.Y
+         1.298  U3/TB_1/*cell*3027/net11181.F2
+
+U3/TB_1/*cell*3027/net11189
+   U3/TB_1/*cell*2704/net8337.Y
+         1.824  U3/TB_1/*cell*3027/net11181.F3
+
+U3/TB_1/U105/GATE2
+   U3/TB_1/U105/GATE2.X
+         2.021  U3/TB_1/*cell*3027/net11160.G2
+
+U3/TB_1/U139/GATE1
+   U3/TB_1/net11210.Y
+         1.417  U3/TB_1/*cell*3027/net11161.F3
+
+U3/TB_1/lte_44/u4/S0/SUB/CO_SIG
+   U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.X
+         1.307  U3/TB_1/n89.F2
+
+U3/TB_1/lte_49/u4/S0/SUB/CO_2
+   U3/TB_1/lte_49/u4/S0/SUB/CO_2.X
+         1.292  U3/TB_1/n97.F1
+
+U3/TB_1/lte_54/u4/S0/SUB/CO_SIG
+   U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.X
+         1.588  U3/TB_1/n105.F2
+
+U3/TB_1/lte_59/u4/S0/SUB/CO_SIG
+   U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.X
+         1.282  U3/TB_1/n113.F1
+
+U3/TB_1/lte_64/u4/S0/SUB/CO_SIG
+   U3/TB_1/net10746.Y
+         1.645  U3/TB_1/n121.F2
+
+U3/TB_1/lte_69/u4/S0/SUB/CO_2
+   U3/TB_1/lte_69/u4/S0/SUB/CO_2.X
+         1.028  U3/TB_1/*cell*2704/net8300.G3
+
+U3/TB_1/lte_74/u4/S0/SUB/CO_SIG
+   U3/TB_1/min_4567<2>.Y
+         0.946  U3/TB_1/n137.F1
+
+U3/TB_1/min_0123<0>
+   U3/TB_1/min_0123<0>.X
+         1.064  U3/TB_1/min_4567<2>.G3
+
+U3/TB_1/min_0123<1>
+   U3/TB_1/net10776.Y
+         2.939  U3/TB_1/*cell*2704/net8332.F2
+         2.260  U3/TB_1/min_4567<1>.C2
+         2.324  U3/TB_1/min_4567<2>.G2
+
+U3/TB_1/min_0123<2>
+   U3/TB_1/min_0123<2>.X
+         1.265  U3/TB_1/min_4567<2>.C3
+
+U3/TB_1/min_0123<3>
+   U3/TB_1/n121.Y
+         1.292  U3/TB_1/n137.F3
+         1.292  U3/TB_1/n137.C3
+
+U3/TB_1/min_4567<0>
+   U3/TB_1/net10751.Y
+         1.752  U3/TB_1/min_0123<0>.C2
+         1.629  U3/TB_1/min_4567<2>.G1
+
+U3/TB_1/min_4567<1>
+   U3/TB_1/min_4567<1>.X
+         1.213  U3/TB_1/*cell*2704/net8332.F1
+         0.320  U3/TB_1/min_4567<2>.G4
+
+U3/TB_1/min_4567<2>
+   U3/TB_1/min_4567<2>.X
+         1.337  U3/TB_1/min_0123<2>.C4
+
+U3/TB_1/min_4567<3>
+   U3/TB_1/min_67<3>.Y
+         1.663  U3/TB_1/n137.F2
+         1.663  U3/TB_1/n137.C2
+
+U3/TB_1/min_67<0>
+   U3/TB_1/min_67<0>.X
+         3.096  U3/TB_1/lte_69/u4/S0/SUB/CO_2.F1
+         3.149  U3/TB_1/net10751.C3
+
+U3/TB_1/min_67<1>
+   U3/TB_1/n113.Y
+         2.793  U3/TB_1/lte_69/u4/S0/SUB/CO_2.F4
+         3.562  U3/TB_1/min_4567<1>.F4
+
+U3/TB_1/min_67<2>
+   U3/TB_1/min_67<0>.Y
+         3.589  U3/TB_1/min_4567<2>.F3
+         2.525  U3/TB_1/*cell*2704/net8300.G4
+
+U3/TB_1/min_67<3>
+   U3/TB_1/min_67<3>.X
+         1.298  U3/TB_1/*cell*2704/net8300.C2
+
+U3/TB_1/n105
+   U3/TB_1/n105.X
+         2.233  U3/TB_1/*cell*2704/net8291.F3
+         1.400  U3/TB_1/*cell*2704/net8300.F3
+         1.295  U3/TB_1/net10751.F3
+
+U3/TB_1/n113
+   U3/TB_1/n113.X
+         1.030  U3/TB_1/min_67<0>.F4
+         1.030  U3/TB_1/min_67<0>.G4
+         2.499  U3/TB_1/min_67<3>.F1
+
+U3/TB_1/n121
+   U3/TB_1/n121.X
+         0.455  U3/TB_1/net10776.C4
+         1.200  U3/TB_1/min_0123<2>.F4
+         1.132  U3/TB_1/min_0123<0>.F2
+
+U3/TB_1/n129
+   U3/TB_1/*cell*2704/net8300.Y
+         1.429  U3/TB_1/net10751.C2
+         1.771  U3/TB_1/min_67<3>.C3
+         1.802  U3/TB_1/min_4567<2>.F4
+         1.734  U3/TB_1/min_4567<1>.F2
+
+U3/TB_1/n137
+   U3/TB_1/n137.X
+         0.320  U3/TB_1/min_0123<0>.C4
+         1.477  U3/TB_1/min_0123<2>.C1
+         1.536  U3/TB_1/*cell*2704/net8332.F3
+         1.530  U3/TB_1/min_4567<1>.C3
+
+U3/TB_1/n89
+   U3/TB_1/n89.X
+         2.124  U3/TB_1/net10756.F3
+         1.604  U3/TB_1/net10776.F1
+         1.774  U2/ACS1/suma<0>.G4
+
+U3/TB_1/n97
+   U3/TB_1/n97.X
+         2.096  U3/TB_1/net10771.F2
+         1.976  U3/TB_1/net10746.F2
+         1.982  U3/TB_1/lte_49/u4/S0/SUB/CO_2.G2
+         1.796  U3/TB_1/n97.G1
+
+U3/TB_1/net10732
+   U3/TB_1/min_4567<1>.Y
+         2.600  U3/TB_1/*cell*2704/net8337.F3
+         2.035  U3/TB_1/*cell*3027/net11126.F1
+         2.127  U3/TB_1/*cell*2704/net8319.F1
+
+U3/TB_1/net10739
+   U2/ACS1/suma<0>.Y
+         1.604  U3/TB_1/net10746.G3
+         1.531  U3/TB_1/min_0123<0>.F3
+
+U3/TB_1/net10746
+   U3/TB_1/net10746.X
+         1.121  U3/TB_1/min_0123<2>.F1
+
+U3/TB_1/net10751
+   U3/TB_1/net10751.X
+         1.640  U3/TB_1/lte_69/u4/S0/SUB/CO_2.F2
+
+U3/TB_1/net10756
+   U3/TB_1/net10756.X
+         2.204  U3/TB_1/net10746.C4
+         2.136  U3/TB_1/min_0123<2>.F2
+
+U3/TB_1/net10761
+   U3/TB_1/lte_49/u4/S0/SUB/CO_2.Y
+         1.282  U3/TB_1/net10776.C1
+         0.166  U3/TB_1/net10746.G1
+
+U3/TB_1/net10766
+   U3/TB_1/n105.Y
+         1.706  U3/TB_1/min_4567<2>.F1
+         1.832  U3/TB_1/*cell*2704/net8300.G2
+
+U3/TB_1/net10771
+   U3/TB_1/net10771.X
+         1.581  U3/TB_1/net10746.G4
+         1.497  U3/TB_1/min_0123<0>.F1
+
+U3/TB_1/net10776
+   U3/TB_1/net10776.X
+         1.298  U3/TB_1/net10746.G2
+
+U3/TB_1/net11210
+   U3/TB_1/net11210.X
+         1.077  U3/TB_1/*cell*3027/net11160.F3
+         1.077  U3/TB_1/*cell*3027/net11160.G3
+
+U3/TB_1/net11211
+   U3/TB_1/*cell*3027/net11181.Y
+         2.114  U3/TB_1/U105/GATE2.F3
+         2.114  U3/TB_1/U105/GATE2.G3
+         1.828  U3/TB_1/*cell*3027/net11160.F4
+         1.827  U3/TB_1/*cell*3027/net11160.G4
+
+U3/U1047/GATE4
+   U3/min_state<0>.Y
+         2.169  U3/tb_reg<0>.F4
+
+U3/U1073/GATE3
+   U3/n5066.Y
+         1.265  U3/n4863.F2
+
+U3/block_count<0>
+   U3/block_count<0>.XQ
+         0.562  U3/block_count<0>.F2
+         0.562  U3/block_count<0>.G2
+         1.752  U3/block_count<2>.F2
+         1.338  U3/sub_327/n48.F3
+         1.911  U3/n4919.C2
+
+U3/block_count<1>
+   U3/block_count<0>.YQ
+         2.035  U3/block_count<0>.G1
+         2.088  U3/block_count<2>.F1
+         1.728  U3/sub_327/n48.F2
+         2.088  U3/sub_327/n48.G3
+
+U3/block_count<2>
+   U3/block_count<2>.YQ
+         1.772  U3/gt_321/u10/S0/SUB/CY4_2.F2
+         0.617  U3/block_count<2>.F3
+         0.592  U3/sub_327/n48.F1
+         0.592  U3/sub_327/n48.G1
+
+U3/block_count<3>
+   U3/sub_327/n48.XQ
+         1.827  U3/gt_321/u10/S0/SUB/CY4_2.G1
+         0.413  U3/sub_327/n48.G2
+         0.413  U3/sub_327/n48.C2
+         1.473  U3/sub_327/n46.F1
+         1.269  U3/block_count<2>.G2
+
+U3/block_count<4>
+   U3/block_count<2>.XQ
+         1.769  U3/gt_321/u10/S0/SUB/CY4_3.F2
+         1.763  U3/sub_327/n46.F4
+         1.763  U3/sub_327/n46.G4
+         1.534  U3/block_count<2>.G1
+
+U3/block_count<5>
+   U3/sub_327/n46.XQ
+         0.490  U3/gt_321/u10/S0/SUB/CY4_3.G1
+         1.340  U3/sub_327/U18/GATE2.F3
+         0.514  U3/sub_327/n46.G3
+         0.355  U3/sub_327/n46.C2
+         1.367  U3/block_count<6>.F2
+         1.209  U3/block_count<6>.G2
+         1.232  U3/sub_327/U18/GATE1/2.0.G3
+
+U3/block_count<6>
+   U3/block_count<6>.YQ
+         1.383  U3/gt_321/u10/S0/SUB/CY4_4.F2
+         1.278  U3/sub_327/U18/GATE2.F2
+         0.538  U3/block_count<6>.F3
+         0.538  U3/block_count<6>.G3
+         0.513  U3/sub_327/n46.G1
+         1.175  U3/sub_327/U18/GATE1/2.0.G2
+
+U3/block_count<7>
+   U3/block_count<6>.XQ
+         1.134  U3/gt_321/u10/S0/SUB/CY4_4.G1
+         0.949  U3/sub_327/U18/GATE1/2.0.F1
+         0.949  U3/block_count<6>.G1
+         1.139  U3/sub_327/n48.G4
+
+U3/block_count<8>
+   U3/sub_327/U18/GATE1/2.0.YQ
+         1.153  U3/n4919.F2
+         1.222  U3/sub_327/U18/GATE2.F4
+         1.222  U3/sub_327/U18/GATE1/2.0.F4
+         1.222  U3/sub_327/U18/GATE1/2.0.G4
+
+U3/gt_275/u4/S0/SUB/AND8_CO_3
+   U3/gt_275/u4/S0/SUB/AND8_CO_3.X
+         1.653  U3/n5074.F4
+
+U3/gt_321/u10/S0/SUB/CO_0
+   U3/gt_321/u10/S0/SUB/CY4_0.COUT
+         0.167  U3/block_count<0>.CIN
+
+U3/gt_321/u10/S0/SUB/CO_2
+   U3/block_count<0>.COUT
+         0.167  U3/gt_321/u10/S0/SUB/CY4_2.CIN
+
+U3/gt_321/u10/S0/SUB/CO_4
+   U3/gt_321/u10/S0/SUB/CY4_2.COUT
+         0.167  U3/gt_321/u10/S0/SUB/CY4_3.CIN
+
+U3/gt_321/u10/S0/SUB/CO_6
+   U3/gt_321/u10/S0/SUB/CY4_3.COUT
+         0.167  U3/gt_321/u10/S0/SUB/CY4_4.CIN
+
+U3/gt_321/u10/S0/SUB/CO_8
+   U3/gt_321/u10/S0/SUB/CY4_4.COUT
+         0.167  U3/n4919.CIN
+
+U3/gt_321/u10/S0/SUB/CO_SIG
+   U3/n4919.COUT
+         0.186  U3/n1158.CIN
+
+U3/min_state<0>
+   U3/min_state<0>.X
+         2.712  U3/tb_reg<0>.F3
+
+U3/min_state<2>
+   U3/TB_1/U105/GATE2.Y
+         1.770  U3/tb_reg747<2>/2.0.F4
+
+U3/n1158
+   U3/n1158.X
+         6.009  U3/n4930.F3
+
+U3/n4840
+   U3/n4840.X
+         2.142  U3/write_ptr<1>.F1
+
+U3/n4841
+   U3/n4841.X
+         1.449  U3/n716<0>.G3
+
+U3/n4843
+   U3/n4924.Y
+         1.482  U3/n5083.F3
+         2.170  U3/n5082.F4
+         2.170  U3/n5081.F4
+         1.728  U3/n5080.F1
+         1.441  U3/n4932.G4
+
+U3/n4845
+   U3/n5074.Y
+         2.998  U3/n4932.C1
+         2.109  U3/n5066.C4
+         2.086  U3/tb_reg<0>.F2
+         2.093  U3/tb_reg<0>.G2
+         2.041  U3/n4863.G2
+         2.342  U3/tb_reg747<2>/2.0.F2
+         2.342  U3/tb_reg747<2>/2.0.G2
+         2.583  U3/trace_ptr<0>.F3
+         2.583  U3/trace_ptr<0>.G3
+         2.530  U3/trace_ptr<3>.C1
+
+U3/n4849
+   U3/gt_275/u4/S0/SUB/AND8_CO_3.Y
+         4.408  U3/n5145/4.0/2.0.F3
+         5.303  U3/n5143/4.0/2.0.F3
+         5.303  U3/n5143/4.0/2.0.G3
+         6.803  U3/n5141/4.0/2.0.F3
+         6.101  U3/n5141/4.0/2.0.G3
+         2.520  U3/n5136/2.0.F2
+         2.520  U3/n5136/2.0.G2
+         3.960  U3/n5124/2.0.F2
+
+U3/n4851
+   U3/n4851.X
+         1.891  U3/n5127.F2
+         1.891  U3/n5127.G2
+         1.600  U3/n5096.G3
+         4.639  U3/n5102.F2
+         4.354  U3/n5120.F4
+         3.770  U3/n5108.F3
+         3.367  U3/n5114.F3
+         4.523  U3/n5132.F3
+
+U3/n4852
+   U3/n4921.Y
+         2.690  U3/n5023.G4
+         2.719  U3/n5096.G4
+         5.152  U3/n5102.F1
+         5.152  U3/n5120.F1
+         3.922  U3/n5126.F4
+         4.276  U3/n5108.F2
+         3.922  U3/n5114.F4
+         4.276  U3/n5132.F2
+         3.922  U3/n5138.F4
+
+U3/n4854
+   U3/n4854.X
+         1.921  U3/n5149.F3
+         4.194  U3/n5148.F2
+         4.649  U3/n5143.F3
+         3.717  U3/n5126.F3
+         4.217  U3/n5146.F4
+         3.840  U3/n5145.F2
+         4.484  U3/n5141.F2
+         3.499  U3/n5138.F3
+
+U3/n4855
+   U3/n5127/2.0.Y
+         1.677  U3/n5139/2.0.G2
+         1.542  U3/n5139/2.0.C3
+         2.666  U3/n5101.F4
+         3.032  U3/n5119.F2
+         1.945  U3/n5107.F4
+         1.945  U3/n5113.F4
+         2.598  U3/n5131.F2
+
+U3/n4856
+   U3/n5038.Y
+         3.343  U3/n5139/2.0.F3
+         3.343  U3/n5139/2.0.G3
+         3.457  U3/n5127/2.0.F3
+         4.917  U3/n5101.F3
+         5.050  U3/n5119.F3
+         5.319  U3/n5107.F2
+         4.409  U3/n5113.F2
+         5.050  U3/n5131.F3
+
+U3/n4857
+   U3/n4857.X
+         3.086  U3/n5149/4.0/2.1.F1
+         2.014  U3/n5139/2.0.F1
+         1.753  U3/n5127/2.0.F1
+         4.133  U3/n5148/4.0/2.1.F2
+         3.500  U3/n5143/4.0/2.1.F2
+         3.684  U3/n5146/4.0/2.1.F1
+         1.816  U3/n5145/4.0/2.1.F3
+         3.483  U3/n5141/4.0/2.1.F4
+
+U3/n4858
+   U3/n4851.Y
+         4.687  U3/n5129/2.0.F1
+         4.907  U3/n5117/2.0.F2
+         4.930  U3/n5099/2.0.F4
+         3.690  U3/n5093/2.0.F1
+         3.502  U3/n5111/2.0.F2
+         4.740  U3/n5105/2.0.F3
+         3.743  U3/n5124.F3
+         2.234  U3/n5136.F2
+
+U3/n4859
+   U3/n4857.Y
+         2.860  U3/n5129/2.0.F2
+         4.431  U3/n5136/2.0.F3
+         3.516  U3/n5117/2.0.F3
+         2.507  U3/n5124/2.0.F1
+         4.120  U3/n5099/2.0.F2
+         3.439  U3/n5093/2.0.F4
+         2.942  U3/n5111/2.0.F1
+         3.129  U3/n5105/2.0.F2
+
+U3/n4860
+   U3/n5129/2.0.Y
+         2.296  U3/n5093/2.0.C1
+         1.853  U3/n5099/2.0.C4
+         1.853  U3/n5105/2.0.C4
+         1.682  U3/n5111/2.0.C2
+         1.828  U3/n5117/2.0.C2
+         1.573  U3/n5123.F1
+         1.573  U3/n5135.F1
+
+U3/n4861
+   U3/n4861.X
+         2.037  U3/n5092.F2
+         6.670  U3/n5098.F2
+         5.738  U3/n5116.F2
+         3.893  U3/n5123.F2
+         5.425  U3/n5104.F4
+         4.624  U3/n5110.F1
+         6.738  U3/n5128.F4
+         4.129  U3/n5135.F3
+
+U3/n4862
+   U3/n5124/2.0.Y
+         2.272  U3/n5092.F1
+         2.724  U3/n5136/2.0.C3
+         4.239  U3/n5098.F3
+         4.239  U3/n5116.F3
+         4.139  U3/n5104.F3
+         2.787  U3/n5110.F4
+         4.233  U3/n5128.F3
+
+U3/n4863
+   U3/n4863.Y
+         2.212  U3/TB_1/*cell*3027/net11160.G1
+
+U3/n4867
+   U3/n4867.X
+         3.158  U3/n5278.C3
+         1.929  U3/n5088.F2
+         2.011  U3/n5079.F2
+         2.079  U3/n5078.F4
+
+U3/n4868
+   U3/n4868.X
+         4.523  U3/n5078.G3
+         2.246  U3/n4868.G1
+         2.246  U3/P2<9>.F1
+         4.218  U3/P3<9>.F4
+         3.890  U3/P4<9>.F1
+         4.312  U3/P5<9>.F3
+         3.725  U3/P6<9>.F2
+         4.259  U3/P7<9>.F1
+
+U3/n4869
+   U3/n4869.X
+         1.676  U3/P7<10>.C1
+         1.576  U3/n5138.C2
+         2.492  U3/P7<2>.G2
+         3.062  U3/P7<3>.G1
+         3.557  U3/n5136.C4
+         4.159  U3/P7<5>.G1
+         4.175  U3/P7<6>.G2
+         3.601  U3/n5135.C4
+         3.601  U3/P7<8>.G4
+         3.098  U3/P7<9>.G2
+
+U3/n4870
+   U3/n4870.X
+         6.120  U3/n5079.G4
+         1.665  U3/n4870.G2
+         2.731  U3/P2<8>.F4
+         4.496  U3/P3<8>.F1
+         3.467  U3/P4<8>.F4
+         3.299  U3/P5<8>.F1
+         2.679  U3/P6<8>.F4
+         5.652  U3/P7<8>.F1
+
+U3/n4871
+   U3/n4841.Y
+         2.734  U3/n5080.G3
+         5.470  U3/n5098.G2
+         5.462  U3/n5116.G2
+         4.290  U3/n5123.G1
+         5.551  U3/n5104.G4
+         3.548  U3/n5110.G3
+         5.701  U3/n5128.G4
+         3.442  U3/n5135.G2
+
+U3/n4873
+   U3/n4873.X
+         2.813  U3/n5081.G3
+         4.546  U3/n5148/4.0/2.1.G3
+         3.918  U3/n5143/4.0/2.1.G2
+         2.326  U3/n4873.G1
+         3.585  U3/n5146/4.0/2.1.G3
+         2.911  U3/n5145/4.0/2.1.G4
+         3.987  U3/n5141/4.0/2.1.G4
+         2.900  U3/P7<6>.F4
+
+U3/n4874
+   U3/n4874.X
+         3.462  U3/n5082.G3
+         0.780  U3/n4874.G2
+         1.856  U3/P2<5>.F3
+         3.535  U3/P3<5>.F1
+         1.753  U3/P4<5>.F4
+         3.588  U3/P5<5>.F3
+         1.862  U3/P6<5>.F1
+         3.103  U3/P7<5>.F4
+
+U3/n4875
+   U3/n4875.X
+         4.937  U3/n5083.G1
+         5.782  U3/n5024.G3
+         2.104  U3/n4875.G1
+         4.758  U3/n5124.G3
+         2.451  U3/P4<4>.F3
+         3.542  U3/P5<4>.F4
+         3.542  U3/P6<4>.F4
+         5.212  U3/n5136.G4
+
+U3/n4877
+   U3/n4877.X
+         3.056  U3/n5084.G1
+         2.537  U3/n5101.G2
+         3.399  U3/n5119.G1
+         0.983  U3/n4877.G2
+         2.340  U3/n5107.G3
+         1.989  U3/n5113.G2
+         3.331  U3/n5131.G1
+         2.167  U3/P7<3>.F1
+
+U3/n4878
+   U3/n4878.X
+         2.457  U3/n5085.F2
+         2.332  U3/n5148.G3
+         2.460  U3/n5143.G1
+         2.016  U3/n4878.G1
+         2.375  U3/n5146.G2
+         2.373  U3/n5145.G4
+         2.512  U3/n5141.G3
+         2.305  U3/P7<2>.F2
+
+U3/n4879
+   U3/n4879.X
+         3.736  U3/n5086.F3
+         2.730  U3/n5102.G2
+         2.799  U3/n5120.G4
+         2.565  U3/n5126.G2
+         3.218  U3/n5108.G3
+         3.301  U3/n5114.G2
+         2.227  U3/n5132.G3
+         3.544  U3/n5138.G2
+
+U3/n4880
+   U3/n4867.Y
+         3.218  U3/n5096.F1
+         3.562  U3/P1<10>.F2
+         3.844  U3/P2<10>.F4
+         3.600  U3/P3<10>.F4
+         4.632  U3/P4<10>.F1
+         4.423  U3/P5<10>.F4
+         4.685  U3/P6<10>.F3
+         3.468  U3/P7<10>.F4
+
+U3/n4881
+   U3/n4879.Y
+         3.397  U3/n5088.G1
+         1.588  U3/P1<10>.G2
+         2.217  U3/P2<10>.G1
+         2.241  U3/P3<10>.G4
+         2.173  U3/P4<10>.G2
+         2.241  U3/P5<10>.G4
+         1.936  U3/P6<10>.G2
+         2.658  U3/P7<10>.G4
+
+U3/n4882
+   U3/n4882.X
+         2.052  U3/n4888.G1
+         2.069  U3/n4887.G1
+         4.349  U3/n4886.G3
+         4.059  U3/n4885.G3
+         4.558  U3/n4884.G1
+         2.069  U3/n4883.G1
+         4.535  U3/n4869.G2
+         4.670  U3/n5024.F2
+
+U3/n4883
+   U3/n4883.X
+         2.824  U3/P6<10>.C2
+         2.808  U3/n5132.C1
+         3.955  U3/n5141.C4
+         4.648  U3/n5131.C4
+         5.619  U3/P6<4>.G4
+         5.647  U3/P6<5>.G1
+         5.330  U3/n5141/4.0/2.1.C2
+         4.225  U3/n5128.C1
+         4.009  U3/P6<8>.G3
+         3.906  U3/P6<9>.G2
+
+U3/n4884
+   U3/n4884.X
+         1.852  U3/P5<10>.C2
+         2.051  U3/n5114.C2
+         2.662  U3/n5145.C4
+         2.784  U3/n5113.C1
+         4.094  U3/P5<4>.G2
+         4.213  U3/P5<5>.G1
+         3.270  U3/n5145/4.0/2.1.C1
+         3.031  U3/n5110.C2
+         3.361  U3/P5<8>.G3
+         2.185  U3/P5<9>.G3
+
+U3/n4885
+   U3/n4885.X
+         2.066  U3/P4<10>.C2
+         2.097  U3/n5108.C4
+         2.022  U3/n5146.C1
+         3.526  U3/n5107.C4
+         3.442  U3/P4<4>.G1
+         4.087  U3/P4<5>.G1
+         3.814  U3/n5146/4.0/2.1.C1
+         3.249  U3/n5104.C2
+         3.417  U3/P4<8>.G3
+         3.161  U3/P4<9>.G3
+
+U3/n4886
+   U3/n4886.X
+         2.697  U3/P3<10>.C1
+         2.713  U3/n5126.C2
+         3.300  U3/n4878.C1
+         5.007  U3/n4877.C1
+         6.191  U3/n5124.C1
+         5.986  U3/P3<5>.G2
+         6.163  U3/n4873.C1
+         5.242  U3/n5123.C2
+         4.368  U3/P3<8>.G1
+         3.005  U3/P3<9>.G1
+
+U3/n4887
+   U3/n4887.X
+         3.233  U3/P2<10>.C1
+         3.409  U3/n5120.C2
+         3.356  U3/n5143.C1
+         4.566  U3/n5119.C2
+         4.902  U3/n4875.C1
+         5.230  U3/P2<5>.G1
+         5.159  U3/n5143/4.0/2.1.C1
+         4.392  U3/n5116.C2
+         4.318  U3/P2<8>.G1
+         3.605  U3/P2<9>.G2
+
+U3/n4888
+   U3/n4888.X
+         1.800  U3/P1<10>.C2
+         2.157  U3/n5102.C1
+         2.779  U3/n5148.C1
+         3.806  U3/n5101.C4
+         3.442  U3/n5024.C2
+         3.731  U3/n4874.C4
+         3.139  U3/n5148/4.0/2.1.C1
+         2.449  U3/n5098.C1
+         2.769  U3/n4870.C1
+         2.315  U3/n4868.C1
+
+U3/n4889
+   U3/n4889.X
+         3.214  U3/n5088.C1
+         2.873  U3/n5086.C1
+         2.035  U3/n5085.C1
+         2.035  U3/n5084.C1
+         3.909  U3/n5083.C2
+         4.894  U3/n5082.C1
+         4.693  U3/n5081.C4
+         3.858  U3/n5080.C1
+         2.574  U3/n5079.C1
+         2.364  U3/n5078.C2
+
+U3/n4919
+   U3/n4919.X
+         7.626  U3/n5074.G2
+         7.598  U3/n5074.C4
+         6.919  U3/n5283.F3
+         7.570  U3/n5283.G3
+         6.176  U3/n5281.F4
+         6.176  U3/n5281.G4
+         4.812  U3/n5287.F2
+         4.812  U3/n5287.G2
+         6.270  U3/n5285.F1
+         6.270  U3/n5285.G1
+         5.000  U3/n5289.F3
+         5.000  U3/n5289.G3
+         5.319  A2_out<3>.F1
+         5.319  A2_out<3>.G1
+         4.101  U3/n5293.F2
+         4.101  U3/n5293.G2
+         4.023  U3/n5291.F4
+         4.023  U3/n5291.G4
+         5.277  U3/n5297.F1
+         5.277  U3/n5297.G1
+         5.313  U3/n5295.F3
+         5.313  U3/n5295.G3
+         4.485  U3/n5301.F1
+         4.485  U3/n5301.G1
+         5.330  U3/n5299.F3
+         5.330  U3/n5299.G3
+         4.023  U3/n5303.F3
+         4.209  U3/n5303.G3
+         3.932  A6_out<3>.F3
+         3.932  A6_out<3>.G3
+         3.760  U3/n5305.F4
+         3.760  U3/n5305.G4
+         6.887  U3/n5023.F1
+         7.067  U3/trace_ptr<0>.F1
+         7.067  U3/trace_ptr<0>.G1
+         7.430  U3/trace_ptr<3>.F3
+         7.430  U3/trace_ptr<3>.G3
+         7.948  U3/n4930.C4
+         9.111  U3/write_ptr<1>.F3
+         8.311  U3/write_ptr<1>.G1
+         7.938  U3/n4840.F3
+         7.837  U3/n_527.F1
+         3.879  U2/ACS6/sumb<3>/2.0.F1
+         7.939  U3/n4932.G3
+
+U3/n4921
+   U3/n4921.X
+         1.675  U3/trace_ptr<0>.G2
+
+U3/n4924
+   U3/n4924.X
+         1.427  U3/n4932.G2
+
+U3/n4926
+   U3/n5023.Y
+         1.169  U3/n716<0>.G1
+
+U3/n4930
+   U3/n4930.X
+         9.127  U3/block_count<6>.C1
+         8.887  U3/sub_327/n46.C1
+         8.063  U3/sub_327/U18/GATE1/2.0.C1
+         8.786  U3/sub_327/n48.C4
+         9.141  U3/block_count<2>.C1
+         2.951  U3/n5023.F4
+         4.196  U3/n5088.G2
+         4.629  U3/n5086.F2
+         5.560  U3/n5085.F4
+         5.492  U3/n5084.G2
+         4.234  U3/n5083.G4
+         5.135  U3/n5082.G4
+         5.342  U3/n5081.G4
+         4.465  U3/n5080.G2
+         5.270  U3/n5079.G2
+         5.448  U3/n5078.G4
+         6.612  U3/n4888.G4
+         6.621  U3/P1<10>.G1
+         6.762  U3/n5102.G3
+         6.301  U3/n5148.G2
+         6.989  U3/n5101.G3
+         5.560  U3/n5024.F4
+         5.560  U3/n5024.G4
+         6.792  U3/n4874.G3
+         7.083  U3/n5148/4.0/2.1.G1
+         7.135  U3/n5098.G3
+         7.681  U3/n4870.G4
+         7.459  U3/n4868.G2
+         6.076  U3/n4887.G2
+         6.439  U3/P2<10>.G2
+         6.674  U3/n5120.G3
+         6.661  U3/n5143.G3
+         6.632  U3/n5119.G4
+         6.616  U3/n4875.G2
+         6.626  U3/P2<5>.F1
+         7.083  U3/n5143/4.0/2.1.G1
+         7.135  U3/n5116.G3
+         7.135  U3/P2<8>.F3
+         7.528  U3/P2<9>.F4
+         6.226  U3/n4886.G4
+         6.048  U3/P3<10>.G2
+         5.791  U3/n5126.G4
+         4.791  U3/n4878.G2
+         6.363  U3/n4877.G4
+         5.342  U3/n5124.G4
+         6.021  U3/P3<5>.F4
+         5.273  U3/n4873.G2
+         5.891  U3/n5123.G2
+         7.055  U3/P3<8>.F4
+         5.349  U3/P3<9>.F2
+         6.210  U3/n4885.G2
+         5.707  U3/P4<10>.G4
+         6.439  U3/n5108.G2
+         5.838  U3/n5146.G1
+         7.209  U3/n5107.G4
+         6.632  U3/P4<4>.F4
+         6.231  U3/P4<5>.F3
+         6.937  U3/n5146/4.0/2.1.G1
+         6.986  U3/n5104.G2
+         7.031  U3/P4<8>.F2
+         7.055  U3/P4<9>.F4
+         6.117  U3/n4884.G4
+         6.387  U3/P5<10>.G1
+         6.226  U3/n5114.G4
+         5.723  U3/n5145.G2
+         6.969  U3/n5113.G4
+         6.178  U3/P5<4>.F1
+         6.021  U3/P5<5>.F4
+         6.295  U3/n5145/4.0/2.1.G2
+         6.986  U3/n5110.G2
+         5.891  U3/P5<8>.F2
+         5.522  U3/P5<9>.F4
+         6.072  U3/n4883.G4
+         6.110  U3/P6<10>.G4
+         6.021  U3/n5132.G2
+         7.862  U3/n5141.G1
+         7.501  U3/n5131.G2
+         6.231  U3/P6<4>.F3
+         6.564  U3/P6<5>.F2
+         7.083  U3/n5141/4.0/2.1.G1
+         7.365  U3/n5128.G3
+         6.986  U3/P6<8>.F2
+         7.055  U3/P6<9>.F4
+         5.212  U3/n4869.G4
+         5.984  U3/P7<10>.G2
+         5.791  U3/n5138.G4
+         5.497  U3/P7<2>.F4
+         5.257  U3/P7<3>.F4
+         5.492  U3/n5136.G2
+         4.551  U3/P7<5>.F3
+         4.292  U3/P7<6>.F2
+         5.257  U3/n5135.G4
+         5.959  U3/P7<8>.F4
+         5.322  U3/P7<9>.F2
+         9.090  U3/block_count<0>.C2
+
+U3/n4932
+   U3/n4932.X
+         1.710  U3/n_527.C2
+         0.914  U3/n716<0>.G4
+         0.914  U3/n716<0>.C4
+
+U3/n4932/2.1
+   U3/n4840.Y
+         1.685  U3/n4932.F3
+
+U3/n5023
+   U3/n5023.X
+         4.488  U3/n4879.F1
+         4.488  U3/n4879.G1
+         4.480  U3/n4882.F2
+         4.715  U3/n4867.C2
+         3.753  U3/n5278.C1
+         4.759  U3/n716<0>.C2
+         2.638  U3/n4889.F2
+         4.937  U3/n4888.F1
+         4.480  U3/n4887.F2
+         3.661  U3/n4886.F4
+         3.638  U3/n4885.F2
+         3.594  U3/n4884.F3
+         4.548  U3/n4883.F4
+         2.706  U3/n4869.F4
+         4.540  U3/n4841.F3
+         4.540  U3/n4841.G3
+         6.369  U3/n4874.F4
+         5.828  U3/n4870.F1
+         5.828  U3/n4868.F1
+         5.960  U3/n4875.F3
+         3.593  U3/n4878.F2
+         5.117  U3/n4877.F2
+         4.773  U3/n4873.F1
+
+U3/n5024
+   U3/n5024.X
+         1.030  U3/n4889.C4
+
+U3/n5038
+   U3/n5038.X
+         2.071  U3/n5066.C1
+         1.940  U3/n_541.F2
+         1.750  U3/n5023.G3
+         1.931  U3/tb_reg<0>.F1
+         1.931  U3/tb_reg<0>.G1
+         1.657  U3/n4863.G3
+         2.204  U3/tb_reg747<2>/2.0.F1
+         2.204  U3/tb_reg747<2>/2.0.G1
+
+U3/n5039
+   U3/n4930.Y
+         1.784  U3/n_541.F4
+         2.185  U3/n4841.F2
+         2.245  U3/n_527.F4
+
+U3/n5041
+   U3/n5041.X
+         2.361  U3/tb_reg747<2>/2.0.G3
+
+U3/n5064
+   U3/n5064.Y
+         1.059  U3/n5041.F4
+
+U3/n5065
+   U3/n5065.Y
+         2.059  U3/n5041.F3
+
+U3/n5066
+   U3/n5066.X
+         1.344  U3/n4863.F3
+         1.461  U3/n4863.C2
+
+U3/n5066/2.0
+   U3/TB_1/*cell*3027/net11160.Y
+         1.447  U3/n5066.F3
+
+U3/n5074
+   U3/n5074.X
+         2.027  U3/min_state<0>.C4
+         1.121  U3/n5041.F1
+         2.508  U3/tb_reg<0>.G3
+         1.121  U3/n4863.F1
+         2.004  U3/n5066.F2
+         2.419  U3/n4854.C1
+
+U3/n5078
+   U3/n5078.X
+         3.603  U3/n4868.F4
+         3.809  U3/n4868.C2
+         3.878  U3/P2<9>.C4
+         3.082  U3/P3<9>.C4
+         3.073  U3/P4<9>.C2
+         2.396  U3/P5<9>.C2
+         3.411  U3/P6<9>.C1
+         2.583  U3/P7<9>.C1
+
+U3/n5079
+   U3/n5079.X
+         4.402  U3/n4870.F4
+         4.402  U3/n4870.C4
+         4.568  U3/P2<8>.C4
+         3.552  U3/P3<8>.C4
+         3.528  U3/P4<8>.C2
+         3.219  U3/P5<8>.C1
+         3.881  U3/P6<8>.C2
+         2.955  U3/P7<8>.C1
+
+U3/n5080
+   U3/n5080.X
+         4.909  U3/n5098.C4
+         4.049  U3/n5116.C1
+         3.049  U3/n5123.C1
+         4.067  U3/n5104.C1
+         3.097  U3/n5110.C1
+         4.351  U3/n5128.C2
+         3.478  U3/n5135.C1
+         1.384  U3/n4841.G1
+
+U3/n5081
+   U3/n5081.X
+         4.493  U3/n5148/4.0/2.1.C4
+         4.403  U3/n5143/4.0/2.1.C4
+         2.746  U3/n4873.F2
+         2.746  U3/n4873.C2
+         4.062  U3/n5146/4.0/2.1.C4
+         3.265  U3/n5145/4.0/2.1.C2
+         4.470  U3/n5141/4.0/2.1.C1
+         2.746  U3/P7<6>.C2
+
+U3/n5082
+   U3/n5082.X
+         4.597  U3/n4874.F2
+         4.597  U3/n4874.C2
+         4.294  U3/P2<5>.C1
+         3.243  U3/P3<5>.C1
+         3.880  U3/P4<5>.C1
+         3.480  U3/P5<5>.C4
+         3.656  U3/P6<5>.C2
+         2.411  U3/P7<5>.C1
+
+U3/n5083
+   U3/n5083.X
+         3.342  U3/n5024.C1
+         4.367  U3/n4875.F2
+         4.365  U3/n4875.C2
+         3.615  U3/n5124.C4
+         4.390  U3/P4<4>.C4
+         4.146  U3/P5<4>.C2
+         4.146  U3/P6<4>.C2
+         3.133  U3/n5136.C1
+
+U3/n5084
+   U3/n5084.X
+         4.812  U3/n5101.C1
+         5.455  U3/n5119.C4
+         2.762  U3/n4877.F3
+         3.592  U3/n4877.C4
+         5.028  U3/n5107.C1
+         3.872  U3/n5113.C4
+         5.320  U3/n5131.C2
+         2.709  U3/P7<3>.C1
+
+U3/n5085
+   U3/n5085.Y
+         3.622  U3/n5148.C4
+         3.735  U3/n5143.C4
+         2.491  U3/n4878.F4
+         2.491  U3/n4878.C4
+         3.168  U3/n5146.C2
+         2.554  U3/n5145.C1
+         3.797  U3/n5141.C1
+         2.225  U3/P7<2>.C2
+
+U3/n5086
+   U3/n5086.Y
+         3.967  U3/n4879.F3
+         4.929  U3/n5102.C4
+         4.523  U3/n5120.C1
+         2.133  U3/n5126.C1
+         3.773  U3/n5108.C1
+         3.210  U3/n5114.C1
+         4.005  U3/n5132.C4
+         2.434  U3/n5138.C1
+
+U3/n5087
+   U3/n5278.Y
+         2.499  U3/n5096.F3
+         5.316  U3/P1<10>.F3
+         5.539  U3/P2<10>.F3
+         4.772  U3/P3<10>.F3
+         5.714  U3/P4<10>.F4
+         5.375  U3/P5<10>.F2
+         5.807  U3/P6<10>.F4
+         2.795  U3/P7<10>.F3
+
+U3/n5088
+   U3/n5088.X
+         4.518  U3/P1<10>.C1
+         4.100  U3/P2<10>.C4
+         3.669  U3/P3<10>.C2
+         4.597  U3/P4<10>.C1
+         4.391  U3/P5<10>.C4
+         4.471  U3/P6<10>.C1
+         2.646  U3/P7<10>.C2
+         4.790  U3/n4879.G4
+
+U3/n5089
+   U3/n4889.Y
+         3.300  U3/n4882.F4
+         3.231  U3/n4888.C2
+         3.300  U3/n4887.C4
+         3.227  U3/n4886.C2
+         2.449  U3/n4885.C4
+         3.390  U3/n4884.C2
+         3.792  U3/n4883.C1
+         2.190  U3/n4869.C1
+
+U3/n5090/4.0
+   U3/sub_327/n48.Y
+         1.694  U3/n4919.F4
+
+U3/n5091
+   U3/sub_327/n46.Y
+         1.335  U3/n4919.F3
+
+U3/n5092
+   U3/n5092.X
+         2.431  U3/n5149/4.0/2.1.F2
+
+U3/n5093/2.0
+   U3/n5093/2.0.Y
+         1.370  U3/n5149/4.0/2.1.F4
+
+U3/n5095
+   U3/n5139/2.0.Y
+         2.995  U3/n5136/2.0.G4
+
+U3/n5096
+   U3/n5096.Y
+         0.999  U3/n5136/2.0.G3
+
+U3/n5098
+   U3/n5098.X
+         1.288  U3/n5148/4.0/2.1.F1
+
+U3/n5099/2.0
+   U3/n5099/2.0.X
+         1.345  U3/n5148/4.0/2.1.F3
+
+U3/n5101
+   U3/n5101.X
+         1.366  U3/n5141/4.0/2.0.G4
+
+U3/n5102
+   U3/n5102.X
+         1.213  U3/n5141/4.0/2.0.G1
+
+U3/n5104
+   U3/n5104.X
+         2.027  U3/n5146/4.0/2.1.F2
+
+U3/n5105/2.0
+   U3/n5105/2.0.X
+         1.077  U3/n5146/4.0/2.1.F3
+
+U3/n5107
+   U3/n5107.X
+         1.941  U3/n5143/4.0/2.0.G4
+
+U3/n5108
+   U3/n5108.X
+         1.213  U3/n5143/4.0/2.0.G1
+
+U3/n5110
+   U3/n5110.X
+         2.235  U3/n5145/4.0/2.1.F2
+
+U3/n5111/2.0
+   U3/n5111/2.0.X
+         0.320  U3/n5145/4.0/2.1.F4
+
+U3/n5113
+   U3/n5113.X
+         2.685  U3/n5145/4.0/2.0.F2
+
+U3/n5114
+   U3/n5114.X
+         1.337  U3/n5145/4.0/2.0.F4
+
+U3/n5116
+   U3/n5116.X
+         2.281  U3/n5143/4.0/2.1.F4
+
+U3/n5117/2.0
+   U3/n5117/2.0.X
+         1.748  U3/n5143/4.0/2.1.F3
+
+U3/n5119
+   U3/n5119.X
+         2.079  U3/n5143/4.0/2.0.F1
+
+U3/n5120
+   U3/n5120.X
+         2.105  U3/n5143/4.0/2.0.F4
+
+U3/n5123
+   U3/n5123.X
+         2.542  U3/n5124.F4
+
+U3/n5124
+   U3/n5124.X
+         2.703  U3/n5065.G3
+
+U3/n5124/2.0
+   U3/n5124/2.0.X
+         1.307  U3/n5124.F2
+
+U3/n5126
+   U3/n5126.X
+         1.288  U3/n5127.F1
+
+U3/n5127
+   U3/n5127.X
+         1.658  U3/n5065.G1
+
+U3/n5127/2.0
+   U3/n5127/2.0.X
+         3.099  U3/n5127.F3
+
+U3/n5128
+   U3/n5128.X
+         1.935  U3/n5141/4.0/2.1.F1
+
+U3/n5129/2.0
+   U3/n5129/2.0.X
+         1.776  U3/n5141/4.0/2.1.F3
+
+U3/n5131
+   U3/n5131.X
+         2.229  U3/n5141/4.0/2.0.F4
+
+U3/n5132
+   U3/n5132.X
+         1.751  U3/n5141/4.0/2.0.F2
+
+U3/n5135
+   U3/n5135.X
+         1.790  U3/n5136.F4
+
+U3/n5136
+   U3/n5136.X
+         2.056  U3/n5065.F1
+
+U3/n5136/2.0
+   U3/n5136/2.0.X
+         1.213  U3/n5136.F1
+
+U3/n5138
+   U3/n5138.X
+         0.320  U3/n5127.G4
+
+U3/n5139
+   U3/n5127.Y
+         1.739  U3/n5065.F4
+
+U3/n5139/2.0
+   U3/n5139/2.0.X
+         2.881  U3/n5127.G1
+
+U3/n5141
+   U3/n5141.X
+         4.247  U3/n5065.F3
+
+U3/n5141/4.0/2.0
+   U3/n5141/4.0/2.0.X
+         1.604  U3/n5141.F4
+
+U3/n5141/4.0/2.1
+   U3/n5141/4.0/2.1.X
+         1.678  U3/n5141.F1
+
+U3/n5143
+   U3/n5143.X
+         3.051  U3/n5065.G4
+
+U3/n5143/4.0/2.0
+   U3/n5143/4.0/2.0.X
+         1.213  U3/n5143.F1
+
+U3/n5143/4.0/2.1
+   U3/n5143/4.0/2.1.X
+         2.848  U3/n5143.F4
+
+U3/n5145
+   U3/n5145.X
+         2.347  U3/n5064.G1
+
+U3/n5145/4.0/2.0
+   U3/n5145/4.0/2.0.X
+         1.121  U3/n5145.F1
+
+U3/n5145/4.0/2.1
+   U3/n5145/4.0/2.1.X
+         2.612  U3/n5145.F4
+
+U3/n5146
+   U3/n5146.X
+         3.851  U3/n5064.G4
+
+U3/n5146/4.0/2.0
+   U3/n5143/4.0/2.0.Y
+         0.166  U3/n5146.F1
+
+U3/n5146/4.0/2.1
+   U3/n5146/4.0/2.1.X
+         3.159  U3/n5146.F3
+
+U3/n5148
+   U3/n5148.X
+         4.090  U3/n5064.F1
+
+U3/n5148/4.0/2.0
+   U3/n5141/4.0/2.0.Y
+         2.529  U3/n5148.F4
+
+U3/n5148/4.0/2.1
+   U3/n5148/4.0/2.1.X
+         2.773  U3/n5148.F1
+
+U3/n5149
+   U3/n5149.X
+         0.320  U3/n5064.F4
+
+U3/n5149/4.0/2.0
+   U3/n5136/2.0.Y
+         1.217  U3/n5149.F1
+
+U3/n5149/4.0/2.1
+   U3/n5149/4.0/2.1.X
+         2.720  U3/n5149.F4
+
+U3/n5277
+   U3/n4854.Y
+         1.648  U3/trace_ptr<3>.F1
+         1.648  U3/trace_ptr<3>.G1
+         1.554  U3/trace_ptr<0>.G4
+
+U3/n5278
+   U3/n5278.X
+         3.292  U3/n4924.F3
+         3.484  U3/n4867.C1
+         1.835  U3/n5084.F3
+         3.032  U3/n5080.F4
+         3.000  U3/write_ptr<1>.G3
+         3.239  U3/n4932.G1
+
+U3/n5279
+   U3/n5023.YQ
+         2.885  Dx_oe.O
+         4.074  Dx<0>.T
+         2.184  U3/n5074.F1
+         0.977  U3/n4930.F2
+         5.998  U3/n4919.C4
+
+U3/n5280
+   U3/n4841.XQ
+         2.632  tb_en.O
+         1.768  U3/n5038.C3
+         2.509  U3/n5023.G2
+         3.291  U3/n5074.F2
+
+U3/n5281
+   U3/n5281.YQ
+         1.977  U2/ACS1/n381.C4
+         1.973  U2/ACS0/n397.F2
+         1.973  U2/ACS0/n397.G2
+         1.938  U2/ACS0/n411.C4
+         1.977  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.C4
+         2.388  U3/TB_1/net10756.F2
+         1.837  U2/ACS0/n160.G2
+         2.304  U2/ACS1/n160.G2
+         1.909  U3/TB_1/*cell*3027/net11162.G2
+
+U3/n5282
+   U3/n5281.XQ
+         2.566  U2/ACS0/n397.F4
+         2.566  U2/ACS0/n397.G4
+         1.617  U2/ACS0/suma<1>.F3
+         1.617  U2/ACS0/suma<1>.G3
+         1.544  U2/ACS0/n411.F4
+         1.795  U2/ACS1/n381.F3
+         2.708  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.F4
+         2.498  U3/TB_1/*cell*3027/net11162.F2
+         2.365  U3/TB_1/net10776.F4
+
+U3/n5283
+   U3/n5283.XQ
+         3.071  U1/n131.C1
+         3.507  U2/ACS1/suma<0>.F4
+         3.364  U2/ACS1/suma<0>.G2
+         2.778  U2/ACS0/n397.F3
+         2.778  U2/ACS0/n397.G3
+         2.971  U2/ACS0/suma<0>.F3
+         2.758  U2/ACS0/suma<0>.G1
+         3.439  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.F2
+         1.976  U3/TB_1/*cell*3027/net11162.G4
+
+U3/n5284
+   U3/n5283.YQ
+         4.189  U2/ACS2/n309.F2
+         4.189  U2/ACS2/n309.G2
+         2.261  U3/TB_1/n89.F3
+         2.261  U3/TB_1/n89.C3
+         3.967  U2/ACS2/n160.G3
+         4.599  U2/ACS3/n160.G1
+         2.063  U3/TB_1/*cell*2704/net8337.G3
+
+U3/n5285
+   U3/n5285.YQ
+         4.179  U2/ACS3/n234.C3
+         4.198  U2/ACS2/n309.F4
+         4.198  U2/ACS2/n309.G4
+         3.282  U2/ACS2/n322.C4
+         2.622  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.C1
+         2.181  U3/TB_1/net10756.F4
+         3.214  U2/ACS2/n160.G2
+         3.777  U2/ACS3/n160.G4
+         2.419  U3/TB_1/*cell*2704/net8337.G4
+
+U3/n5286
+   U3/n5285.XQ
+         4.009  U2/ACS2/n309.F3
+         4.009  U2/ACS2/n309.G3
+         3.739  U2/ACS2/suma<1>.F2
+         3.739  U2/ACS2/suma<1>.G2
+         2.997  U2/ACS2/n322.F1
+         3.799  U2/ACS3/n234.F4
+         2.101  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.F3
+         1.932  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.G3
+         2.502  U3/TB_1/net10776.F2
+
+U3/n5287
+   U3/n5287.YQ
+         2.935  U2/ACS3/n232.F2
+         2.690  U2/ACS3/n232.C3
+         2.637  U2/ACS2/n309.F1
+         2.637  U2/ACS2/n309.G1
+         2.187  U2/ACS2/n320.F4
+         2.187  U2/ACS2/n320.C4
+         4.128  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.F1
+         4.128  U3/TB_1/lte_44/u4/S0/SUB/CO_SIG.G1
+         4.247  U2/ACS1/suma<0>.G1
+
+U3/n5288
+   U3/n5287.XQ
+         2.732  U2/ACS5/n293.C3
+         2.723  U2/ACS4/n187.F1
+         2.329  U2/ACS4/n187.G3
+         2.277  U2/ACS4/n202.C1
+         1.916  U2/ACS4/n160.G2
+         2.776  U2/ACS5/n160.G3
+         3.075  U3/TB_1/net10746.F3
+         3.075  U3/TB_1/n97.F3
+         2.800  U3/TB_1/net10771.G4
+
+U3/n5289
+   U3/n5289.XQ
+         2.695  U2/ACS4/n187.F2
+         2.542  U2/ACS4/n187.G1
+         2.116  U2/ACS4/suma<1>.F3
+         2.116  U2/ACS4/suma<1>.G3
+         4.995  U3/TB_1/lte_49/u4/S0/SUB/CO_2.F2
+         4.575  U3/TB_1/lte_49/u4/S0/SUB/CO_2.G3
+         3.856  U3/TB_1/*cell*2704/net8337.F4
+         1.991  U2/ACS4/n202.F3
+         2.594  U2/ACS5/n293.F3
+
+U3/n5290
+   U3/n5289.YQ
+         2.559  U2/ACS4/n200.F3
+         2.713  U2/ACS4/n200.G3
+         2.562  U2/ACS4/n187.F3
+         2.108  U2/ACS4/n187.G2
+         2.643  U2/ACS4/suma<0>.F2
+         2.745  U2/ACS4/suma<0>.G4
+         4.148  U3/TB_1/lte_49/u4/S0/SUB/CO_2.F4
+         3.430  U3/TB_1/net10771.F1
+         3.430  U3/TB_1/net10771.G1
+
+U3/n5291
+   U3/n5291.YQ
+         2.642  U2/ACS6/n338.F3
+         2.642  U2/ACS6/n338.G3
+         2.928  U3/TB_1/n97.G2
+         2.928  U3/TB_1/n97.C2
+         2.641  U2/ACS6/n160.G2
+         2.198  U2/ACS7/n160.G1
+         3.104  U3/TB_1/*cell*2704/net8319.G4
+
+U3/n5292
+   U3/n5291.XQ
+         2.966  U2/ACS7/n263.C2
+         2.861  U2/ACS6/n338.F2
+         2.861  U2/ACS6/n338.G2
+         2.271  U2/ACS6/n351.C3
+         1.850  U2/ACS6/n160.G3
+         2.929  U2/ACS7/n160.G4
+         4.436  U3/TB_1/net10746.F4
+         4.304  U3/TB_1/n97.F2
+         3.668  U3/TB_1/*cell*2704/net8319.F2
+
+U3/n5293
+   U3/n5293.XQ
+         2.592  U2/ACS6/n338.F1
+         2.592  U2/ACS6/n338.G1
+         2.643  U2/ACS6/suma<1>.F1
+         2.643  U2/ACS6/suma<1>.G1
+         3.973  U3/TB_1/lte_49/u4/S0/SUB/CO_2.F1
+         3.788  U3/TB_1/lte_49/u4/S0/SUB/CO_2.G4
+         2.842  U2/ACS6/n351.F3
+         3.396  U2/ACS7/n263.F2
+         3.047  U3/TB_1/*cell*2704/net8319.F4
+
+U3/n5294
+   U3/n5293.YQ
+         3.061  U2/ACS7/n261.F2
+         2.644  U2/ACS7/n261.C1
+         3.339  U2/ACS6/n338.F4
+         3.339  U2/ACS6/n338.G4
+         3.126  U2/ACS6/n349.F2
+         2.447  U2/ACS6/n349.C4
+         3.615  U3/TB_1/lte_49/u4/S0/SUB/CO_2.F3
+         3.615  U3/TB_1/net10771.F3
+         4.263  U3/TB_1/*cell*2704/net8319.G3
+
+U3/n5295
+   U3/n5295.YQ
+         5.623  U2/ACS0/U64/GATE2.F1
+         5.623  U2/ACS0/U64/GATE2.G1
+         4.104  HD6<1>.C1
+         4.927  U1/n129.C1
+         2.489  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.C1
+         2.988  U3/TB_1/n105.C1
+         4.568  U2/ACS0/sumb<2>.F4
+         4.568  U2/ACS0/sumb<2>.G4
+         3.427  U2/ACS1/sumb<2>.F4
+         3.427  U2/ACS1/sumb<2>.G4
+         4.104  U3/TB_1/*cell*2704/net8326.F1
+         5.733  U2/ACS0/sumb<1>.G2
+         3.519  U2/ACS1/sumb<1>.G4
+
+U3/n5296
+   U3/n5295.XQ
+         4.421  U2/ACS0/U64/GATE2.F3
+         4.234  U2/ACS0/U64/GATE2.G4
+         4.234  HD6<1>.C4
+         2.965  U2/ACS1/sumb<1>.F2
+         2.965  U2/ACS1/sumb<1>.G2
+         4.234  U1/n129.C4
+         4.368  U2/ACS0/sumb<1>.F1
+         4.368  U2/ACS0/sumb<1>.G1
+         2.644  U3/TB_1/*cell*2704/net8291.F2
+         4.067  U2/ACS0/sumb<2>.F1
+         4.067  U2/ACS0/sumb<2>.G1
+         3.514  U2/ACS1/sumb<2>.F1
+         3.514  U2/ACS1/sumb<2>.G1
+         3.826  U3/TB_1/*cell*2704/net8326.G4
+         2.668  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.F4
+
+U3/n5297
+   U3/n5297.YQ
+         4.054  U2/ACS1/sumb<0>.F2
+         4.054  U2/ACS1/sumb<0>.G2
+         5.843  U2/ACS0/sumb<0>.F4
+         6.077  U2/ACS0/sumb<0>.G3
+         6.076  U2/ACS0/n408.F3
+         4.537  U2/ACS1/n378.F1
+         4.902  U3/TB_1/*cell*2704/net8326.G1
+         3.098  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.F2
+         6.124  U2/ACS0/sumb<2>.G3
+         4.792  U2/ACS1/sumb<2>.G3
+         2.960  U3/TB_1/net10751.F2
+
+U3/n5298
+   U3/n5297.XQ
+         3.614  U2/ACS2/U63/GATE2.F2
+         3.614  U2/ACS2/U63/GATE2.G2
+         2.305  U2/ACS3/n231.C2
+         4.319  U2/ACS2/n319.C4
+         3.564  U3/TB_1/n105.F1
+         3.484  U3/TB_1/*cell*2704/net8300.F2
+         3.899  U3/TB_1/*cell*3027/net11126.G1
+         3.829  U2/ACS2/sumb<2>.G3
+         4.498  U2/ACS3/sumb<2>.G2
+         3.926  U2/ACS2/sumb<1>.G3
+         3.322  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.G1
+
+U3/n5299
+   U3/n5299.YQ
+         2.872  U2/ACS2/U63/GATE2.F4
+         2.872  U2/ACS2/U63/GATE2.G4
+         3.162  HD8<1>.C1
+         4.324  HD7<1>.C1
+         4.103  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.G3
+         4.013  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.C4
+         4.033  U3/TB_1/n105.C4
+         3.680  U2/ACS2/sumb<2>.F1
+         3.680  U2/ACS2/sumb<2>.G1
+         3.214  U2/ACS3/sumb<2>.F3
+         3.214  U2/ACS3/sumb<2>.G3
+         3.504  U3/TB_1/*cell*3027/net11126.G3
+         3.680  U2/ACS2/sumb<1>.G1
+
+U3/n5300
+   U3/n5299.XQ
+         3.029  U2/ACS2/U63/GATE2.F1
+         3.029  U2/ACS2/U63/GATE2.G1
+         4.344  HD8<1>.C4
+         4.644  HD7<1>.C4
+         3.474  U2/ACS2/sumb<1>.F4
+         3.473  U2/ACS2/sumb<1>.G4
+         3.491  U3/TB_1/*cell*2704/net8291.F1
+         4.042  U2/ACS2/sumb<2>.F4
+         4.042  U2/ACS2/sumb<2>.G4
+         3.851  U2/ACS3/sumb<2>.F1
+         3.851  U2/ACS3/sumb<2>.G1
+         4.259  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.F3
+         3.263  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.G4
+         4.172  U3/TB_1/*cell*3027/net11126.F3
+         3.081  U2/ACS3/sumb<0>.G3
+
+U3/n5301
+   U3/n5301.YQ
+         4.773  HD12<0>.C1
+         3.667  U2/ACS3/sumb<0>.F3
+         3.864  U2/ACS2/sumb<0>.F4
+         4.119  U2/ACS2/sumb<0>.G2
+         4.248  U2/ACS2/n319.F4
+         3.281  U2/ACS3/n231.F4
+         3.665  U3/TB_1/lte_54/u4/S0/SUB/CO_SIG.F1
+         3.942  U3/TB_1/*cell*3027/net11126.F2
+         4.592  U2/ACS2/sumb<2>.G2
+         3.864  U2/ACS3/sumb<2>.G4
+         3.855  U3/TB_1/net10751.F4
+
+U3/n5302
+   U3/n5301.XQ
+         2.462  U2/ACS5/U64/GATE2.F1
+         2.462  U2/ACS5/U64/GATE2.G1
+         3.199  U2/ACS4/U65/GATE2.F2
+         3.206  U2/ACS4/U65/GATE2.G2
+         2.611  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.C2
+         3.603  U3/TB_1/*cell*3027/net11187.F2
+         2.692  U2/ACS4/sumb<2>.F4
+         2.692  U2/ACS4/sumb<2>.G4
+         2.071  U2/ACS5/sumb<2>.F2
+         2.071  U2/ACS5/sumb<2>.G2
+         2.623  U2/ACS4/sumb<1>.G2
+         2.478  U2/ACS5/sumb<1>.G1
+         2.145  U3/TB_1/min_67<0>.G3
+
+U3/n5303
+   U3/n5303.YQ
+         2.997  U2/ACS5/U64/GATE2.F2
+         2.997  U2/ACS5/U64/GATE2.G2
+         3.065  U2/ACS4/U65/GATE2.F4
+         3.192  U2/ACS4/U65/GATE2.G3
+         3.191  U2/ACS5/sumb<1>.F3
+         3.192  U2/ACS5/sumb<1>.G3
+         3.065  U2/ACS4/sumb<1>.F4
+         3.456  U2/ACS4/sumb<1>.G3
+         1.432  U3/TB_1/n113.C1
+         2.723  U2/ACS4/sumb<2>.F3
+         2.723  U2/ACS4/sumb<2>.G3
+         1.845  U2/ACS5/sumb<2>.F3
+         1.845  U2/ACS5/sumb<2>.G3
+         1.432  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.F1
+         1.432  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.G1
+
+U3/n5304
+   U3/n5303.XQ
+         3.293  U2/ACS4/n190.F3
+         3.293  U2/ACS4/n190.G3
+         2.566  U2/ACS4/sumb<0>.F1
+         2.566  U2/ACS4/sumb<0>.G1
+         1.974  U3/TB_1/min_67<0>.F1
+         3.653  U2/ACS4/n199.F3
+         3.663  U2/ACS5/n290.F3
+         1.898  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.F3
+         1.943  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.G2
+         2.716  U2/ACS4/sumb<2>.G2
+         3.191  U2/ACS5/sumb<2>.G1
+
+U3/n5305
+   U3/n5305.XQ
+         2.000  U2/ACS6/U63/GATE2.F3
+         2.000  U2/ACS6/U63/GATE2.G3
+         1.731  U2/ACS7/U63/GATE2.F1
+         1.731  U2/ACS7/U63/GATE2.G1
+         2.259  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.C1
+         2.259  U2/ACS6/sumb<2>.F1
+         2.259  U2/ACS6/sumb<2>.G1
+         1.564  U2/ACS7/sumb<2>.F2
+         1.564  U2/ACS7/sumb<2>.G2
+         2.311  U2/ACS6/sumb<1>.G3
+         1.632  U2/ACS7/sumb<1>.G4
+         2.475  U3/TB_1/min_67<0>.G2
+
+U3/n5306
+   U3/n5305.YQ
+         2.524  U2/ACS6/U63/GATE2.F1
+         2.524  U2/ACS6/U63/GATE2.G1
+         2.189  U2/ACS7/U63/GATE2.F4
+         2.189  U2/ACS7/U63/GATE2.G4
+         1.857  U2/ACS7/sumb<1>.F1
+         1.857  U2/ACS7/sumb<1>.G1
+         3.051  U2/ACS6/sumb<1>.F4
+         3.051  U2/ACS6/sumb<1>.G4
+         2.744  U3/TB_1/n113.C2
+         2.577  U2/ACS6/sumb<2>.F3
+         2.577  U2/ACS6/sumb<2>.G3
+         0.880  U2/ACS7/sumb<2>.F1
+         0.880  U2/ACS7/sumb<2>.G1
+         2.757  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.F2
+
+U3/n5307
+   U2/ACS6/sumb<3>/2.0.XQ
+         2.313  U2/ACS7/sumb<0>.F1
+         2.313  U2/ACS7/sumb<0>.G1
+         1.996  U2/ACS6/sumb<0>.F2
+         2.004  U2/ACS6/sumb<0>.G2
+         2.145  U3/TB_1/min_67<0>.F2
+         0.782  U2/ACS6/sumb<3>/2.0.G2
+         2.950  U2/ACS7/n260.F4
+         2.268  U3/TB_1/lte_59/u4/S0/SUB/CO_SIG.F4
+         1.813  U2/ACS6/sumb<2>.G2
+         2.366  U2/ACS7/sumb<2>.G3
+
+U3/n716<0>
+   U3/n716<0>.X
+         4.664  U3/n5096.C4
+         4.595  U3/n5088.C2
+         5.461  U3/n5078.C4
+         5.273  U3/n5079.C2
+         5.094  U3/n5080.C4
+         5.025  U3/n5081.C2
+         5.903  U3/n5082.C2
+         6.433  U3/n5083.C4
+         5.224  U3/n5084.C2
+         5.414  U3/n5085.C4
+         5.542  U3/n5086.C2
+         4.595  U3/n4889.C2
+         6.752  U3/P1<10>.C4
+         7.826  U3/n4868.C4
+         7.757  U3/n4870.C2
+         7.757  U3/n5098.C2
+         7.757  U3/n5148/4.0/2.1.C2
+         7.694  U3/n4874.C1
+         5.443  U3/n5024.C4
+         6.850  U3/n5101.C2
+         6.562  U3/n5148.C2
+         6.607  U3/n5102.C2
+         6.818  U3/n4888.C4
+         6.759  U3/P2<10>.C2
+         7.163  U3/P2<9>.C1
+         6.228  U3/P2<8>.C2
+         6.297  U3/n5116.C4
+         5.868  U3/n5143/4.0/2.1.C2
+         5.936  U3/P2<5>.C2
+         5.961  U3/n4875.C4
+         7.694  U3/n5119.C1
+         6.507  U3/n5143.C2
+         6.793  U3/n5120.C4
+         6.759  U3/n4887.C2
+         4.707  U3/P3<10>.C4
+         5.323  U3/P3<9>.C2
+         4.741  U3/P3<8>.C2
+         5.971  U3/n5123.C4
+         5.385  U3/n4873.C4
+         5.317  U3/P3<5>.C2
+         5.903  U3/n5124.C2
+         5.903  U3/n4877.C2
+         5.542  U3/n4878.C2
+         5.610  U3/n5126.C4
+         6.550  U3/n4886.C1
+         6.828  U3/P4<10>.C4
+         6.581  U3/P4<9>.C1
+         6.918  U3/P4<8>.C4
+         6.918  U3/n5104.C4
+         6.893  U3/n5146/4.0/2.1.C2
+         6.293  U3/P4<5>.C2
+         6.293  U3/P4<4>.C2
+         6.850  U3/n5107.C2
+         6.631  U3/n5146.C4
+         6.759  U3/n5108.C2
+         5.586  U3/n4885.C2
+         6.550  U3/P5<10>.C1
+         5.508  U3/P5<9>.C4
+         6.918  U3/P5<8>.C4
+         6.918  U3/n5110.C4
+         5.385  U3/n5145/4.0/2.1.C4
+         5.317  U3/P5<5>.C2
+         6.169  U3/P5<4>.C1
+         6.850  U3/n5113.C2
+         5.542  U3/n5145.C2
+         5.610  U3/n5114.C4
+         3.929  U3/n4884.C1
+         6.828  U3/P6<10>.C4
+         4.741  U3/P6<9>.C2
+         7.826  U3/P6<8>.C4
+         7.826  U3/n5128.C4
+         5.936  U3/n5141/4.0/2.1.C4
+         5.961  U3/P6<5>.C4
+         5.961  U3/P6<4>.C4
+         7.694  U3/n5131.C1
+         6.565  U3/n5141.C2
+         6.759  U3/n5132.C2
+         6.828  U3/n4883.C4
+         4.647  U3/P7<10>.C4
+         5.306  U3/P7<9>.C2
+         4.708  U3/P7<8>.C2
+         4.708  U3/n5135.C2
+         5.385  U3/P7<6>.C4
+         5.317  U3/P7<5>.C2
+         5.255  U3/n5136.C2
+         4.708  U3/P7<3>.C2
+         5.492  U3/P7<2>.C4
+         5.610  U3/n5138.C4
+         4.664  U3/n4869.C4
+
+U3/n757
+   U3/n716<0>.Y
+         2.288  U3/n5023.C4
+         1.346  U3/n4841.C1
+         2.219  U3/n4930.C2
+
+U3/n_527
+   U3/n_527.X
+         1.809  U3/write_ptr<1>.C4
+         1.634  U3/n4840.C1
+         1.511  U3/n4932.C2
+
+U3/n_535
+   U3/n4932.Y
+         2.947  U3/trace_ptr<3>.C4
+         2.970  U3/n4854.C4
+         2.833  U3/trace_ptr<0>.C4
+         1.240  U3/n_541.F1
+
+U3/n_541
+   U3/n_541.X
+         1.759  U3/tb_reg747<2>/2.0.C1
+         2.442  U3/n4863.C4
+         1.629  U3/tb_reg<0>.C1
+
+U3/n_779
+   U3/n_527.Y
+         4.663  U3/n5281.C4
+         4.368  U3/n5283.C4
+         4.312  U3/n5285.C4
+         5.747  U3/n5287.C2
+         5.516  A2_out<3>.C1
+         5.634  U3/n5289.C2
+         6.868  U3/n5291.C1
+         6.816  U3/n5293.C1
+         5.998  U3/n5295.C1
+         6.076  U3/n5297.C1
+         6.254  U3/n5299.C2
+         6.083  U3/n5301.C1
+         6.933  A6_out<3>.C1
+         7.190  U3/n5303.C1
+         7.189  U3/n5305.C2
+         7.448  U2/ACS6/sumb<3>/2.0.C2
+         4.299  U3/n5074.C2
+
+U3/sub_327/U18/GATE1/2.0
+   U3/sub_327/U18/GATE1/2.0.Y
+         0.262  U3/sub_327/U18/GATE1/2.0.F3
+
+U3/sub_327/U18/GATE2
+   U3/sub_327/U18/GATE2.X
+         0.962  U3/sub_327/U18/GATE1/2.0.F2
+
+U3/sub_327/n46
+   U3/sub_327/n46.X
+         1.687  U3/sub_327/U18/GATE2.F1
+         2.086  U3/block_count<6>.F4
+         2.086  U3/block_count<6>.G4
+         1.529  U3/block_count<2>.G3
+         2.110  U3/sub_327/U18/GATE1/2.0.G1
+
+U3/sub_327/n48
+   U3/sub_327/n48.X
+         1.590  U3/block_count<2>.F4
+         1.590  U3/block_count<2>.G4
+         1.522  U3/sub_327/n46.F2
+
+U3/tb_reg747<2>/2.0
+   U3/tb_reg747<2>/2.0.Y
+         0.262  U3/tb_reg747<2>/2.0.F3
+
+U3/tb_reg<0>
+   U3/tb_reg<0>.YQ
+         1.521  U3/n4863.G4
+         1.453  U3/n5065.F2
+         1.453  U3/n5065.G2
+         1.667  U3/n5064.F3
+         1.667  U3/n5064.G3
+
+U3/tb_reg<1>
+   U3/n4863.YQ
+         1.713  U3/min_state<0>.C1
+         1.271  U3/n5041.F2
+         1.434  U3/tb_reg<0>.G4
+         1.434  U3/tb_reg747<2>/2.0.G4
+
+U3/tb_reg<2>
+   U3/tb_reg747<2>/2.0.YQ
+         2.280  Dx<0>.O
+         1.634  U3/n5065.C3
+         1.540  U3/n4863.F4
+         1.507  U3/n5066.F4
+         1.472  U3/n5064.F2
+         1.472  U3/n5064.G2
+
+U3/trace_ptr<0>
+   U3/trace_ptr<0>.XQ
+         1.923  U3/n4921.F1
+         2.974  U3/n4921.G3
+         2.783  U3/gt_275/u4/S0/SUB/AND8_CO_3.F2
+         2.790  U3/gt_275/u4/S0/SUB/AND8_CO_3.G2
+         2.546  U3/n4851.F1
+         2.546  U3/n4851.G1
+         4.079  U3/n4857.F2
+         4.079  U3/n4857.G2
+         2.599  U3/n4861.F3
+         3.435  U3/n5038.F4
+         3.654  U3/n5038.G4
+         4.079  U3/n5129/2.0.G2
+         1.019  U3/trace_ptr<0>.F2
+         2.454  U3/n4854.F1
+         2.025  U3/n4854.G3
+         3.760  U3/n5124/2.0.G3
+         4.147  U3/n5127/2.0.G4
+
+U3/trace_ptr<1>
+   U3/trace_ptr<0>.YQ
+         2.190  U3/n4921.F2
+         2.190  U3/n4921.G2
+         3.319  U3/gt_275/u4/S0/SUB/AND8_CO_3.F1
+         3.319  U3/gt_275/u4/S0/SUB/AND8_CO_3.G1
+         3.552  U3/n4851.F2
+         3.552  U3/n4851.G2
+         5.015  U3/n4857.F4
+         5.015  U3/n4857.G4
+         2.647  U3/n4861.F2
+         3.319  U3/n5038.F1
+         2.835  U3/n5038.G2
+         5.308  U3/n5129/2.0.G4
+         2.225  U3/n4854.F4
+         2.985  U3/n4854.G4
+         5.068  U3/n5124/2.0.G1
+         5.561  U3/n5127/2.0.G2
+
+U3/trace_ptr<2>
+   U3/n4854.XQ
+         1.230  U3/gt_275/u4/S0/SUB/AND8_CO_3.F3
+         1.231  U3/gt_275/u4/S0/SUB/AND8_CO_3.G3
+         2.422  U3/n4851.F3
+         2.422  U3/n4851.G3
+         4.554  U3/n4857.F3
+         4.554  U3/n4857.G3
+         1.129  U3/n4861.F1
+         1.230  U3/n5038.F3
+         1.231  U3/n5038.G3
+         4.583  U3/n5129/2.0.G3
+         0.745  U3/n4854.F2
+         0.745  U3/n4854.C2
+         2.329  U3/trace_ptr<3>.F4
+         2.329  U3/trace_ptr<3>.G4
+         3.639  U3/n5124/2.0.G2
+         4.529  U3/n5127/2.0.G3
+         1.129  U3/n4921.G1
+
+U3/trace_ptr<3>
+   U3/trace_ptr<3>.XQ
+         1.978  U3/gt_275/u4/S0/SUB/AND8_CO_3.F4
+         1.978  U3/gt_275/u4/S0/SUB/AND8_CO_3.G4
+         2.747  U3/n4851.F4
+         2.747  U3/n4851.G4
+         4.567  U3/n4857.F1
+         4.567  U3/n4857.G1
+         2.125  U3/n4861.F4
+         1.954  U3/n5038.F2
+         2.193  U3/n5038.G1
+         5.037  U3/n5129/2.0.G1
+         0.534  U3/trace_ptr<3>.F2
+         0.534  U3/trace_ptr<3>.G2
+         4.749  U3/n5124/2.0.G4
+         4.771  U3/n5127/2.0.G1
+         1.787  U3/n4854.F3
+         2.049  U3/n4921.G4
+
+U3/we
+   U3/n4930.XQ
+         0.794  U3/n5038.C1
+         1.090  U3/n5023.G1
+         2.315  U3/n5074.F3
+         0.176  U3/n4930.G2
+         1.286  U3/n716<0>.F2
+         2.263  U3/n4840.G1
+
+U3/write_ptr<0>
+   U3/n4840.YQ
+         2.887  U3/n4889.G4
+         2.683  U3/n5088.F4
+         2.065  U3/n5278.F2
+         3.006  U3/n5086.G4
+         2.818  U3/n5085.G2
+         2.046  U3/n5083.F2
+         2.135  U3/n5082.F2
+         2.135  U3/n5081.F2
+         2.530  U3/n5079.F4
+         2.938  U3/n5078.F2
+         2.046  U3/write_ptr<1>.F2
+         1.086  U3/n4840.F2
+         0.345  U3/n4840.G3
+
+U3/write_ptr<1>
+   U3/write_ptr<1>.YQ
+         3.767  U3/n4889.G2
+         3.406  U3/n5088.F3
+         3.184  U3/n5278.F4
+         3.767  U3/n5086.G2
+         4.127  U3/n5085.G4
+         2.414  U3/n5083.F4
+         3.254  U3/n5082.F3
+         2.459  U3/n5081.F3
+         3.470  U3/n5079.F3
+         4.047  U3/n5078.F1
+         2.195  U3/write_ptr<1>.F4
+         2.593  U3/n4840.G4
+
+U3/write_ptr<2>
+   U3/write_ptr<1>.XQ
+         1.378  U3/n4924.F4
+         1.378  U3/n4924.G4
+         2.615  U3/n4889.G1
+         2.379  U3/n4867.F1
+         2.668  U3/n5086.G3
+         2.615  U3/n5085.G1
+         2.350  U3/n5084.F4
+         2.523  U3/n4930.G1
+         2.280  U3/n4932.F4
+         2.113  U3/n716<0>.F1
+         1.350  U3/write_ptr<1>.G2
+
+U3/write_ptr<3>
+   U3/n4932.XQ
+         2.057  U3/n4924.F2
+         1.197  U3/n4924.G3
+         2.510  U3/n4889.G3
+         2.040  U3/n4867.F2
+         2.603  U3/n5086.G1
+         2.507  U3/n5085.G3
+         2.508  U3/n5084.F2
+         1.255  U3/n4930.G3
+         0.996  U3/n4932.F2
+         1.001  U3/n716<0>.F4
+
+clock
+   clock.CLKIN
+         0.009  U12/$1I19.I
+
+n40
+   Rx<1>.I2
+         4.178  U1/n130.F2
+         4.415  U1/n129.F2
+         4.475  HD6<1>.F1
+         2.896  HD7<1>.F1
+         3.276  HD8<1>.F3
+
+n41
+   Rx<0>.I2
+         2.714  U1/n130.F3
+         3.649  U1/n129.F1
+         3.564  HD6<1>.F2
+         3.188  HD7<1>.F2
+         3.188  HD8<1>.F2
+
+n42
+   U12/$1I19.O
+         2.383  U3/write_ptr<1>.K
+         2.370  U3/n4840.K
+         2.381  U3/trace_ptr<3>.K
+         2.435  U3/n4854.K
+         2.416  U3/trace_ptr<0>.K
+         2.425  U3/tb_reg747<2>/2.0.K
+         2.475  U3/n4863.K
+         2.443  U3/tb_reg<0>.K
+         2.372  U3/n5281.K
+         2.489  U3/n5283.K
+         2.412  U3/n5096.K
+         2.379  U3/n5088.K
+         2.371  U3/n5078.K
+         2.348  U3/n5079.K
+         2.389  U3/n5080.K
+         2.420  U3/n5081.K
+         2.387  U3/n5082.K
+         2.347  U3/n5083.K
+         2.342  U3/n5084.K
+         2.366  U3/n5085.K
+         2.390  U3/n5086.K
+         2.385  U3/n4889.K
+         2.446  U3/n5285.K
+         2.416  U3/n5287.K
+         2.384  U3/P1<10>.K
+         2.363  U3/n4868.K
+         2.380  U3/n4870.K
+         2.396  U3/n5098.K
+         2.405  U3/n5148/4.0/2.1.K
+         2.417  U3/n4874.K
+         2.379  U3/n5024.K
+         2.376  U3/n5101.K
+         2.319  U3/n5148.K
+         2.352  U3/n5102.K
+         2.364  U3/n4888.K
+         2.443  A2_out<3>.K
+         2.428  U3/n5289.K
+         2.405  U3/P2<10>.K
+         2.343  U3/P2<9>.K
+         2.424  U3/P2<8>.K
+         2.412  U3/n5116.K
+         2.434  U3/n5143/4.0/2.1.K
+         2.415  U3/P2<5>.K
+         2.407  U3/n4875.K
+         2.407  U3/n5119.K
+         2.327  U3/n5143.K
+         2.375  U3/n5120.K
+         2.381  U3/n4887.K
+         2.427  U3/n5291.K
+         2.381  U3/n5293.K
+         2.412  U3/P3<10>.K
+         2.332  U3/P3<9>.K
+         2.332  U3/P3<8>.K
+         2.374  U3/n5123.K
+         2.414  U3/n4873.K
+         2.426  U3/P3<5>.K
+         2.399  U3/n5124.K
+         2.394  U3/n4877.K
+         2.381  U3/n4878.K
+         2.385  U3/n5126.K
+         2.380  U3/n4886.K
+         2.358  U3/n5295.K
+         2.394  U3/n5297.K
+         2.386  U3/P4<10>.K
+         2.320  U3/P4<9>.K
+         2.345  U3/P4<8>.K
+         2.355  U3/n5104.K
+         2.365  U3/n5146/4.0/2.1.K
+         2.404  U3/P4<5>.K
+         2.409  U3/P4<4>.K
+         2.378  U3/n5107.K
+         2.344  U3/n5146.K
+         2.370  U3/n5108.K
+         2.364  U3/n4885.K
+         2.382  U3/n5299.K
+         2.399  U3/n5301.K
+         2.393  U3/P5<10>.K
+         2.359  U3/P5<9>.K
+         2.354  U3/P5<8>.K
+         2.357  U3/n5110.K
+         2.410  U3/n5145/4.0/2.1.K
+         2.403  U3/P5<5>.K
+         2.432  U3/P5<4>.K
+         2.375  U3/n5113.K
+         2.370  U3/n5145.K
+         2.398  U3/n5114.K
+         2.422  U3/n4884.K
+         2.399  A6_out<3>.K
+         2.362  U3/n5303.K
+         2.421  U3/P6<10>.K
+         2.360  U3/P6<9>.K
+         2.385  U3/P6<8>.K
+         2.376  U3/n5128.K
+         2.422  U3/n5141/4.0/2.1.K
+         2.419  U3/P6<5>.K
+         2.414  U3/P6<4>.K
+         2.394  U3/n5131.K
+         2.360  U3/n5141.K
+         2.393  U3/n5132.K
+         2.395  U3/n4883.K
+         2.310  U3/n5305.K
+         2.411  U3/P7<10>.K
+         2.329  U3/P7<9>.K
+         2.330  U3/P7<8>.K
+         2.349  U3/n5135.K
+         2.402  U3/P7<6>.K
+         2.413  U3/P7<5>.K
+         2.357  U3/n5136.K
+         2.340  U3/P7<3>.K
+         2.352  U3/P7<2>.K
+         2.404  U3/n5138.K
+         2.400  U3/n4869.K
+         2.450  U3/n5023.K
+         2.343  U3/sub_327/n46.K
+         2.368  U3/sub_327/U18/GATE1/2.0.K
+         2.356  U3/sub_327/n48.K
+         2.355  U3/n4841.K
+         2.386  U3/block_count<6>.K
+         2.400  U3/block_count<2>.K
+         2.432  U3/n4930.K
+         2.364  U2/ACS6/sumb<3>/2.0.K
+         2.484  U3/n5074.K
+         2.334  U3/block_count<0>.K
+         2.371  U3/n4932.K
+
+n43
+   reset.I1
+         7.011  U3/write_ptr<1>.C3
+         7.127  U3/n4840.C3
+         6.870  U3/trace_ptr<3>.C3
+         7.227  U3/n4854.C3
+         6.914  U3/trace_ptr<0>.C3
+         6.924  U3/tb_reg747<2>/2.0.C3
+         7.171  U3/n4863.C3
+         7.239  U3/tb_reg<0>.C3
+         6.852  U3/n5281.C3
+         7.190  U3/n5283.C3
+         7.063  U3/n5096.C3
+         6.932  U3/n5088.C3
+         7.091  U3/n5078.C3
+         7.061  U3/n5079.C3
+         7.148  U3/n5080.C3
+         7.048  U3/n5081.C3
+         6.961  U3/n5082.C3
+         6.903  U3/n5083.C3
+         6.979  U3/n5084.C3
+         7.014  U3/n5085.C3
+         7.114  U3/n5086.C3
+         7.042  U3/n4889.C3
+         7.100  U3/n5285.C3
+         7.111  U3/n5287.C3
+         7.111  U3/P1<10>.C3
+         6.929  U3/n4868.C3
+         6.947  U3/n4870.C3
+         7.054  U3/n5098.C3
+         7.140  U3/n5148/4.0/2.1.C3
+         7.133  U3/n4874.C3
+         7.021  U3/n5024.C3
+         7.079  U3/n5101.C3
+         7.358  U3/n5148.C3
+         6.991  U3/n5102.C3
+         6.934  U3/n4888.C3
+         7.182  A2_out<3>.C3
+         7.081  U3/n5289.C3
+         7.139  U3/P2<10>.C3
+         6.904  U3/P2<9>.C3
+         7.088  U3/P2<8>.C3
+         7.075  U3/n5116.C3
+         7.173  U3/n5143/4.0/2.1.C3
+         7.507  U3/P2<5>.C3
+         7.497  U3/n4875.C3
+         7.122  U3/n5119.C3
+         7.002  U3/n5143.C3
+         7.021  U3/n5120.C3
+         6.956  U3/n4887.C3
+         6.952  U3/n5291.C3
+         6.838  U3/n5293.C3
+         7.247  U3/P3<10>.C3
+         7.131  U3/P3<9>.C3
+         7.128  U3/P3<8>.C3
+         7.100  U3/n5123.C3
+         7.067  U3/n4873.C3
+         7.080  U3/P3<5>.C3
+         7.047  U3/n5124.C3
+         7.128  U3/n4877.C3
+         7.204  U3/n4878.C3
+         7.111  U3/n5126.C3
+         7.457  U3/n4886.C3
+         6.829  U3/n5295.C3
+         6.904  U3/n5297.C3
+         7.080  U3/P4<10>.C3
+         7.359  U3/P4<9>.C3
+         7.401  U3/P4<8>.C3
+         7.045  U3/n5104.C3
+         7.434  U3/n5146/4.0/2.1.C3
+         7.149  U3/P4<5>.C3
+         7.230  U3/P4<4>.C3
+         7.192  U3/n5107.C3
+         7.401  U3/n5146.C3
+         7.060  U3/n5108.C3
+         7.434  U3/n4885.C3
+         6.855  U3/n5299.C3
+         6.911  U3/n5301.C3
+         7.470  U3/P5<10>.C3
+         7.171  U3/P5<9>.C3
+         7.082  U3/P5<8>.C3
+         7.164  U3/n5110.C3
+         7.148  U3/n5145/4.0/2.1.C3
+         7.037  U3/P5<5>.C3
+         7.172  U3/P5<4>.C3
+         7.110  U3/n5113.C3
+         7.096  U3/n5145.C3
+         7.230  U3/n5114.C3
+         7.258  U3/n4884.C3
+         6.922  A6_out<3>.C3
+         6.814  U3/n5303.C3
+         7.159  U3/P6<10>.C3
+         7.076  U3/P6<9>.C3
+         7.112  U3/P6<8>.C3
+         7.026  U3/n5128.C3
+         7.160  U3/n5141/4.0/2.1.C3
+         7.241  U3/P6<5>.C3
+         7.159  U3/P6<4>.C3
+         7.104  U3/n5131.C3
+         7.076  U3/n5141.C3
+         7.043  U3/n5132.C3
+         6.971  U3/n4883.C3
+         6.757  U3/n5305.C3
+         7.075  U3/P7<10>.C3
+         7.044  U3/P7<9>.C3
+         7.046  U3/P7<8>.C3
+         7.064  U3/n5135.C3
+         6.982  U3/P7<6>.C3
+         6.994  U3/P7<5>.C3
+         6.991  U3/n5136.C3
+         6.971  U3/P7<3>.C3
+         7.074  U3/P7<2>.C3
+         7.129  U3/n5138.C3
+         7.062  U3/n4869.C3
+         7.128  U3/n5023.C3
+         6.787  U3/sub_327/n46.C3
+         6.889  U3/sub_327/U18/GATE1/2.0.C3
+         6.802  U3/sub_327/n48.C3
+         6.827  U3/n4841.C3
+         6.912  U3/block_count<6>.C3
+         6.927  U3/block_count<2>.C3
+         7.097  U3/n4930.C3
+         6.800  U2/ACS6/sumb<3>/2.0.C3
+         7.184  U3/n5074.C3
+         6.791  U3/block_count<0>.C3
+         7.130  U3/n4932.C3
+

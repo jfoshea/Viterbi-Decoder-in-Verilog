@@ -1,0 +1,5 @@
+#!/bin/csh -f
+ngdbuild -p 4028XLABG256-09 eVITERBI_213.sedif
+map -oe high eVITERBI_213.ngd
+par -c 1 -d 1 eVITERBI_213.ncd -w eVITERBI_r_213.ncd
+

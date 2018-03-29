@@ -1,0 +1,358 @@
+Release v3.1.02i - Par D.19
+Sat Feb 10 19:02:28 2001
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       eVITERBI_213.ncd
+Output file:      eVITERBI_r_213.ncd
+Part type:        xc4028xla
+Speed grade:      -09
+Package:          bg256
+
+Pinout by Pin Name:
++------------------------------------------------+-----------+--------------+
+|                    Pin Name                    | Direction |  Pin Number  |
++------------------------------------------------+-----------+--------------+
+| Dx<0>                                          | OUTPUT    | J17          |
+| Dx_oe                                          | OUTPUT    | H20          |
+| Rx<0>                                          | INPUT     | Y12          |
+| Rx<1>                                          | INPUT     | V10          |
+| clock                                          | INPUT     | B1           |
+| error                                          | OUTPUT    | V15          |
+| reset                                          | INPUT     | V3           |
+| tb_en                                          | OUTPUT    | F19          |
++------------------------------------------------+-----------+--------------+
+
+Special Pins:
++------------------------------------------------------------+--------------+
+|               Dedicated or Special Pin Name                |  Pin Number  |
++------------------------------------------------------------+--------------+
+| /PROGRAM                                                   | V19          |
+| CCLK                                                       | A20          |
+| DONE                                                       | Y20          |
+| GND                                                        | N3           |
+| GND                                                        | H4           |
+| GND                                                        | H17          |
+| GND                                                        | W14          |
+| GND                                                        | U8           |
+| GND                                                        | U17          |
+| GND                                                        | N17          |
+| GND                                                        | N4           |
+| GND                                                        | A1           |
+| GND                                                        | U4           |
+| GND                                                        | D4           |
+| GND                                                        | U13          |
+| GND                                                        | D8           |
+| GND                                                        | B7           |
+| GND                                                        | D13          |
+| GND                                                        | D17          |
+| GND                                                        | G20          |
+| TCK                                                        | C1           |
+| TDI                                                        | E4           |
+| TDO                                                        | A19          |
+| TMS                                                        | G1           |
+| VCC                                                        | R2           |
+| VCC                                                        | D7           |
+| VCC                                                        | U7           |
+| VCC                                                        | C14          |
+| VCC                                                        | G4           |
+| VCC                                                        | P19          |
+| VCC                                                        | W20          |
+| VCC                                                        | G17          |
+| VCC                                                        | R17          |
+| VCC                                                        | U10          |
+| VCC                                                        | U6           |
+| VCC                                                        | D6           |
+| VCC                                                        | U15          |
+| VCC                                                        | D11          |
+| VCC                                                        | F1           |
+| VCC                                                        | D15          |
+| VCC                                                        | E20          |
+| VCC                                                        | F4           |
+| VCC                                                        | V7           |
+| VCC                                                        | F17          |
+| VCC                                                        | D14          |
+| VCC                                                        | K4           |
+| VCC                                                        | P17          |
+| VCC                                                        | L17          |
+| VCC                                                        | U14          |
+| VCC                                                        | R4           |
+| VCC                                                        | P4           |
++------------------------------------------------------------+--------------+
+
+Pinout by Pin Number:
++--------------+-----------------------------------+-----------+------------+
+|  Pin Number  |             Pin Name              | Direction | Constraint |
++--------------+-----------------------------------+-----------+------------+
+| A1           | (GND)                             |           |            |
+| A2           | ---                               | UNUSED    |            |
+| A3           | ---                               | UNUSED    |            |
+| A4           | ---                               | UNUSED    |            |
+| A5           | ---                               | UNUSED    |            |
+| A6           | ---                               | UNUSED    |            |
+| A7           | ---                               | UNUSED    |            |
+| A8           | ---                               | UNUSED    |            |
+| A9           | ---                               | UNUSED    |            |
+| A10          | ---                               | UNUSED    |            |
+| A11          | ---                               | UNUSED    |            |
+| A12          | ---                               | UNUSED    |            |
+| A13          | ---                               | UNUSED    |            |
+| A14          | ---                               | UNUSED    |            |
+| A15          | ---                               | UNUSED    |            |
+| A16          | ---                               | UNUSED    |            |
+| A17          | ---                               | UNUSED    |            |
+| A18          | ---                               | UNUSED    |            |
+| A19          | (TDO)                             |           |            |
+| A20          | (CCLK)                            |           |            |
+| B1           | clock                             | INPUT     |            |
+| B2           | ---                               | UNUSED    |            |
+| B3           | ---                               | UNUSED    |            |
+| B4           | ---                               | UNUSED    |            |
+| B5           | ---                               | UNUSED    |            |
+| B6           | ---                               | UNUSED    |            |
+| B7           | (GND)                             |           |            |
+| B8           | ---                               | UNUSED    |            |
+| B9           | ---                               | UNUSED    |            |
+| B10          | ---                               | UNUSED    |            |
+| B11          | ---                               | UNUSED    |            |
+| B12          | ---                               | UNUSED    |            |
+| B13          | ---                               | UNUSED    |            |
+| B14          | ---                               | UNUSED    |            |
+| B15          | ---                               | UNUSED    |            |
+| B16          | ---                               | UNUSED    |            |
+| B17          | ---                               | UNUSED    |            |
+| B18          | ---                               | UNUSED    |            |
+| B19          | ---                               | UNUSED    |            |
+| B20          | ---                               | UNUSED    |            |
+| C1           | (TCK)                             |           |            |
+| C2           | ---                               | UNUSED    |            |
+| C3           | ---                               | UNUSED    |            |
+| C4           | ---                               | UNUSED    |            |
+| C5           | ---                               | UNUSED    |            |
+| C6           | ---                               | UNUSED    |            |
+| C7           | ---                               | UNUSED    |            |
+| C8           | ---                               | UNUSED    |            |
+| C9           | ---                               | UNUSED    |            |
+| C10          | ---                               | UNUSED    |            |
+| C11          | ---                               | UNUSED    |            |
+| C12          | ---                               | UNUSED    |            |
+| C13          | ---                               | UNUSED    |            |
+| C14          | (VCC)                             |           |            |
+| C15          | ---                               | UNUSED    |            |
+| C16          | ---                               | UNUSED    |            |
+| C17          | ---                               | UNUSED    |            |
+| C18          | ---                               | UNUSED    |            |
+| C19          | ---                               | UNUSED    |            |
+| C20          | ---                               | UNUSED    |            |
+| D1           | ---                               | UNUSED    |            |
+| D2           | ---                               | UNUSED    |            |
+| D3           | ---                               | UNUSED    |            |
+| D4           | (GND)                             |           |            |
+| D5           | ---                               | UNUSED    |            |
+| D6           | (VCC)                             |           |            |
+| D7           | (VCC)                             |           |            |
+| D8           | (GND)                             |           |            |
+| D9           | ---                               | UNUSED    |            |
+| D10          | ---                               | UNUSED    |            |
+| D11          | (VCC)                             |           |            |
+| D12          | ---                               | UNUSED    |            |
+| D13          | (GND)                             |           |            |
+| D14          | (VCC)                             |           |            |
+| D15          | (VCC)                             |           |            |
+| D16          | ---                               | UNUSED    |            |
+| D17          | (GND)                             |           |            |
+| D18          | ---                               | UNUSED    |            |
+| D19          | ---                               | UNUSED    |            |
+| D20          | ---                               | UNUSED    |            |
+| E1           | ---                               | UNUSED    |            |
+| E2           | ---                               | UNUSED    |            |
+| E3           | ---                               | UNUSED    |            |
+| E4           | (TDI)                             |           |            |
+| E17          | ---                               | UNUSED    |            |
+| E18          | ---                               | UNUSED    |            |
+| E19          | ---                               | UNUSED    |            |
+| E20          | (VCC)                             |           |            |
+| F1           | (VCC)                             |           |            |
+| F2           | ---                               | UNUSED    |            |
+| F3           | ---                               | UNUSED    |            |
+| F4           | (VCC)                             |           |            |
+| F17          | (VCC)                             |           |            |
+| F18          | ---                               | UNUSED    |            |
+| F19          | tb_en                             | OUTPUT    |            |
+| F20          | ---                               | UNUSED    |            |
+| G1           | (TMS)                             |           |            |
+| G2           | ---                               | UNUSED    |            |
+| G3           | ---                               | UNUSED    |            |
+| G4           | (VCC)                             |           |            |
+| G17          | (VCC)                             |           |            |
+| G18          | ---                               | UNUSED    |            |
+| G19          | ---                               | UNUSED    |            |
+| G20          | (GND)                             |           |            |
+| H1           | ---                               | UNUSED    |            |
+| H2           | ---                               | UNUSED    |            |
+| H3           | ---                               | UNUSED    |            |
+| H4           | (GND)                             |           |            |
+| H17          | (GND)                             |           |            |
+| H18          | ---                               | UNUSED    |            |
+| H19          | ---                               | UNUSED    |            |
+| H20          | Dx_oe                             | OUTPUT    |            |
+| J1           | ---                               | UNUSED    |            |
+| J2           | ---                               | UNUSED    |            |
+| J3           | ---                               | UNUSED    |            |
+| J4           | ---                               | UNUSED    |            |
+| J17          | Dx<0>                             | OUTPUT    |            |
+| J18          | ---                               | UNUSED    |            |
+| J19          | ---                               | UNUSED    |            |
+| J20          | ---                               | UNUSED    |            |
+| K1           | ---                               | UNUSED    |            |
+| K2           | ---                               | UNUSED    |            |
+| K3           | ---                               | UNUSED    |            |
+| K4           | (VCC)                             |           |            |
+| K17          | ---                               | UNUSED    |            |
+| K18          | ---                               | UNUSED    |            |
+| K19          | ---                               | UNUSED    |            |
+| K20          | ---                               | UNUSED    |            |
+| L1           | ---                               | UNUSED    |            |
+| L2           | ---                               | UNUSED    |            |
+| L3           | ---                               | UNUSED    |            |
+| L4           | ---                               | UNUSED    |            |
+| L17          | (VCC)                             |           |            |
+| L18          | ---                               | UNUSED    |            |
+| L19          | ---                               | UNUSED    |            |
+| L20          | ---                               | UNUSED    |            |
+| M1           | ---                               | UNUSED    |            |
+| M2           | ---                               | UNUSED    |            |
+| M3           | ---                               | UNUSED    |            |
+| M4           | ---                               | UNUSED    |            |
+| M17          | ---                               | UNUSED    |            |
+| M18          | ---                               | UNUSED    |            |
+| M19          | ---                               | UNUSED    |            |
+| M20          | ---                               | UNUSED    |            |
+| N1           | ---                               | UNUSED    |            |
+| N2           | ---                               | UNUSED    |            |
+| N3           | (GND)                             |           |            |
+| N4           | (GND)                             |           |            |
+| N17          | (GND)                             |           |            |
+| N18          | ---                               | UNUSED    |            |
+| N19          | ---                               | UNUSED    |            |
+| N20          | ---                               | UNUSED    |            |
+| P1           | ---                               | UNUSED    |            |
+| P2           | ---                               | UNUSED    |            |
+| P3           | ---                               | UNUSED    |            |
+| P4           | (VCC)                             |           |            |
+| P17          | (VCC)                             |           |            |
+| P18          | ---                               | UNUSED    |            |
+| P19          | (VCC)                             |           |            |
+| P20          | ---                               | UNUSED    |            |
+| R1           | ---                               | UNUSED    |            |
+| R2           | (VCC)                             |           |            |
+| R3           | ---                               | UNUSED    |            |
+| R4           | (VCC)                             |           |            |
+| R17          | (VCC)                             |           |            |
+| R18          | ---                               | UNUSED    |            |
+| R19          | ---                               | UNUSED    |            |
+| R20          | ---                               | UNUSED    |            |
+| T1           | ---                               | UNUSED    |            |
+| T2           | ---                               | UNUSED    |            |
+| T3           | ---                               | UNUSED    |            |
+| T4           | ---                               | UNUSED    |            |
+| T17          | ---                               | UNUSED    |            |
+| T18          | ---                               | UNUSED    |            |
+| T19          | ---                               | UNUSED    |            |
+| T20          | ---                               | UNUSED    |            |
+| U1           | ---                               | UNUSED    |            |
+| U2           | ---                               | UNUSED    |            |
+| U3           | ---                               | UNUSED    |            |
+| U4           | (GND)                             |           |            |
+| U5           | ---                               | UNUSED    |            |
+| U6           | (VCC)                             |           |            |
+| U7           | (VCC)                             |           |            |
+| U8           | (GND)                             |           |            |
+| U9           | ---                               | UNUSED    |            |
+| U10          | (VCC)                             |           |            |
+| U11          | ---                               | UNUSED    |            |
+| U12          | ---                               | UNUSED    |            |
+| U13          | (GND)                             |           |            |
+| U14          | (VCC)                             |           |            |
+| U15          | (VCC)                             |           |            |
+| U16          | ---                               | UNUSED    |            |
+| U17          | (GND)                             |           |            |
+| U18          | ---                               | UNUSED    |            |
+| U19          | ---                               | UNUSED    |            |
+| U20          | ---                               | UNUSED    |            |
+| V1           | ---                               | UNUSED    |            |
+| V2           | ---                               | UNUSED    |            |
+| V3           | reset                             | INPUT     |            |
+| V4           | ---                               | UNUSED    |            |
+| V5           | ---                               | UNUSED    |            |
+| V6           | ---                               | UNUSED    |            |
+| V7           | (VCC)                             |           |            |
+| V8           | ---                               | UNUSED    |            |
+| V9           | ---                               | UNUSED    |            |
+| V10          | Rx<1>                             | INPUT     |            |
+| V11          | ---                               | UNUSED    |            |
+| V12          | ---                               | UNUSED    |            |
+| V13          | ---                               | UNUSED    |            |
+| V14          | ---                               | UNUSED    |            |
+| V15          | error                             | OUTPUT    |            |
+| V16          | ---                               | UNUSED    |            |
+| V17          | ---                               | UNUSED    |            |
+| V18          | ---                               | UNUSED    |            |
+| V19          | (/PROGRAM)                        |           |            |
+| V20          | ---                               | UNUSED    |            |
+| W1           | ---                               | UNUSED    |            |
+| W4           | ---                               | UNUSED    |            |
+| W5           | ---                               | UNUSED    |            |
+| W6           | ---                               | UNUSED    |            |
+| W7           | ---                               | UNUSED    |            |
+| W8           | ---                               | UNUSED    |            |
+| W9           | ---                               | UNUSED    |            |
+| W10          | ---                               | UNUSED    |            |
+| W11          | ---                               | UNUSED    |            |
+| W12          | ---                               | UNUSED    |            |
+| W13          | ---                               | UNUSED    |            |
+| W14          | (GND)                             |           |            |
+| W15          | ---                               | UNUSED    |            |
+| W16          | ---                               | UNUSED    |            |
+| W17          | ---                               | UNUSED    |            |
+| W18          | ---                               | UNUSED    |            |
+| W19          | ---                               | UNUSED    |            |
+| W20          | (VCC)                             |           |            |
+| Y2           | ---                               | UNUSED    |            |
+| Y3           | ---                               | UNUSED    |            |
+| Y4           | ---                               | UNUSED    |            |
+| Y5           | ---                               | UNUSED    |            |
+| Y6           | ---                               | UNUSED    |            |
+| Y7           | ---                               | UNUSED    |            |
+| Y8           | ---                               | UNUSED    |            |
+| Y9           | ---                               | UNUSED    |            |
+| Y10          | ---                               | UNUSED    |            |
+| Y11          | ---                               | UNUSED    |            |
+| Y12          | Rx<0>                             | INPUT     |            |
+| Y13          | ---                               | UNUSED    |            |
+| Y14          | ---                               | UNUSED    |            |
+| Y15          | ---                               | UNUSED    |            |
+| Y16          | ---                               | UNUSED    |            |
+| Y17          | ---                               | UNUSED    |            |
+| Y18          | ---                               | UNUSED    |            |
+| Y19          | ---                               | UNUSED    |            |
+| Y20          | (DONE)                            |           |            |
++--------------+-----------------------------------+-----------+------------+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply run "Lock Pins..." from the Design Manager's Design 
+# menu, or invoke PIN2UCF from the command line. The location constraints
+# above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+COMP "Dx<0>" LOCATE = SITE "J17" ; 
+COMP "Dx_oe" LOCATE = SITE "H20" ; 
+COMP "Rx<0>" LOCATE = SITE "Y12" ; 
+COMP "Rx<1>" LOCATE = SITE "V10" ; 
+COMP "clock" LOCATE = SITE "B1" ; 
+COMP "error" LOCATE = SITE "V15" ; 
+COMP "reset" LOCATE = SITE "V3" ; 
+COMP "tb_en" LOCATE = SITE "F19" ; 
+#

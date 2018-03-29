@@ -1,0 +1,114 @@
+
+Statistics for case statements in always block at line 61 in file
+        '/emc/joshea/JOS/Verilog/Vit_b213/src/bBMU_213.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            74            |    user/auto     |
+===============================================
+
+Inferred memory devices in process 
+	in routine bBMU_213 line 61 in file
+         '/emc/joshea/JOS/Verilog/Vit_b213/src/bBMU_213.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       HD1_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD2_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD3_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD4_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD5_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD6_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD7_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD8_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       HD9_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD10_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD11_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD12_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD13_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD14_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD15_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      HD16_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+HD1_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD2_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD3_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD4_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD5_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD6_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD7_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD8_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD9_reg (width 2)
+-----------------
+    Async-reset: reset
+
+
+HD10_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD11_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD12_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD13_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD14_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD15_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+HD16_reg (width 2)
+------------------
+    Async-reset: reset
+
+
+Writing to hnl file './bVITERBI_213_proj/workdirs/WORK/bBMU_213.hnl'

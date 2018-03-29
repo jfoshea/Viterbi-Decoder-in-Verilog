@@ -1,0 +1,29 @@
+Release v3.3.07i - Bitgen D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Loading design for application Bitgen from file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd.
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+   "eVITERBI_213" is an NCD, version 2.35, device xcv50, package tq144, speed
+-4
+Loading device for application Bitgen from file 'v50.nph' in environment
+/hwapps/xilinx/3.3isp7.
+Opened constraints file
+/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf.
+
+Sat Mar 24 22:53:09 2001
+
+bitgen -b -m -d -w /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.ncd /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.rbt /emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.pcf 
+
+Creating bit map...
+Saving bit stream in
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.bit".
+Saving bit stream in
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.rbt".
+Creating bit mask...
+Saving mask bit stream in
+"/emc/joshea/JOS/Verilog/Vit_e213/chip/out/.chiptmp/eVITERBI_213.msk".

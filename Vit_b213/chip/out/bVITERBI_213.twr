@@ -1,0 +1,270 @@
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version D.26
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+trce /emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.ncd
+/emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.pcf -o
+/emc/joshea/JOS/Verilog/Vit_b213/chip/out/.chiptmp/bVITERBI_213.twr -e 20 -s 4
+-u
+
+Design file:              bVITERBI_213.ncd
+Physical constraint file: bVITERBI_213.pcf
+Device,speed:             xcv50,-4 (FINAL 1.113 2001-01-12)
+Report level:             error report, limited to 20 items per constraint
+                          unconstrained path report
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Timing constraint: Unconstrained path analysis
+ 1509864 items analyzed, 0 timing errors detected.
+ Minimum period is  41.070ns.
+--------------------------------------------------------------------------------
+Delay:    41.070ns ae to U3/tb_reg<0> (39.571ns delay plus 1.499ns setup)
+
+Path ae to U3/tb_reg<0> contains 20 levels of logic:
+Path starting from Comp: CLB_R11C11.S1.CLK (from clock)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R11C11.S1.YQ     Tcko                  1.372R  ae
+                                                   U3/ae_reg
+CLB_R13C3.S1.G1      net (fanout=72)       6.354R  ae
+CLB_R13C3.S1.Y       Tilo                  0.738R  U3/P5<14>
+                                                   U2/ACS5/C94
+CLB_R16C3.S1.G4      net (fanout=4)        1.418R  U3/N1964
+CLB_R16C3.S1.Y       Tilo                  0.738R  U3/A5<1>
+                                                   U2/ACS5/C91
+CLB_R16C3.S1.F3      net (fanout=1)        0.112R  acs5_ppm_out<1>
+CLB_R16C3.S1.X       Tilo                  0.738R  U3/A5<1>
+                                                   U3/C1837
+CLB_R8C6.S1.F4       net (fanout=8)        2.574R  A5_out<1>
+CLB_R8C6.S1.X        Tilo                  0.738R  U3/TB_1/syn376
+                                                   U3/TB_1/C208
+CLB_R8C6.S0.F1       net (fanout=1)        0.404R  U3/TB_1/syn376
+CLB_R8C6.S0.X        Tilo                  0.738R  U3/TB_1/syn5397
+                                                   U3/TB_1/C206
+CLB_R6C6.S1.G1       net (fanout=3)        1.444R  U3/TB_1/syn5397
+CLB_R6C6.S1.Y        Tilo                  0.738R  U3/TB_1/syn416
+                                                   U3/TB_1/C203
+CLB_R6C6.S1.F3       net (fanout=2)        0.130R  U3/TB_1/syn413
+CLB_R6C6.S1.X        Tilo                  0.738R  U3/TB_1/syn416
+                                                   U3/TB_1/C202
+CLB_R5C6.S1.G2       net (fanout=1)        1.063R  U3/TB_1/syn416
+CLB_R5C6.S1.Y        Tilo                  0.738R  U3/TB_1/syn428
+                                                   U3/TB_1/C201
+CLB_R5C6.S1.F3       net (fanout=1)        0.112R  U3/TB_1/syn422
+CLB_R5C6.S1.X        Tilo                  0.738R  U3/TB_1/syn428
+                                                   U3/TB_1/C197
+CLB_R7C6.S1.F4       net (fanout=3)        1.173R  U3/TB_1/syn428
+CLB_R7C6.S1.X        Tilo                  0.738R  U3/TB_1/syn434
+                                                   U3/TB_1/C194
+CLB_R5C6.S0.F1       net (fanout=7)        1.657R  U3/TB_1/syn434
+CLB_R5C6.S0.X        Tilo                  0.738R  U3/TB_1/syn3970
+                                                   U3/TB_1/C163
+CLB_R5C5.S0.G4       net (fanout=3)        0.498R  U3/TB_1/syn3970
+CLB_R5C5.S0.Y        Tilo                  0.738R  U3/TB_1/syn4133
+                                                   U3/TB_1/C162
+CLB_R5C5.S0.F3       net (fanout=1)        0.112R  U3/TB_1/syn563
+CLB_R5C5.S0.X        Tilo                  0.738R  U3/TB_1/syn4133
+                                                   U3/TB_1/C158
+CLB_R4C5.S0.F4       net (fanout=7)        0.970R  U3/TB_1/syn4133
+CLB_R4C5.S0.X        Tilo                  0.738R  U3/TB_1/syn5340
+                                                   U3/TB_1/C154
+CLB_R7C4.S0.G1       net (fanout=5)        1.797R  U3/TB_1/syn5340
+CLB_R7C4.S0.Y        Tilo                  0.738R  U3/TB_1/syn2994
+                                                   U3/TB_1/C149
+CLB_R7C4.S0.F3       net (fanout=1)        0.112R  U3/TB_1/syn7702
+CLB_R7C4.S0.X        Tilo                  0.738R  U3/TB_1/syn2994
+                                                   U3/TB_1/C148
+CLB_R9C5.S1.G1       net (fanout=3)        1.819R  U3/TB_1/syn2994
+CLB_R9C5.S1.Y        Tilo                  0.738R  U3/min_state<1>
+                                                   U3/TB_1/C125
+CLB_R9C4.S1.F1       net (fanout=1)        0.838R  U3/TB_1/syn7714
+CLB_R9C4.S1.X        Tilo                  0.738R  U3/min_state<0>
+                                                   U3/TB_1/C124
+CLB_R12C12.S0.G2     net (fanout=1)        2.328R  U3/min_state<0>
+CLB_R12C12.S0.CLK    Tick                  1.499R  U3/tb_reg<0>
+                                                   U3/C1791
+                                                   U3/tb_reg_reg<0>
+-------------------------------------------------
+Total (16.155ns logic, 24.915ns route)    41.070ns (to clock)
+      (39.3% logic, 60.7% route)
+
+--------------------------------------------------------------------------------
+Delay:    40.813ns ae to U3/tb_reg<0> (39.314ns delay plus 1.499ns setup)
+
+Path ae to U3/tb_reg<0> contains 20 levels of logic:
+Path starting from Comp: CLB_R11C11.S1.CLK (from clock)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R11C11.S1.YQ     Tcko                  1.372R  ae
+                                                   U3/ae_reg
+CLB_R13C3.S1.G1      net (fanout=72)       6.354R  ae
+CLB_R13C3.S1.Y       Tilo                  0.738R  U3/P5<14>
+                                                   U2/ACS5/C94
+CLB_R16C3.S1.G4      net (fanout=4)        1.418R  U3/N1964
+CLB_R16C3.S1.Y       Tilo                  0.738R  U3/A5<1>
+                                                   U2/ACS5/C91
+CLB_R16C3.S1.F3      net (fanout=1)        0.112R  acs5_ppm_out<1>
+CLB_R16C3.S1.X       Tilo                  0.738R  U3/A5<1>
+                                                   U3/C1837
+CLB_R8C6.S1.F4       net (fanout=8)        2.574R  A5_out<1>
+CLB_R8C6.S1.X        Tilo                  0.738R  U3/TB_1/syn376
+                                                   U3/TB_1/C208
+CLB_R8C6.S0.F1       net (fanout=1)        0.404R  U3/TB_1/syn376
+CLB_R8C6.S0.X        Tilo                  0.738R  U3/TB_1/syn5397
+                                                   U3/TB_1/C206
+CLB_R6C6.S1.G1       net (fanout=3)        1.444R  U3/TB_1/syn5397
+CLB_R6C6.S1.Y        Tilo                  0.738R  U3/TB_1/syn416
+                                                   U3/TB_1/C203
+CLB_R6C6.S1.F3       net (fanout=2)        0.130R  U3/TB_1/syn413
+CLB_R6C6.S1.X        Tilo                  0.738R  U3/TB_1/syn416
+                                                   U3/TB_1/C202
+CLB_R5C6.S1.G2       net (fanout=1)        1.063R  U3/TB_1/syn416
+CLB_R5C6.S1.Y        Tilo                  0.738R  U3/TB_1/syn428
+                                                   U3/TB_1/C201
+CLB_R5C6.S1.F3       net (fanout=1)        0.112R  U3/TB_1/syn422
+CLB_R5C6.S1.X        Tilo                  0.738R  U3/TB_1/syn428
+                                                   U3/TB_1/C197
+CLB_R7C6.S1.F4       net (fanout=3)        1.173R  U3/TB_1/syn428
+CLB_R7C6.S1.X        Tilo                  0.738R  U3/TB_1/syn434
+                                                   U3/TB_1/C194
+CLB_R5C6.S0.F1       net (fanout=7)        1.657R  U3/TB_1/syn434
+CLB_R5C6.S0.X        Tilo                  0.738R  U3/TB_1/syn3970
+                                                   U3/TB_1/C163
+CLB_R5C5.S0.G4       net (fanout=3)        0.498R  U3/TB_1/syn3970
+CLB_R5C5.S0.Y        Tilo                  0.738R  U3/TB_1/syn4133
+                                                   U3/TB_1/C162
+CLB_R5C5.S0.F3       net (fanout=1)        0.112R  U3/TB_1/syn563
+CLB_R5C5.S0.X        Tilo                  0.738R  U3/TB_1/syn4133
+                                                   U3/TB_1/C158
+CLB_R5C5.S1.F1       net (fanout=7)        0.477R  U3/TB_1/syn4133
+CLB_R5C5.S1.X        Tilo                  0.738R  U3/TB_1/syn4126
+                                                   U3/TB_1/C157
+CLB_R5C4.S0.F2       net (fanout=2)        1.054R  U3/TB_1/syn4126
+CLB_R5C4.S0.X        Tilo                  0.738R  U3/TB_1/syn6473
+                                                   U3/TB_1/C155
+CLB_R7C4.S0.F4       net (fanout=1)        1.091R  U3/TB_1/syn6473
+CLB_R7C4.S0.X        Tilo                  0.738R  U3/TB_1/syn2994
+                                                   U3/TB_1/C148
+CLB_R9C5.S1.G1       net (fanout=3)        1.819R  U3/TB_1/syn2994
+CLB_R9C5.S1.Y        Tilo                  0.738R  U3/min_state<1>
+                                                   U3/TB_1/C125
+CLB_R9C4.S1.F1       net (fanout=1)        0.838R  U3/TB_1/syn7714
+CLB_R9C4.S1.X        Tilo                  0.738R  U3/min_state<0>
+                                                   U3/TB_1/C124
+CLB_R12C12.S0.G2     net (fanout=1)        2.328R  U3/min_state<0>
+CLB_R12C12.S0.CLK    Tick                  1.499R  U3/tb_reg<0>
+                                                   U3/C1791
+                                                   U3/tb_reg_reg<0>
+-------------------------------------------------
+Total (16.155ns logic, 24.658ns route)    40.813ns (to clock)
+      (39.6% logic, 60.4% route)
+
+--------------------------------------------------------------------------------
+Delay:    40.607ns U2/ACS1/sumb<0> to U3/tb_reg<0> (39.108ns delay plus 1.499ns setup)
+
+Path U2/ACS1/sumb<0> to U3/tb_reg<0> contains 22 levels of logic:
+Path starting from Comp: CLB_R10C4.S1.CLK (from clock)
+To                   Delay type         Delay(ns)  Physical Resource
+                                                   Logical Resource(s)
+-------------------------------------------------  --------
+CLB_R10C4.S1.XQ      Tcko                  1.372R  U2/ACS1/sumb<0>
+                                                   U2/ACS1/sumb_reg<0>
+CLB_R9C2.S0.F1       net (fanout=3)        2.392R  U2/ACS1/sumb<0>
+CLB_R9C2.S0.X        Tilo                  0.738R  U3/A1<0>
+                                                   U2/ACS1/C96
+CLB_R10C2.S0.F4      net (fanout=1)        0.938R  U2/ACS1/syn161
+CLB_R10C2.S0.X       Tilo                  0.738R  U3/P1<14>
+                                                   U2/ACS1/C95
+CLB_R10C2.S0.G2      net (fanout=1)        0.955R  U2/ACS1/syn169
+CLB_R10C2.S0.Y       Tilo                  0.738R  U3/P1<14>
+                                                   U2/ACS1/C94
+CLB_R11C2.S0.G1      net (fanout=4)        1.273R  U3/N1961
+CLB_R11C2.S0.Y       Tilo                  0.738R  U3/A1<1>
+                                                   U2/ACS1/C91
+CLB_R11C2.S0.F3      net (fanout=1)        0.112R  acs1_ppm_out<1>
+CLB_R11C2.S0.X       Tilo                  0.738R  U3/A1<1>
+                                                   U3/C1853
+CLB_R9C2.S1.F2       net (fanout=9)        1.721R  A1_out<1>
+CLB_R9C2.S1.X        Tilo                  0.738R  U3/TB_1/syn476
+                                                   U3/TB_1/C186
+CLB_R8C2.S1.G2       net (fanout=1)        1.085R  U3/TB_1/syn476
+CLB_R8C2.S1.Y        Tilo                  0.738R  U3/TB_1/syn504
+                                                   U3/TB_1/C185
+CLB_R9C3.S1.G3       net (fanout=4)        1.112R  U3/TB_1/syn4626
+CLB_R9C3.S1.Y        Tilo                  0.738R  U3/TB_1/syn507
+                                                   U3/TB_1/C181
+CLB_R8C3.S1.F4       net (fanout=1)        0.916R  U3/TB_1/syn507
+CLB_R8C3.S1.X        Tilo                  0.738R  U3/TB_1/syn509
+                                                   U3/TB_1/C179
+CLB_R6C3.S0.G1       net (fanout=2)        1.408R  U3/TB_1/syn509
+CLB_R6C3.S0.Y        Tilo                  0.738R  U3/TB_1/syn3903
+                                                   U3/TB_1/C178
+CLB_R6C3.S0.F3       net (fanout=1)        0.112R  U3/TB_1/syn521
+CLB_R6C3.S0.X        Tilo                  0.738R  U3/TB_1/syn3903
+                                                   U3/TB_1/C174
+CLB_R5C3.S1.G4       net (fanout=3)        0.836R  U3/TB_1/syn3903
+CLB_R5C3.S1.Y        Tilo                  0.738R  U3/TB_1/syn6392
+                                                   U3/TB_1/C173
+CLB_R5C3.S1.F3       net (fanout=3)        0.114R  U3/TB_1/syn3904
+CLB_R5C3.S1.X        Tilo                  0.738R  U3/TB_1/syn6392
+                                                   U3/TB_1/C172
+CLB_R4C5.S1.G3       net (fanout=2)        1.245R  U3/TB_1/syn6392
+CLB_R4C5.S1.Y        Tilo                  0.738R  U3/TB_1/syn594
+                                                   U3/TB_1/C161
+CLB_R5C5.S0.F4       net (fanout=1)        0.893R  U3/TB_1/syn594
+CLB_R5C5.S0.X        Tilo                  0.738R  U3/TB_1/syn4133
+                                                   U3/TB_1/C158
+CLB_R4C5.S0.F4       net (fanout=7)        0.970R  U3/TB_1/syn4133
+CLB_R4C5.S0.X        Tilo                  0.738R  U3/TB_1/syn5340
+                                                   U3/TB_1/C154
+CLB_R7C4.S0.G1       net (fanout=5)        1.797R  U3/TB_1/syn5340
+CLB_R7C4.S0.Y        Tilo                  0.738R  U3/TB_1/syn2994
+                                                   U3/TB_1/C149
+CLB_R7C4.S0.F3       net (fanout=1)        0.112R  U3/TB_1/syn7702
+CLB_R7C4.S0.X        Tilo                  0.738R  U3/TB_1/syn2994
+                                                   U3/TB_1/C148
+CLB_R9C5.S1.G1       net (fanout=3)        1.819R  U3/TB_1/syn2994
+CLB_R9C5.S1.Y        Tilo                  0.738R  U3/min_state<1>
+                                                   U3/TB_1/C125
+CLB_R9C4.S1.F1       net (fanout=1)        0.838R  U3/TB_1/syn7714
+CLB_R9C4.S1.X        Tilo                  0.738R  U3/min_state<0>
+                                                   U3/TB_1/C124
+CLB_R12C12.S0.G2     net (fanout=1)        2.328R  U3/min_state<0>
+CLB_R12C12.S0.CLK    Tick                  1.499R  U3/tb_reg<0>
+                                                   U3/C1791
+                                                   U3/tb_reg_reg<0>
+-------------------------------------------------
+Total (17.631ns logic, 22.976ns route)    40.607ns (to clock)
+      (43.4% logic, 56.6% route)
+
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+No constraints were found to generate data for the Data Sheet Report section.
+Use the Advanced Analysis (-a) option or generate global constraints for each
+clock, its pad to setup and clock to pad paths, and a pad to pad constraint.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 1509864 paths, 0 nets, and 1819 connections (98.5% coverage)
+
+Design statistics:
+   Minimum period:  41.070ns (Maximum frequency:  24.349MHz)
+
+
+Analysis completed Sat Mar 24 18:48:57 2001
+--------------------------------------------------------------------------------
+

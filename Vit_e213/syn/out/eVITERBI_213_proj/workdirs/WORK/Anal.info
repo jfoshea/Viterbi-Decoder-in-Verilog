@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "eTBDECISION_213";
+    .mra_file = "eTBDECISION_213.mra";
+    .arch = {"verilog"};
+    .syn_files = {"eTBDECISION_213%verilog.syn", "eTBDECISION_213%verilog__verilog.syn"};
+   }
+}

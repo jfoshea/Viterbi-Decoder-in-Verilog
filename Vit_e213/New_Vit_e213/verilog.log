@@ -1,0 +1,229 @@
+Host command: verilog
+Command arguments:
+    -f sim_e213.script
+        tb_e213.v
+        eBMU_213.v
+        eACS_213.v
+        eACSU_213.v
+        eTBDECISION_213.v
+        eSYNCERR_213.v
+        eCONTROL_213.v
+        eVITERBI_213.v
+        +libext+.v+.V
+        -y /hwapps/xilinx/M.1.5.i/verilog/src/UNI4000X
+
+VERILOG-XL 3.0.s007 log file created Mar  2, 2001  21:30:46
+VERILOG-XL 3.0.s007   Mar  2, 2001  21:30:46
+
+Copyright (c) 1995 Cadence Design Systems, Inc.  All Rights Reserved.
+Unpublished -- rights reserved under the copyright laws of the United States.
+
+Copyright (c) 1995 UNIX Systems Laboratories, Inc.  Reproduced with Permission.
+
+THIS SOFTWARE AND ON-LINE DOCUMENTATION CONTAIN CONFIDENTIAL INFORMATION
+AND TRADE SECRETS OF CADENCE DESIGN SYSTEMS, INC.  USE, DISCLOSURE, OR
+REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+CADENCE DESIGN SYSTEMS, INC.
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c)(1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+                Cadence Design Systems, Inc.
+                555 River Oaks Parkway
+                San Jose, California  95134
+
+For technical assistance please contact the Cadence Response Center at
+1-877-CDS-4911 or send email to support@cadence.com
+
+For more information on Cadence's Verilog-XL product line send email to
+talkverilog@cadence.com
+
+For quick reference of Cadence's Verilog-XL product command line options
+Please look at the html page <instal_path>/tools/verilog/doc/index.html 
+in a web browser
+
+Compiling source file "tb_e213.v"
+Compiling included source file "params_e213.inc.v"
+Continuing compilation of source file "tb_e213.v"
+Compiling source file "eBMU_213.v"
+Compiling included source file "params_e213.inc.v"
+Continuing compilation of source file "eBMU_213.v"
+Compiling source file "eACS_213.v"
+Compiling included source file "params_e213.inc.v"
+Continuing compilation of source file "eACS_213.v"
+Compiling source file "eACSU_213.v"
+Compiling included source file "params_e213.inc.v"
+Continuing compilation of source file "eACSU_213.v"
+Compiling source file "eTBDECISION_213.v"
+Compiling included source file "params_e213.inc.v"
+Continuing compilation of source file "eTBDECISION_213.v"
+Compiling source file "eSYNCERR_213.v"
+Compiling source file "eCONTROL_213.v"
+Compiling included source file "params_e213.inc.v"
+Continuing compilation of source file "eCONTROL_213.v"
+Compiling source file "eVITERBI_213.v"
+Compiling included source file "params_e213.inc.v"
+Continuing compilation of source file "eVITERBI_213.v"
+Highest level modules:
+tb_b213
+
+Debussy Release 4.4.h9 (May  5 2000 compile) Verilog-XL Version
+Fsdb file verilog.fsdb is created
+time=   0, clock=0, reset=1, Rx=xx, le=0,ae=0,we=0,be=0,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=00000000, P_in=11111111, Dx=z, error=z, BC=20,ns=0000001
+time=  20, clock=1, reset=1, Rx=xx, le=0,ae=0,we=0,be=0,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=00000000, P_in=11111111, Dx=z, error=z, BC=20,ns=0000001
+time=  40, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=00000000, P_in=11111111, Dx=z, error=z, BC=20,ns=0000001
+time=  60, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=00000000, P_in=11111111, Dx=z, error=z, BC=20,ns=0000010
+time=  80, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=00000000, P_in=11111111, Dx=z, error=z, BC=20,ns=0000010
+time= 100, clock=1, reset=0, Rx=00, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=00000000, P_in=11111111, Dx=z, error=z, BC=20,ns=0000100
+time= 120, clock=0, reset=0, Rx=00, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=00000000, P_in=11111111, Dx=z, error=z, BC=20,ns=0000100
+time= 140, clock=1, reset=0, Rx=00, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=00000000, P_in=11111111, Dx=z, error=z, BC=20,ns=0001000
+time= 160, clock=0, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=0, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=00000000, P_in=11111111, Dx=z, error=z, BC=20,ns=0001000
+time= 180, clock=1, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=1, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02ffffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0000010
+time= 200, clock=0, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=1, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02ffffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0000010
+time= 220, clock=1, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=1, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02ffffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0000100
+time= 240, clock=0, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=1, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02ffffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0000100
+time= 260, clock=1, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=1, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02ffffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0001000
+time= 280, clock=0, reset=0, Rx=10, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=1, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02ffffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0001000
+time= 300, clock=1, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=2, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=2033ffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0000010
+time= 320, clock=0, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=2, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=2033ffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0000010
+time= 340, clock=1, reset=0, Rx=10, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=2, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=2033ffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0000100
+time= 360, clock=0, reset=0, Rx=10, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=2, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=2033ffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0000100
+time= 380, clock=1, reset=0, Rx=10, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=2, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=2033ffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0001000
+time= 400, clock=0, reset=0, Rx=10, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=2, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=2033ffff, P_in=00000000, Dx=z, error=z, BC=20,ns=0001000
+time= 420, clock=1, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=3, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204435, P_in=00000000, Dx=z, error=z, BC=20,ns=0000010
+time= 440, clock=0, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=3, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204435, P_in=00000000, Dx=z, error=z, BC=20,ns=0000010
+time= 460, clock=1, reset=0, Rx=10, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=3, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204435, P_in=00000000, Dx=z, error=z, BC=20,ns=0000100
+time= 480, clock=0, reset=0, Rx=10, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=3, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204435, P_in=00000000, Dx=z, error=z, BC=20,ns=0000100
+time= 500, clock=1, reset=0, Rx=10, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=3, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204435, P_in=00000000, Dx=z, error=z, BC=20,ns=0001000
+time= 520, clock=0, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=3, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204435, P_in=00000000, Dx=z, error=z, BC=20,ns=0001000
+time= 540, clock=1, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=4, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0000010
+time= 560, clock=0, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=4, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0000010
+time= 580, clock=1, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=4, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0000100
+time= 600, clock=0, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=4, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0000100
+time= 620, clock=1, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=4, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0001000
+time= 640, clock=0, reset=0, Rx=01, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=4, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0001000
+time= 660, clock=1, reset=0, Rx=01, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=5, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=10111111, Dx=z, error=z, BC=20,ns=0000010
+time= 680, clock=0, reset=0, Rx=01, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=5, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=10111111, Dx=z, error=z, BC=20,ns=0000010
+time= 700, clock=1, reset=0, Rx=01, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=5, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=10111111, Dx=z, error=z, BC=20,ns=0000100
+time= 720, clock=0, reset=0, Rx=01, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=5, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=10111111, Dx=z, error=z, BC=20,ns=0000100
+time= 740, clock=1, reset=0, Rx=01, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=5, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=10111111, Dx=z, error=z, BC=20,ns=0001000
+time= 760, clock=0, reset=0, Rx=10, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=5, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=10111111, Dx=z, error=z, BC=20,ns=0001000
+time= 780, clock=1, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=6, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204434, P_in=11111110, Dx=z, error=z, BC=20,ns=0000010
+time= 800, clock=0, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=6, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204434, P_in=11111110, Dx=z, error=z, BC=20,ns=0000010
+time= 820, clock=1, reset=0, Rx=10, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=6, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204434, P_in=11111110, Dx=z, error=z, BC=20,ns=0000100
+time= 840, clock=0, reset=0, Rx=10, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=6, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204434, P_in=11111110, Dx=z, error=z, BC=20,ns=0000100
+time= 860, clock=1, reset=0, Rx=10, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=6, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204434, P_in=11111110, Dx=z, error=z, BC=20,ns=0001000
+time= 880, clock=0, reset=0, Rx=00, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=6, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33204434, P_in=11111110, Dx=z, error=z, BC=20,ns=0001000
+time= 900, clock=1, reset=0, Rx=00, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=7, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0000010
+time= 920, clock=0, reset=0, Rx=00, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=7, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0000010
+time= 940, clock=1, reset=0, Rx=00, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=7, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0000100
+time= 960, clock=0, reset=0, Rx=00, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=7, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0000100
+time= 980, clock=1, reset=0, Rx=00, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=7, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0001000
+time=1000, clock=0, reset=0, Rx=00, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=7, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=44433302, P_in=00100000, Dx=z, error=z, BC=20,ns=0001000
+time=1020, clock=1, reset=0, Rx=00, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=8, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=01111111, Dx=z, error=z, BC=20,ns=0000010
+time=1040, clock=0, reset=0, Rx=00, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=8, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=01111111, Dx=z, error=z, BC=20,ns=0000010
+time=1060, clock=1, reset=0, Rx=00, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=8, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=01111111, Dx=z, error=z, BC=20,ns=0000100
+time=1080, clock=0, reset=0, Rx=00, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=8, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=01111111, Dx=z, error=z, BC=20,ns=0000100
+time=1100, clock=1, reset=0, Rx=00, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=8, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=01111111, Dx=z, error=z, BC=20,ns=0001000
+time=1120, clock=0, reset=0, Rx=01, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=8, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=01111111, Dx=z, error=z, BC=20,ns=0001000
+time=1140, clock=1, reset=0, Rx=01, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=9, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=11111011, Dx=z, error=z, BC=20,ns=0000010
+time=1160, clock=0, reset=0, Rx=01, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=9, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=11111011, Dx=z, error=z, BC=20,ns=0000010
+time=1180, clock=1, reset=0, Rx=01, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=9, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=11111011, Dx=z, error=z, BC=20,ns=0000100
+time=1200, clock=0, reset=0, Rx=01, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=9, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=11111011, Dx=z, error=z, BC=20,ns=0000100
+time=1220, clock=1, reset=0, Rx=01, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=9, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=11111011, Dx=z, error=z, BC=20,ns=0001000
+time=1240, clock=0, reset=0, Rx=00, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=9, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=11111011, Dx=z, error=z, BC=20,ns=0001000
+time=1260, clock=1, reset=0, Rx=00, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=a, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=z, BC=20,ns=0000010
+time=1280, clock=0, reset=0, Rx=00, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=a, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=z, BC=20,ns=0000010
+time=1300, clock=1, reset=0, Rx=00, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=a, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=z, BC=20,ns=0000100
+time=1320, clock=0, reset=0, Rx=00, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=a, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=z, BC=20,ns=0000100
+time=1340, clock=1, reset=0, Rx=00, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=a, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=z, BC=20,ns=0001000
+time=1360, clock=0, reset=0, Rx=10, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=a, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=00000010, Dx=z, error=z, BC=20,ns=0001000
+time=1380, clock=1, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=b, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=01000000, Dx=z, error=z, BC=20,ns=0000010
+time=1400, clock=0, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=b, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=01000000, Dx=z, error=z, BC=20,ns=0000010
+time=1420, clock=1, reset=0, Rx=10, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=b, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=01000000, Dx=z, error=z, BC=20,ns=0000100
+time=1440, clock=0, reset=0, Rx=10, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=b, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=01000000, Dx=z, error=z, BC=20,ns=0000100
+time=1460, clock=1, reset=0, Rx=10, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=b, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=01000000, Dx=z, error=z, BC=20,ns=0001000
+time=1480, clock=0, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=b, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=34442033, P_in=01000000, Dx=z, error=z, BC=20,ns=0001000
+time=1500, clock=1, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=c, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=11111101, Dx=z, error=z, BC=20,ns=0000010
+time=1520, clock=0, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=c, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=11111101, Dx=z, error=z, BC=20,ns=0000010
+time=1540, clock=1, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=c, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=11111101, Dx=z, error=z, BC=20,ns=0000100
+time=1560, clock=0, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=c, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=11111101, Dx=z, error=z, BC=20,ns=0000100
+time=1580, clock=1, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=c, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=11111101, Dx=z, error=z, BC=20,ns=0001000
+time=1600, clock=0, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=c, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=33024443, P_in=11111101, Dx=z, error=z, BC=20,ns=0001000
+time=1620, clock=1, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=d, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=10000000, Dx=z, error=z, BC=20,ns=0000010
+time=1640, clock=0, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=d, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=10000000, Dx=z, error=z, BC=20,ns=0000010
+time=1660, clock=1, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=d, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=10000000, Dx=z, error=z, BC=20,ns=0000100
+time=1680, clock=0, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=d, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=10000000, Dx=z, error=z, BC=20,ns=0000100
+time=1700, clock=1, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=d, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=10000000, Dx=z, error=z, BC=20,ns=0001000
+time=1720, clock=0, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=d, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=43440233, P_in=10000000, Dx=z, error=z, BC=20,ns=0001000
+time=1740, clock=1, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=e, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02334344, P_in=11110111, Dx=z, error=z, BC=20,ns=0000010
+time=1760, clock=0, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=e, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02334344, P_in=11110111, Dx=z, error=z, BC=20,ns=0000010
+time=1780, clock=1, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=e, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02334344, P_in=11110111, Dx=z, error=z, BC=20,ns=0000100
+time=1800, clock=0, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=e, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02334344, P_in=11110111, Dx=z, error=z, BC=20,ns=0000100
+time=1820, clock=1, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=e, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02334344, P_in=11110111, Dx=z, error=z, BC=20,ns=0001000
+time=1840, clock=0, reset=0, Rx=10, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=e, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=02334344, P_in=11110111, Dx=z, error=z, BC=20,ns=0001000
+time=1860, clock=1, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=e, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0010000
+time=1880, clock=0, reset=0, Rx=10, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=e, tptr=0, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0010000
+time=1900, clock=1, reset=0, Rx=10, le=0,ae=0,we=0,be=1,te=0, oe=0, wptr=e, tptr=e, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=1920, clock=0, reset=0, Rx=10, le=0,ae=0,we=0,be=1,te=0, oe=0, wptr=e, tptr=e, CNT=20, min_state=000, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=1940, clock=1, reset=0, Rx=10, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=d, CNT=20, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=1960, clock=0, reset=0, Rx=10, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=d, CNT=20, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=1980, clock=1, reset=0, Rx=10, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=c, CNT=20, min_state=001, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2000, clock=0, reset=0, Rx=10, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=c, CNT=20, min_state=001, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2020, clock=1, reset=0, Rx=10, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=b, CNT=20, min_state=001, tb_reg=110, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2040, clock=0, reset=0, Rx=10, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=b, CNT=20, min_state=001, tb_reg=110, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2060, clock=1, reset=0, Rx=10, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=a, CNT=20, min_state=001, tb_reg=011, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2080, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=a, CNT=20, min_state=001, tb_reg=011, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2100, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=9, CNT=20, min_state=001, tb_reg=001, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2120, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=9, CNT=20, min_state=001, tb_reg=001, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2140, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=8, CNT=20, min_state=001, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2160, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=8, CNT=20, min_state=001, tb_reg=100, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2180, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=7, CNT=20, min_state=001, tb_reg=110, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2200, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=7, CNT=20, min_state=001, tb_reg=110, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2220, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=6, CNT=20, min_state=001, tb_reg=011, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2240, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=6, CNT=20, min_state=001, tb_reg=011, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2260, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=5, CNT=20, min_state=001, tb_reg=101, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2280, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=5, CNT=20, min_state=001, tb_reg=101, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2300, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=4, CNT=20, min_state=001, tb_reg=110, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2320, clock=0, reset=0, Rx=01, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=4, CNT=20, min_state=001, tb_reg=110, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2340, clock=1, reset=0, Rx=01, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=3, CNT=20, min_state=001, tb_reg=011, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2360, clock=0, reset=0, Rx=01, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=3, CNT=20, min_state=001, tb_reg=011, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2380, clock=1, reset=0, Rx=01, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=2, CNT=20, min_state=001, tb_reg=001, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2400, clock=0, reset=0, Rx=01, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=2, CNT=20, min_state=001, tb_reg=001, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2420, clock=1, reset=0, Rx=01, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=1, CNT=20, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2440, clock=0, reset=0, Rx=11, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=1, CNT=20, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=0100000
+time=2460, clock=1, reset=0, Rx=11, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=1, CNT=20, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=1000000
+time=2480, clock=0, reset=0, Rx=11, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=1, CNT=20, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=20,ns=1000000
+time=2500, clock=1, reset=0, Rx=11, le=0,ae=0,we=0,be=0,te=0, oe=1, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=0, error=z, BC=19,ns=0000001
+time=2520, clock=0, reset=0, Rx=11, le=0,ae=0,we=0,be=0,te=0, oe=1, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=0, error=z, BC=19,ns=0000001
+time=2540, clock=1, reset=0, Rx=11, le=0,ae=0,we=0,be=0,te=0, oe=0, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=19,ns=0000010
+time=2560, clock=0, reset=0, Rx=11, le=0,ae=0,we=0,be=0,te=0, oe=0, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=19,ns=0000010
+time=2580, clock=1, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=19,ns=0000100
+time=2600, clock=0, reset=0, Rx=11, le=1,ae=0,we=0,be=0,te=0, oe=0, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=19,ns=0000100
+time=2620, clock=1, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=19,ns=0001000
+time=2640, clock=0, reset=0, Rx=11, le=0,ae=1,we=0,be=0,te=0, oe=0, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=20333444, P_in=00000100, Dx=z, error=z, BC=19,ns=0001000
+time=2660, clock=1, reset=0, Rx=11, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0010000
+time=2680, clock=0, reset=0, Rx=00, le=0,ae=0,we=1,be=0,te=0, oe=0, wptr=e, tptr=1, CNT=19, min_state=001, tb_reg=000, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0010000
+time=2700, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=1,te=0, oe=0, wptr=e, tptr=e, CNT=19, min_state=001, tb_reg=000, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2720, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=1,te=0, oe=0, wptr=e, tptr=e, CNT=19, min_state=001, tb_reg=000, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2740, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=d, CNT=19, min_state=010, tb_reg=000, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2760, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=d, CNT=19, min_state=010, tb_reg=000, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2780, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=c, CNT=19, min_state=010, tb_reg=000, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2800, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=c, CNT=19, min_state=010, tb_reg=000, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2820, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=b, CNT=19, min_state=010, tb_reg=100, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2840, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=b, CNT=19, min_state=010, tb_reg=100, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2860, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=a, CNT=19, min_state=010, tb_reg=110, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2880, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=a, CNT=19, min_state=010, tb_reg=110, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2900, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=9, CNT=19, min_state=010, tb_reg=011, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2920, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=9, CNT=19, min_state=010, tb_reg=011, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2940, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=8, CNT=19, min_state=010, tb_reg=001, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2960, clock=0, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=8, CNT=19, min_state=010, tb_reg=001, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+time=2980, clock=1, reset=0, Rx=00, le=0,ae=0,we=0,be=0,te=1, oe=0, wptr=e, tptr=7, CNT=19, min_state=010, tb_reg=100, A_in=32113444, P_in=10000100, Dx=z, error=z, BC=19,ns=0100000
+L97 "tb_e213.v": $finish at simulation time 3000
+0 simulation events (use +profile or +listcounts option to count)
+CPU time: 0.1 secs to compile + 0.0 secs to link + 0.1 secs in simulation
+End of VERILOG-XL 3.0.s007   Mar  2, 2001  21:30:47

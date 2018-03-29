@@ -1,0 +1,29 @@
+Release v3.1.02i - ngdbuild D.19
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p 4028XLABG256-09 eVITERBI_213.sedif 
+
+Launcher: Executing edif2ngd -l synopsys "eVITERBI_213.sedif"
+"eVITERBI_213.ngo"
+Release v3.1.02i - edif2ngd D.19
+Copyright (c) 1995-2000 Xilinx, Inc.  All rights reserved.
+
+Note: MYXILINX = "/hwapps/xilinx/2.1iV1000E-BG728"
+Any Xilinx data file(s) found in this area will override the equivalent file(s)
+in the XILINX area.
+
+Writing the design to "eVITERBI_213.ngo"...
+Reading NGO file "/emc/joshea/Files/Verilog/Vit_e213/eVITERBI_213.ngo" ...
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "eVITERBI_213.ngd" ...
+
+Writing NGDBUILD log file "eVITERBI_213.bld"...
