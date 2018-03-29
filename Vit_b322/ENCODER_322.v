@@ -5,7 +5,7 @@
 
    Generator Matrix g=[110;010;010;101;100;101]
 
-   John O'Shea, joshea@emc.com
+   John O'Shea, jfoshea@gmail.com
 
 ============================================================*/
 
