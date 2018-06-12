@@ -5,8 +5,6 @@
 
    Determine pointer to initial state for traceback
    by finding the state with minimum accumulated metric
-
-   John O'Shea, joshea@emc.com
 ==================================================================*/
 
 `timescale 1 ns/1 ns
