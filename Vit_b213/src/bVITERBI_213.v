@@ -9,9 +9,7 @@
     - Metric and path Memory Units
     - Synchronization and Control Unit
    
-   John O'Shea, joshea@emc.com
-
-===========================================================================*/
+  ===========================================================================*/
 
 
 `timescale 1 ns/1 ns
