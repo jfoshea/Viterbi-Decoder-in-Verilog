@@ -2,8 +2,6 @@
    module tb_b213.v
 
    Test bench for (2,1,3) backward label  Viterbi Decoder.
-
-   John O'Shea, joshea@emc.com
  
 ===========================================================================*/
 
