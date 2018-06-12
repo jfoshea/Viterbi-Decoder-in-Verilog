@@ -4,8 +4,6 @@
    Add-Compare-Select Unit for (2,1,3) trellis stage.
    Comprises of 2^M ACS Blocks
 
-   John O'Shea, jfoshea@gmail.com
-
 ===========================================================================*/
 `timescale 1 ns/1 ns
 
