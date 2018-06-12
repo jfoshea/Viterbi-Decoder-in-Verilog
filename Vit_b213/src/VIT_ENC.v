@@ -3,7 +3,7 @@
 
    Implements a (2,1,3) convolutional encoder
 
-   John O'Shea, joshea@emc.com
+   John O'Shea, jfoshea@gmail.com
 ============================================================*/
 
 `timescale 1 ns/1 ns
