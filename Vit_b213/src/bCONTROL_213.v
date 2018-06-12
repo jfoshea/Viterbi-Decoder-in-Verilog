@@ -3,8 +3,6 @@
 
    Metric Updating and Control Unit for (2,1,3) backward label  Viterbi Decoder.
 
-   John O'Shea, joshea@emc.com
-
 ===========================================================================*/
 
 
