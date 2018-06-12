@@ -3,8 +3,6 @@
 
    Branch Metric Computation Unit for (2,1,3) backward label  Viterbi Decoder.
 
-   John O'Shea, joshea@emc.com.
-   
 ===========================================================================*/
 
 module bBMU_213(HD1,  HD2, HD3, HD4, 
