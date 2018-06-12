@@ -2,9 +2,7 @@
    params_b213.inc
 
    Constant Definitions for use in a (2,1,3) backward label Viterbi Decoder
-   
-   John O'Shea, joshea@emc.com
-   
+     
 ===========================================================================*/
 
 `define CLOCK_PERIOD 40
