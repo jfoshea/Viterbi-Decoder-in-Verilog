@@ -9,7 +9,7 @@ The Viterbi algorithm is renowned as a maximum likelihood (ML) decoding techniqu
 ## Trellis Diagram
 A trellis diagram is typically used to visualize how the Viterbi Algorithm make Maximum Likelihood (ML) decoding decisions. An example trellis with the final ML path is shown below
 
-![Alt text](docs/trellis.pngg "Viterbi Trellis Diagram with ML Path hightligted in red")
+![Alt text](docs/trellis.png "Viterbi Trellis Diagram with ML Path hightligted in red")
 
 ## Novel Path Memory Savings Technique
 Viterbi decoders are typically FPGA/ASIC based and therefore have a upper bound on the size of the path memory. A novel approach to achieving path memory savings is proposed for Viterbi Decoders. A number of traceback Viterbi decoders using this path memory were successfully developed It is shown that Viterbi decoders using this storage efficient path memory unit require a smaller chip area and achieves a faster decoding time without loss of decoding performance. A Viterbi decoder utilizing this novel path memory achieves savings of 20% in storage for (n,1,m) codes, and <=20% for general (n,k,m) codes without loss of decoding performance. There is also a similar increase decoding performance with the novel path memory.
